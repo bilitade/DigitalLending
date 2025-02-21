@@ -164,6 +164,8 @@
                 }
             ]
         },
+        "osPlatform": "",
+        "osVersion": "iOS7",
         "skin": null,
         "tablet": {
             "data": [
@@ -216,7 +218,8 @@
                     }
                 }
             ]
-        }
+        },
+        "wType": "Appmenu"
     },
     "appnamekey": "QuickLoan",
     "appointments": "false",
@@ -676,7 +679,7 @@
     "spawindows480basefontsize": "12",
     "spawindowstabbasefontsize": "17",
     "splashlogokey": "",
-    "startupformkey": "edd323a4f0d04012abc98b512ccedda9",
+    "startupformkey": "ee19b801b00b445e9729c950481d73c0",
     "statusBarHidden": "false",
     "statusBarStyle": "STATUS_BAR_STYLE_DEFAULT",
     "support32bit": "false",

@@ -1,0 +1,38 @@
+{
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationExtensions": [],
+            "PresentationControllerClass": "DigitalLending/PresentationControllers/PresentationController"
+        }
+    },
+    "Forms": {
+        "mobile": {
+            "frmLoanHome": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "DigitalLending/frmLoanHomeController",
+                "FormName": "DigitalLending/frmLoanHome"
+            },
+            "frmLoanForm": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "DigitalLending/frmLoanFormController",
+                "FormName": "DigitalLending/frmLoanForm"
+            },
+            "frmLoanCheck": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "DigitalLending/frmLoanCheckController",
+                "FormName": "DigitalLending/frmLoanCheck"
+            },
+            "frmLoanApproved": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "DigitalLending/frmLoanApprovedController",
+                "FormName": "DigitalLending/frmLoanApproved"
+            }
+        }
+    },
+    "ModuleType": "UIModule",
+    "ModuleName": "DigitalLending"
+}

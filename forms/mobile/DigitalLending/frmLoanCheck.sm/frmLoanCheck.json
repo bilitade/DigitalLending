@@ -37,15 +37,17 @@
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "Form1Controller"
+            "name": "frmLoanCheckController"
         }
     },
+    "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false
     },
+    "device": "iPhone13",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "Form1",
+    "id": "frmLoanCheck",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -63,7 +65,7 @@
             "titleBarAttributes": {
                 "barStyle": 0,
                 "hidesBackButton": false,
-                "kuid": "ba84c667dae44153a96fdb9095d100fc",
+                "kuid": "b2bd35ac10894007b8968148775fbb06",
                 "leftBarButtonItems": [],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
@@ -74,7 +76,7 @@
                         "info": {
                             "title": "Edit"
                         },
-                        "kuid": "c244efac1a8c4668bcdd91e309b2ca25",
+                        "kuid": "deb42b67e4c845fb9d11efb339c49a54",
                         "style": 0,
                         "tintColor": "4b88f100",
                         "type": 1
@@ -91,11 +93,14 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "edd323a4f0d04012abc98b512ccedda9",
+    "kuid": "aac590218d58419f945495aa067a9154",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
+    "platform": "iphone",
+    "prevDevice": "iPhone13",
+    "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
