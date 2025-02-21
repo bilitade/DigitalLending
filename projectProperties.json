@@ -97,7 +97,7 @@
                         "default": "option1.png"
                     },
                     "id": "appmenuitemid1",
-                    "kuid": "aa7d37029bde49d287b518adf2380fcd",
+                    "kuid": "h9f5e6dd263f41dba47367d37410a9c9",
                     "title": "Item 1"
                 },
                 {
@@ -105,7 +105,7 @@
                         "default": "option2.png"
                     },
                     "id": "appmenuitemid2",
-                    "kuid": "cb193209cfd1458aa21eab1c24ca48a7",
+                    "kuid": "db0d15074aff4b2fac947274462164d6",
                     "title": "Item 2"
                 },
                 {
@@ -113,7 +113,7 @@
                         "default": "option3.png"
                     },
                     "id": "appmenuitemid3",
-                    "kuid": "bd12280a4125429ea71cce66d5939adc",
+                    "kuid": "fb66cc2464a94c0a9d3b8ea1eafe3989",
                     "title": "Item 3"
                 },
                 {
@@ -121,7 +121,7 @@
                         "default": "option4.png"
                     },
                     "id": "appmenuitemid4",
-                    "kuid": "cc924bdd399e4b4697f33ff1d15db711",
+                    "kuid": "c4d9dc6363e347eebbf768964bac295e",
                     "title": "Item 4"
                 }
             ]
@@ -135,7 +135,7 @@
                         "default": "option1.png"
                     },
                     "id": "appmenuitemid1",
-                    "kuid": "i54fcd79586e407c968000494f35b7db",
+                    "kuid": "jc771499927c42178c69f0e3fbf3a0bc",
                     "title": "Item 1"
                 },
                 {
@@ -143,7 +143,7 @@
                         "default": "option2.png"
                     },
                     "id": "appmenuitemid2",
-                    "kuid": "c187190fdedd49fca9c8c71dc0c558c5",
+                    "kuid": "i68c2c6100cd4ea3a3696c09c5149d3e",
                     "title": "Item 2"
                 },
                 {
@@ -151,7 +151,7 @@
                         "default": "option3.png"
                     },
                     "id": "appmenuitemid3",
-                    "kuid": "ae85cdf65a624d4d8bf0e04ef6176c39",
+                    "kuid": "j7fcec5be7fc4406a2fdb17f6df46ce5",
                     "title": "Item 3"
                 },
                 {
@@ -159,7 +159,7 @@
                         "default": "option4.png"
                     },
                     "id": "appmenuitemid4",
-                    "kuid": "ad1d04cf39f84cc0bec50e05b100aadc",
+                    "kuid": "f785d2f386b64f4d9607ec7c2d3be9c8",
                     "title": "Item 4"
                 }
             ]
@@ -174,7 +174,7 @@
                         "default": "option1.png"
                     },
                     "id": "appmenuitemid1",
-                    "kuid": "ha631ab8fd0043c4928b7063f4926d1c",
+                    "kuid": "ee3a226cb4ef495687105e015d25f52e",
                     "title": "Item 1",
                     "windows8": {
                         "appBarButtonStyle": "No Style",
@@ -186,7 +186,7 @@
                         "default": "option2.png"
                     },
                     "id": "appmenuitemid2",
-                    "kuid": "add2c1b856a148c69459b6c9579a6616",
+                    "kuid": "b12459ce8f7443c9bf5aa37563490e5d",
                     "title": "Item 2",
                     "windows8": {
                         "appBarButtonStyle": "No Style",
@@ -198,7 +198,7 @@
                         "default": "option3.png"
                     },
                     "id": "appmenuitemid3",
-                    "kuid": "b759813029ba41afb44ad397d19bbd0d",
+                    "kuid": "g56d84205daa4ad7a167bd26003e164a",
                     "title": "Item 3",
                     "windows8": {
                         "appBarButtonStyle": "No Style",
@@ -210,7 +210,7 @@
                         "default": "option4.png"
                     },
                     "id": "appmenuitemid4",
-                    "kuid": "ga1f6dad76244bb382e9961d5883200b",
+                    "kuid": "e3820ced2e1945d3848eee39d669c6c6",
                     "title": "Item 4",
                     "windows8": {
                         "appBarButtonStyle": "No Style",
@@ -221,7 +221,7 @@
         },
         "wType": "Appmenu"
     },
-    "appnamekey": "QuickLoan",
+    "appnamekey": "DigitalLending",
     "appointments": "false",
     "apppackagekey": "com.orgname.LoanApp",
     "apptitle": "",
@@ -679,7 +679,7 @@
     "spawindows480basefontsize": "12",
     "spawindowstabbasefontsize": "17",
     "splashlogokey": "",
-    "startupformkey": "ee19b801b00b445e9729c950481d73c0",
+    "startupformkey": "d71619c76ea64fb6b3a752e89f75485d",
     "statusBarHidden": "false",
     "statusBarStyle": "STATUS_BAR_STYLE_DEFAULT",
     "support32bit": "false",
