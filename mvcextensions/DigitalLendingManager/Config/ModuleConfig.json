@@ -1,0 +1,8 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessExtensions": [],
+        "BusinessControllerClass": "DigitalLendingManager/BusinessControllers/BusinessController"
+    },
+    "ModuleType": "Manager",
+    "ModuleName": "DigitalLendingManager"
+}
