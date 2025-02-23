@@ -32,7 +32,11 @@
         }
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "headerContainer",
+        "mainContainer",
+        "footerContainer"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
@@ -44,7 +48,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone13",
+    "device": "Pixel3",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "frmLoanForm",
@@ -98,9 +102,9 @@
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
-    "platform": "iphone",
+    "platform": "android",
     "prevDevice": "iPhone13",
-    "prevPlatform": "iphone",
+    "prevPlatform": "spaip",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

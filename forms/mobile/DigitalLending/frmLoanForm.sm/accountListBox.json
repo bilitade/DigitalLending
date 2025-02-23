@@ -1,0 +1,77 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "32dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        6,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "s4929e6bd5f2498588ed5d0ccf1edb9c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "android": {},
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "selectarrowsmall.png",
+    "focusskin": "s8ea3f1b632e41b48beafbf80e23bc09",
+    "groupcells": false,
+    "id": "accountListBox",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f94cd5fb31e4409985f3c844d9678ed0",
+    "masterdata": [
+        [
+            "Key640692626",
+            "100310013338"
+        ],
+        [
+            "Key2390912322",
+            "100310015339"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "paddinginpixel": false,
+    "parent": "accountGroupContainer",
+    "pf": "frmLoanForm",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "Key640692626",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "Key640692626",
+        "100310013338"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox"
+}
