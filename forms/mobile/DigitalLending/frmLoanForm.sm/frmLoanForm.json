@@ -15,6 +15,12 @@
         0
     ],
     "_percent_": true,
+    "_pxMenuIndex": [
+        0,
+        1,
+        0,
+        2
+    ],
     "_skin_": "s99cec21368a42019ae0e5f5a4ae663f",
     "_title_": null,
     "addWidgetsdone": false,
@@ -35,7 +41,8 @@
     "children": [
         "headerContainer",
         "mainContainer",
-        "footerContainer"
+        "footerContainer",
+        "bottomInfoBar"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -104,7 +111,7 @@
     "paddinginpixel": false,
     "platform": "android",
     "prevDevice": "iPhone13",
-    "prevPlatform": "spaip",
+    "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
