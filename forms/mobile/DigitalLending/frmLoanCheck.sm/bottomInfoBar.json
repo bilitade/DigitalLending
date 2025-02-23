@@ -43,7 +43,7 @@
             "__events__": {},
             "__info__": {
                 "isRoot": true,
-                "kuid": "hea261b14bc4450bb056b1c94ef461df",
+                "kuid": "bbde8a3d614b43c5baba945a7626f3cd",
                 "srcKUID": "b8f3adfce2fd43e99241251b895d4493",
                 "wType": "FlexContainer"
             },
@@ -69,7 +69,7 @@
         "contact": {
             "__events__": {},
             "__info__": {
-                "kuid": "d59dce52590249e299e64f30da2654a2",
+                "kuid": "bc3ed4890df1400c9f07b61f09d41dee",
                 "srcKUID": "i079c5dc1c93455997e09ce4bac013b3",
                 "wType": "FlexContainer"
             }
@@ -77,7 +77,7 @@
         "contactusBtn": {
             "__events__": {},
             "__info__": {
-                "kuid": "f18f82add7e54132bd6fc35770f669b6",
+                "kuid": "f638185a2b244c639588e302fccf36b8",
                 "srcKUID": "c4dc97dc5ab74e91aa2385659bd0d7c9",
                 "wType": "Button"
             }
@@ -85,7 +85,7 @@
         "privacy": {
             "__events__": {},
             "__info__": {
-                "kuid": "dc4146b7abea474d860505e4a61dde53",
+                "kuid": "hfab03abb14a46b38cc703e8efc0ea02",
                 "srcKUID": "cc8051ba5c5a4a148ced2e7e6b4c26d7",
                 "wType": "FlexContainer"
             }
@@ -93,7 +93,7 @@
         "privacyBtn": {
             "__events__": {},
             "__info__": {
-                "kuid": "a39e5638a0a24ab190107ab4f8e434e0",
+                "kuid": "af17b7caf5c64836b12d27fadb8d989f",
                 "srcKUID": "i9f45854f5724e278f85843765cafbc2",
                 "wType": "Button"
             }
@@ -101,7 +101,7 @@
         "spacer1": {
             "__events__": {},
             "__info__": {
-                "kuid": "j438b253402843b2955aabd98adb1a7d",
+                "kuid": "a39fb4812aaf4ea493bbb09ac10905ed",
                 "srcKUID": "ce8fe689213d4793b8ef75ce87b7f1be",
                 "wType": "Label"
             }
@@ -109,7 +109,7 @@
         "spacer2": {
             "__events__": {},
             "__info__": {
-                "kuid": "a34cd56446704b18a3a7d2787ba2d503",
+                "kuid": "ebe96f01514a4320824a5c0565656ecf",
                 "srcKUID": "e8dfad257bd845248885393e91a5e555",
                 "wType": "Label"
             }
@@ -117,7 +117,7 @@
         "termsBtn": {
             "__events__": {},
             "__info__": {
-                "kuid": "j52537f6e01a417581f85439cee75e8a",
+                "kuid": "f3a5f1a92f6049c2ace67f138a16ed74",
                 "srcKUID": "hf4f55d3547f43cf80319ddd88cd50f7",
                 "wType": "Button"
             }
@@ -125,7 +125,7 @@
         "termsContainer": {
             "__events__": {},
             "__info__": {
-                "kuid": "hb39d67734064826b243f3cd000e4588",
+                "kuid": "cfe36864b7ee4cea8410b5be54a5545b",
                 "srcKUID": "h8c62e8e375f4fc9b817ef7831d611ae",
                 "wType": "FlexContainer"
             }
@@ -137,12 +137,12 @@
     "iscustomlayout": false,
     "isdatareferenced": false,
     "isvisible": true,
-    "kuid": "hea261b14bc4450bb056b1c94ef461df",
+    "kuid": "bbde8a3d614b43c5baba945a7626f3cd",
     "layouttype": 3,
     "masterType": 0,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "footerContainer",
-    "pf": "frmLoanForm",
+    "pf": "frmLoanCheck",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

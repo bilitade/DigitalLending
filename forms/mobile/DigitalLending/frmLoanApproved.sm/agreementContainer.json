@@ -29,11 +29,11 @@
     "_skin_": "s2d74824ef66412f96a0951ed0855af2",
     "_top_": {
         "type": "string",
-        "value": "1.00%"
+        "value": "4.00%"
     },
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "70%"
     },
     "allboxes": [],
     "autogrowmode": 0,
@@ -43,8 +43,7 @@
         "value": "50%"
     },
     "children": [
-        "agreetoTermsCheckBox",
-        "Label0jb71a22ea5194b"
+        "signContract"
     ],
     "clipbounds": false,
     "containerweight": 100,
@@ -53,11 +52,11 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ad7646c629f149988cd76ee4732da098",
+    "kuid": "g4108ceaa7584f17a774091a354c2e5f",
     "layouttype": 3,
     "name": "kony.ui.FlexContainer",
     "parent": "mainContainer",
-    "pf": "frmLoanForm",
+    "pf": "frmLoanApproved",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

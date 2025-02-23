@@ -2,12 +2,8 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "_height_": {
-        "type": "string",
-        "value": "32dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_margin_": [
         1,
@@ -21,15 +17,15 @@
         0,
         0
     ],
-    "_skin_": "se0880cb44034bfd9a093ab52b4bf0b8",
-    "_text_": "Terms and Conditions",
+    "_skin_": "se9b7d300da44db48886a693c0accfda",
+    "_text_": "Personal Loan",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "4%"
     },
     "_width_": {
-        "type": "string",
-        "value": "200dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
     "android": {
@@ -39,13 +35,13 @@
         }
     },
     "canUpdateUI": true,
-    "centery": {
+    "centerx": {
         "type": "string",
-        "value": "53.00%"
+        "value": "50%"
     },
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "Label0jb71a22ea5194b",
+    "id": "loanType",
     "info": null,
     "ipad": {
         "psp": {
@@ -59,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i1d31204eeb442bf9142c3a5d955272c",
+    "kuid": "ia8c1b80f6ad41778a6f0be761368273",
     "name": "kony.ui.Label",
-    "parent": "agreementContainer",
-    "pf": "frmLoanForm",
+    "parent": "mainContainer",
+    "pf": "frmLoanApproved",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

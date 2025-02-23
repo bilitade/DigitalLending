@@ -41,8 +41,7 @@
     "children": [
         "headerContainer",
         "mainContainer",
-        "footerContainer",
-        "bottomInfoBar"
+        "footerContainer"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -110,8 +109,8 @@
     "needappmenu": false,
     "paddinginpixel": false,
     "platform": "android",
-    "prevDevice": "iPhone13",
-    "prevPlatform": "iphone",
+    "prevDevice": "Pixel3",
+    "prevPlatform": "spaan",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
