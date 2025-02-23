@@ -15,6 +15,12 @@
         0
     ],
     "_percent_": true,
+    "_pxMenuIndex": [
+        0,
+        1,
+        0,
+        1
+    ],
     "_skin_": "s99cec21368a42019ae0e5f5a4ae663f",
     "_title_": null,
     "addWidgetsdone": false,
@@ -32,7 +38,11 @@
         }
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "headerContainer",
+        "mainContainer",
+        "footerContainer"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
@@ -44,7 +54,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone13",
+    "device": "Pixel3",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "frmLoanCheck",
@@ -98,7 +108,7 @@
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
-    "platform": "iphone",
+    "platform": "spaan",
     "prevDevice": "iPhone13",
     "prevPlatform": "iphone",
     "retaincontentalignment": false,

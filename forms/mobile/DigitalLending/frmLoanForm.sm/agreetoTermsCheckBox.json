@@ -3,11 +3,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "27dp"
+        "value": "23dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -28,15 +28,16 @@
     },
     "_width_": {
         "type": "string",
-        "value": "34.17%"
+        "value": "112dp"
     },
+    "android": {},
     "canUpdateUI": true,
     "centery": {
         "type": "string",
-        "value": "50%"
+        "value": "52.56%"
     },
     "containerweight": 100,
-    "id": "CheckBoxGroup0ea69d60083ff45",
+    "id": "agreetoTermsCheckBox",
     "info": null,
     "ipad": {
         "psp": {
@@ -50,32 +51,28 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "itemorientation": "vertical",
+    "itemorientation": "horizontal",
     "kuid": "ff7a0be508ee4b85babfef2120fdc596",
     "masterdata": [
         [
             "cbg1",
-            "I agree to "
+            "       I agree to "
         ]
     ],
     "name": "kony.ui.CheckBoxGroup",
-    "orientation": "vertical",
+    "orientation": "horizontal",
+    "paddinginpixel": false,
     "parent": "agreementContainer",
     "pf": "frmLoanForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "selectedkey": null,
-    "selectedkeys": [
-        "cbg1"
-    ],
+    "selectedkeys": [],
     "selectedkeyvalue": null,
-    "selectedkeyvalues": [
-        [
-            "cbg1",
-            "I agree to "
-        ]
-    ],
+    "selectedkeyvalues": null,
     "size": 18,
+    "tickedimage": "checkboxchecked24.png",
+    "untickedimage": "checkboxunchecked24.png",
     "viewtype": 0,
     "wType": "CheckBoxGroup",
     "widgetalignment": 5

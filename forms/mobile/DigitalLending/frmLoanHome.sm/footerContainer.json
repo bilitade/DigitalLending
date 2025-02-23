@@ -1,16 +1,12 @@
 {
     "DNDConfig": null,
-    "_bottom_": {
-        "type": "string",
-        "value": "2%"
-    },
     "_height_": {
         "type": "string",
-        "value": "30dp"
+        "value": "9.26%"
     },
     "_left_": {
         "type": "string",
-        "value": "27dp"
+        "value": "0"
     },
     "_margin_": [
         0,
@@ -29,35 +25,30 @@
     "_skin_": "s2d74824ef66412f96a0951ed0855af2",
     "_top_": {
         "type": "string",
-        "value": "1.00%"
+        "value": "90.83%"
     },
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
-        "agreetoTermsCheckBox",
-        "Label0jb71a22ea5194b"
+        "bottomInfoBar"
     ],
     "clipbounds": false,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "agreementContainer",
+    "id": "footerContainer",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ad7646c629f149988cd76ee4732da098",
-    "layouttype": 3,
+    "kuid": "d9ffdc7fd7624afd8adfffd695bf50a4",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "mainContainer",
-    "pf": "frmLoanForm",
+    "parent": "frmLoanHome",
+    "pf": "frmLoanHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
