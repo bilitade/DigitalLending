@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2c92b44dcc746cda9b281c43f43d925",
+    "_text_": "Accept  ☑",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {}
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "pressedSkin": "s6e37147ef0d4436b571ff1c12b2c77e"
+    },
+    "displaytext": true,
+    "focusskin": "s872c14029744a4b9fc4d3897c2556e9",
+    "id": "acceptbutton",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "iee57fe1b0cc44e5bb384469044cdca4",
+    "name": "kony.ui.Button",
+    "parent": "flexacceptbutton",
+    "pf": "frmLoanCheck",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}
