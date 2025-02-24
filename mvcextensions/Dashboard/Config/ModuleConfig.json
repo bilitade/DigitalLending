@@ -1,0 +1,20 @@
+{
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationExtensions": [],
+            "PresentationControllerClass": "Dashboard/PresentationControllers/PresentationController"
+        }
+    },
+    "Forms": {
+        "mobile": {
+            "frmaccountOverview": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "Dashboard/frmaccountOverviewController",
+                "FormName": "Dashboard/frmaccountOverview"
+            }
+        }
+    },
+    "ModuleType": "UIModule",
+    "ModuleName": "Dashboard"
+}

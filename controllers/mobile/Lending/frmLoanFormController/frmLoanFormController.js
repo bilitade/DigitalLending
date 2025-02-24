@@ -4,7 +4,7 @@ define({
   
   onContinueButtonClicked: function(){
     
-    navObj= new kony.mvc.Navigation("DigitalLending/frmLoanCheck");
+    navObj= new kony.mvc.Navigation("Lending/frmLoanCheck");
     navObj.navigate(null);
     
     
