@@ -5,7 +5,9 @@
             "kiosk": {}
         },
         "mobile": {
-            "android": {},
+            "android": {
+                "backgroundColor": "00adef"
+            },
             "iphone": {
                 "splashConfig": {
                     "_skin_": "sa4e06268872445faf1180e7c251b371",
@@ -17,7 +19,9 @@
             "spaip": {},
             "spawinphone8": {},
             "winphone10": {},
-            "winphone8": {}
+            "winphone8": {},
+            "splashImage": "splashimage.png",
+            "showLoadingIndicator": true
         },
         "tablet": {
             "android": {},
