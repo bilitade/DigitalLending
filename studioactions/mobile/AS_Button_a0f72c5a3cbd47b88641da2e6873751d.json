@@ -1,0 +1,28 @@
+{
+    "AS_Button_a0f72c5a3cbd47b88641da2e6873751d": {
+        "id": "AS_Button_a0f72c5a3cbd47b88641da2e6873751d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoanCheck",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c2cb8ac9bfba4bf18f32a49c45a64e08"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ie517901d3df4300afc6e844fdce8012",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onAcceptButtonClicked",
+            "display": "onAcceptButtonClicked",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

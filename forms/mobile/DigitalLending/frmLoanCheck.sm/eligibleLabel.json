@@ -18,10 +18,10 @@
         0
     ],
     "_skin_": "se9b7d300da44db48886a693c0accfda",
-    "_text_": "Congratulations",
+    "_text_": "You are eligible for",
     "_top_": {
         "type": "string",
-        "value": "10%"
+        "value": "5%"
     },
     "_width_": {
         "type": "ref",
@@ -55,7 +55,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "b622aa46c8c64647b7c21b3b75c96725",
+    "kuid": "ee376f4eb5d04dfe824a4871d024f7f6",
     "name": "kony.ui.Label",
     "parent": "mainContainer",
     "pf": "frmLoanCheck",

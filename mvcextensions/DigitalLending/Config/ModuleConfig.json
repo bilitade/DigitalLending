@@ -11,25 +11,29 @@
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
                 "Controller": "DigitalLending/frmLoanHomeController",
-                "FormName": "DigitalLending/frmLoanHome"
+                "FormName": "DigitalLending/frmLoanHome",
+                "friendlyName": "frmLoanHome"
             },
             "frmLoanForm": {
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
                 "Controller": "DigitalLending/frmLoanFormController",
-                "FormName": "DigitalLending/frmLoanForm"
+                "FormName": "DigitalLending/frmLoanForm",
+                "friendlyName": "frmLoanForm"
             },
             "frmLoanCheck": {
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
                 "Controller": "DigitalLending/frmLoanCheckController",
-                "FormName": "DigitalLending/frmLoanCheck"
+                "FormName": "DigitalLending/frmLoanCheck",
+                "friendlyName": "frmLoanCheck"
             },
             "frmLoanApproved": {
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
                 "Controller": "DigitalLending/frmLoanApprovedController",
-                "FormName": "DigitalLending/frmLoanApproved"
+                "FormName": "DigitalLending/frmLoanApproved",
+                "friendlyName": "approvePage"
             }
         }
     },

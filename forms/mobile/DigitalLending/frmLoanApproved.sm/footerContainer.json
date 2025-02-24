@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "9.26%"
+        "value": "10%"
     },
     "_left_": {
         "type": "string",
-        "value": "0"
+        "value": "-1dp"
     },
     "_margin_": [
         0,
@@ -25,11 +25,11 @@
     "_skin_": "s2d74824ef66412f96a0951ed0855af2",
     "_top_": {
         "type": "string",
-        "value": "90.83%"
+        "value": "91.00%"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "100.28%"
     },
     "allboxes": [],
     "autogrowmode": 0,
@@ -44,7 +44,7 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e8c81180e43644b3990c660deacc8ff2",
+    "kuid": "a8aa9b65f849466191d11aaa0059d8f2",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "frmLoanApproved",

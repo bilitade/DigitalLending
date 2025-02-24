@@ -1,14 +1,16 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
-    "_base64_": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "2%"
+    },
     "_height_": {
         "type": "string",
-        "value": "82dp"
+        "value": "30dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0"
+        "value": "27dp"
     },
     "_margin_": [
         0,
@@ -16,41 +18,50 @@
         0,
         0
     ],
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
         0,
         0
     ],
-    "_skin_": "sddb4137ca854d64ba2f2eb3a93da57b",
-    "_src_": "accepticon2x.png",
+    "_percent_": true,
+    "_skin_": "s2d74824ef66412f96a0951ed0855af2",
     "_top_": {
         "type": "string",
-        "value": "10%"
+        "value": "5%"
     },
     "_width_": {
         "type": "string",
-        "value": "82dp"
+        "value": "70%"
     },
+    "allboxes": [],
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
         "value": "50%"
     },
+    "children": [
+        "signContract"
+    ],
+    "clipbounds": false,
     "containerweight": 100,
-    "id": "Image0f85d42e89ded4a",
-    "imagescalemode": 1,
+    "enablescrolling": true,
+    "id": "agreementContainer",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "bc34ea45b86e4eff800e4269bd25f205",
-    "name": "kony.ui.Image2",
-    "paddinginpixel": false,
+    "kuid": "g4108ceaa7584f17a774091a354c2e5f",
+    "layouttype": 3,
+    "name": "kony.ui.FlexContainer",
     "parent": "mainContainer",
     "pf": "frmLoanCheck",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "srcType": 1,
-    "wType": "Image",
-    "widgetalignment": 5
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
 }

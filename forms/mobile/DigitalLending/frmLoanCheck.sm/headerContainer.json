@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "25%"
+        "value": "20%"
     },
     "_left_": {
         "type": "string",
@@ -44,7 +44,7 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f714d3c7b34a4e91a90457524949ca75",
+    "kuid": "affeeed075ac4212bb15b8c76a56285e",
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",
     "parent": "frmLoanCheck",

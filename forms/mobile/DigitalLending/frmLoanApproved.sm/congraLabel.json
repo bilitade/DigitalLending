@@ -18,10 +18,10 @@
         0
     ],
     "_skin_": "sd261503aa0d4c4186ed841d6332ca8b",
-    "_text_": "Congratulations",
+    "_text_": "Loan Approved",
     "_top_": {
         "type": "string",
-        "value": "4%"
+        "value": "10%"
     },
     "_width_": {
         "type": "ref",
@@ -55,7 +55,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "hc8f598cc1c346b0992c737bc895ebec",
+    "kuid": "fba27843d8eb4f1da770408f459d1dc7",
     "name": "kony.ui.Label",
     "parent": "mainContainer",
     "pf": "frmLoanApproved",

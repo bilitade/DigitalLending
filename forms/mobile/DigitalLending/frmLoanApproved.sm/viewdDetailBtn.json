@@ -1,20 +1,19 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
-    "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "383dp"
+        "value": "42dp"
     },
     "_left_": {
         "type": "string",
         "value": "0"
     },
     "_margin_": [
-        0,
-        0,
-        0,
-        0
+        6,
+        6,
+        6,
+        6
     ],
     "_padding_": [
         0,
@@ -22,34 +21,34 @@
         0,
         0
     ],
-    "_skin_": "sddb4137ca854d64ba2f2eb3a93da57b",
-    "_src_": "banner2x.png",
+    "_skin_": "s807b7dac6c34105b19ab3acfcf10fee",
+    "_text_": "View Detail",
     "_top_": {
         "type": "string",
-        "value": "-83dp"
+        "value": "5%"
     },
     "_width_": {
         "type": "string",
-        "value": "357dp"
+        "value": "40%"
     },
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "49.97%"
     },
     "containerweight": 100,
-    "id": "Image0ed905aadeb894f",
-    "imagescalemode": 1,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sca87a5dee9e41f69dddab89a0c060c4",
+    "id": "viewdDetailBtn",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c0c3bc6bfb3342ba84e9b6ab686b29f4",
-    "name": "kony.ui.Image2",
+    "kuid": "gb82e9d403ba43d88bbefdb3bfcb93f1",
+    "name": "kony.ui.Button",
     "parent": "mainContainer",
-    "pf": "frmLoanHome",
+    "pf": "frmLoanApproved",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "srcType": 1,
-    "wType": "Image",
-    "widgetalignment": 5
+    "wType": "Button"
 }

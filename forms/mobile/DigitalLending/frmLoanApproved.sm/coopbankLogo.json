@@ -35,7 +35,7 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50.00%"
+        "value": "50%"
     },
     "containerweight": 100,
     "id": "coopbankLogo",
@@ -43,7 +43,7 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e37a179d6b63450f86c2e603f238f695",
+    "kuid": "af758241595b47f69d1d16bbd8453844",
     "name": "kony.ui.Image2",
     "parent": "headerContainer",
     "pf": "frmLoanApproved",

@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "38.79%"
+        "value": "60%"
     },
     "_left_": {
         "type": "string",
@@ -25,7 +25,7 @@
     "_skin_": "s2d74824ef66412f96a0951ed0855af2",
     "_top_": {
         "type": "string",
-        "value": "52.68%"
+        "value": "25%"
     },
     "_width_": {
         "type": "string",
@@ -36,15 +36,14 @@
     "canUpdateUI": true,
     "centery": {
         "type": "string",
-        "value": "50%"
+        "value": "50.00%"
     },
     "children": [
         "congraLabel",
         "eligibleLabel",
-        "amountLabel",
-        "loanType",
-        "agreementContainer",
-        "Button0f4ba5a693f6149"
+        "greenRightTick",
+        "moneyOnyourwayLabel",
+        "viewdDetailBtn"
     ],
     "clipbounds": false,
     "containerweight": 100,
@@ -53,7 +52,7 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f7099237d1c24dbea5d64b29dc6d35b9",
+    "kuid": "d417eb223a1e42aea0b8a7a8ddcf9a04",
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",
     "parent": "frmLoanApproved",
