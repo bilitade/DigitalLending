@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "40dp"
+        "value": "42dp"
     },
     "_left_": {
         "type": "string",
@@ -22,10 +22,10 @@
         0
     ],
     "_skin_": "s807b7dac6c34105b19ab3acfcf10fee",
-    "_text_": "Accept",
+    "_text_": "Claim Now",
     "_top_": {
         "type": "string",
-        "value": "4%"
+        "value": "5%"
     },
     "_width_": {
         "type": "string",
@@ -39,15 +39,16 @@
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "sff9348e0d6f4672b3899b1a9280733f",
-    "id": "Button0f4ba5a693f6149",
+    "focusskin": "sca87a5dee9e41f69dddab89a0c060c4",
+    "id": "claimBtn",
+    "ide_onClick": "AS_Button_ha183f956985427ebf022379ae22bc70",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "b950a654993347a28a2d8f2faa14ed50",
+    "kuid": "i1efa46fa7d449618ab1fb07ee85b3b8",
     "name": "kony.ui.Button",
     "parent": "mainContainer",
-    "pf": "frmLoanApproved",
+    "pf": "frmLoanHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "wType": "Button"

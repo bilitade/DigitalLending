@@ -7,7 +7,7 @@
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "frmLoanCheck",
+            "name": "frmLoanApproved",
             "type": "forms",
             "platform": "",
             "KUID": "aac590218d58419f945495aa067a9154"

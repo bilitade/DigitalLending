@@ -1,19 +1,20 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
+    "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "40dp"
+        "value": "273dp"
     },
     "_left_": {
         "type": "string",
         "value": "0"
     },
     "_margin_": [
-        6,
-        6,
-        6,
-        6
+        0,
+        0,
+        0,
+        0
     ],
     "_padding_": [
         0,
@@ -21,34 +22,34 @@
         0,
         0
     ],
-    "_skin_": "s807b7dac6c34105b19ab3acfcf10fee",
-    "_text_": "Claim Now",
+    "_skin_": "sddb4137ca854d64ba2f2eb3a93da57b",
+    "_src_": "banner2x.png",
     "_top_": {
         "type": "string",
-        "value": "4%"
+        "value": "-12dp"
     },
     "_width_": {
         "type": "string",
-        "value": "40%"
+        "value": "357dp"
     },
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "49.97%"
+        "value": "50%"
     },
     "containerweight": 100,
-    "contentalignment": 5,
-    "displaytext": true,
-    "focusskin": "sff9348e0d6f4672b3899b1a9280733f",
-    "id": "Button0f4ba5a693f6149",
+    "id": "bannerImg",
+    "imagescalemode": 1,
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i1efa46fa7d449618ab1fb07ee85b3b8",
-    "name": "kony.ui.Button",
+    "kuid": "c0c3bc6bfb3342ba84e9b6ab686b29f4",
+    "name": "kony.ui.Image2",
     "parent": "mainContainer",
     "pf": "frmLoanHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "wType": "Button"
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5
 }

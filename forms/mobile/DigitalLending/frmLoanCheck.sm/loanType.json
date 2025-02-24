@@ -17,11 +17,11 @@
         0,
         0
     ],
-    "_skin_": "sd261503aa0d4c4186ed841d6332ca8b",
-    "_text_": "ETB 14,000",
+    "_skin_": "se9b7d300da44db48886a693c0accfda",
+    "_text_": "Personal Loan",
     "_top_": {
         "type": "string",
-        "value": "4%"
+        "value": "5%"
     },
     "_width_": {
         "type": "ref",
@@ -41,7 +41,7 @@
     },
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "amountLabel",
+    "id": "loanType",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "fab570c10faa493f8a3b45f63a25594f",
+    "kuid": "ia8c1b80f6ad41778a6f0be761368273",
     "name": "kony.ui.Label",
     "parent": "mainContainer",
-    "pf": "frmLoanApproved",
+    "pf": "frmLoanCheck",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

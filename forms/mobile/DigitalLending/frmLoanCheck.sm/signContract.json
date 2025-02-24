@@ -33,7 +33,7 @@
     "canUpdateUI": true,
     "centery": {
         "type": "string",
-        "value": "44.87%"
+        "value": "50%"
     },
     "containerweight": 100,
     "id": "signContract",
@@ -62,16 +62,23 @@
     "orientation": "vertical",
     "paddinginpixel": false,
     "parent": "agreementContainer",
-    "pf": "frmLoanApproved",
+    "pf": "frmLoanCheck",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "selectedkey": null,
-    "selectedkeys": [],
+    "selectedkeys": [
+        "cbg1"
+    ],
     "selectedkeyvalue": null,
-    "selectedkeyvalues": null,
+    "selectedkeyvalues": [
+        [
+            "cbg1",
+            "Sign Contract"
+        ]
+    ],
     "size": 18,
-    "tickedimage": "checkboxchecked32.png",
-    "untickedimage": "checkboxunchecked32.png",
+    "tickedimage": "checkboxchecked24.png",
+    "untickedimage": "checkboxunchecked24.png",
     "viewtype": 0,
     "wType": "CheckBoxGroup",
     "widgetalignment": 5

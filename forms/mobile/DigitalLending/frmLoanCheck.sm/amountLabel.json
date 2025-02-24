@@ -17,15 +17,15 @@
         0,
         0
     ],
-    "_skin_": "se9b7d300da44db48886a693c0accfda",
-    "_text_": "Your Money is on   Your way",
+    "_skin_": "sd261503aa0d4c4186ed841d6332ca8b",
+    "_text_": "ETB 14,000",
     "_top_": {
         "type": "string",
-        "value": "10%"
+        "value": "5%"
     },
     "_width_": {
-        "type": "string",
-        "value": "40%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
     "android": {
@@ -40,8 +40,8 @@
         "value": "50%"
     },
     "containerweight": 100,
-    "contentalignment": 5,
-    "id": "moneyOnyourwayLabel",
+    "contentalignment": 4,
+    "id": "amountLabel",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,7 +55,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e57b3916c1b74499b3d4b4895de13eea",
+    "kuid": "fab570c10faa493f8a3b45f63a25594f",
     "name": "kony.ui.Label",
     "parent": "mainContainer",
     "pf": "frmLoanCheck",

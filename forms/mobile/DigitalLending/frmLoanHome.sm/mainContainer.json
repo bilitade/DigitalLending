@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "38.79%"
+        "value": "50.77%"
     },
     "_left_": {
         "type": "string",
@@ -36,11 +36,11 @@
     "canUpdateUI": true,
     "centery": {
         "type": "string",
-        "value": "50%"
+        "value": "49.98%"
     },
     "children": [
-        "Image0ed905aadeb894f",
-        "Button0f4ba5a693f6149"
+        "bannerImg",
+        "claimBtn"
     ],
     "clipbounds": false,
     "containerweight": 100,

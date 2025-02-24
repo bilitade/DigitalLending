@@ -36,10 +36,6 @@
     "areflexpropsreferenced": false,
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "clipbounds": false,
     "containerweight": 0,
     "dataDiffs": {
@@ -47,7 +43,7 @@
             "__events__": {},
             "__info__": {
                 "isRoot": true,
-                "kuid": "addb0c88ed1d4b2c95a9714c3c245ed2",
+                "kuid": "i4d4ccac98d74899bc63fa1da2077c4e",
                 "srcKUID": "b8f3adfce2fd43e99241251b895d4493",
                 "wType": "FlexContainer"
             },
@@ -55,12 +51,6 @@
                 "Default": {
                     "type": "string",
                     "value": "0"
-                }
-            },
-            "centerX": {
-                "Default": {
-                    "type": "string",
-                    "value": "50%"
                 }
             },
             "centerY": {
@@ -79,7 +69,7 @@
         "contact": {
             "__events__": {},
             "__info__": {
-                "kuid": "fb764583bcd146deb5a709bb7d9d4567",
+                "kuid": "a986fb8926704a4686ccbc87f102a58d",
                 "srcKUID": "i079c5dc1c93455997e09ce4bac013b3",
                 "wType": "FlexContainer"
             }
@@ -87,7 +77,7 @@
         "contactusBtn": {
             "__events__": {},
             "__info__": {
-                "kuid": "a86aaf9ed9ff46bd8d5000180d1c058f",
+                "kuid": "gea891b929c14983844dc5101d24e5e8",
                 "srcKUID": "c4dc97dc5ab74e91aa2385659bd0d7c9",
                 "wType": "Button"
             }
@@ -95,7 +85,7 @@
         "privacy": {
             "__events__": {},
             "__info__": {
-                "kuid": "j1a2b6fe9a5940a5b98490e525d421c9",
+                "kuid": "gddffbe79ce349bc9e1549af412926d9",
                 "srcKUID": "cc8051ba5c5a4a148ced2e7e6b4c26d7",
                 "wType": "FlexContainer"
             }
@@ -103,7 +93,7 @@
         "privacyBtn": {
             "__events__": {},
             "__info__": {
-                "kuid": "ba2f79b413554933ae06fe0960043d6e",
+                "kuid": "gf33f12c9cb0471990e3b5ae905e614e",
                 "srcKUID": "i9f45854f5724e278f85843765cafbc2",
                 "wType": "Button"
             }
@@ -111,7 +101,7 @@
         "spacer1": {
             "__events__": {},
             "__info__": {
-                "kuid": "b7dd1d24ef344e919a20c7507e575c18",
+                "kuid": "ebe71a1b7ce3483badcde670bf755740",
                 "srcKUID": "ce8fe689213d4793b8ef75ce87b7f1be",
                 "wType": "Label"
             }
@@ -119,7 +109,7 @@
         "spacer2": {
             "__events__": {},
             "__info__": {
-                "kuid": "cc68b08f862e40cb97191a20330f701d",
+                "kuid": "b4b536f014c646d2bd43d15106d5d249",
                 "srcKUID": "e8dfad257bd845248885393e91a5e555",
                 "wType": "Label"
             }
@@ -127,33 +117,15 @@
         "termsBtn": {
             "__events__": {},
             "__info__": {
-                "kuid": "aa5f1556dc894b81a16afca9fa43c73a",
+                "kuid": "c4142490d8354bc8a05349b7ab576d64",
                 "srcKUID": "hf4f55d3547f43cf80319ddd88cd50f7",
                 "wType": "Button"
-            },
-            "left": {
-                "Default": {
-                    "type": "string",
-                    "value": "0dp"
-                }
-            },
-            "top": {
-                "Default": {
-                    "type": "string",
-                    "value": "0dp"
-                }
-            },
-            "width": {
-                "Default": {
-                    "type": "string",
-                    "value": "107.25%"
-                }
             }
         },
         "termsContainer": {
             "__events__": {},
             "__info__": {
-                "kuid": "adcc9d702e1140e5b2cd4be146c48ff2",
+                "kuid": "e8d84060c739465297c7841e9fdbfbdb",
                 "srcKUID": "h8c62e8e375f4fc9b817ef7831d611ae",
                 "wType": "FlexContainer"
             }
@@ -165,7 +137,7 @@
     "iscustomlayout": false,
     "isdatareferenced": false,
     "isvisible": true,
-    "kuid": "addb0c88ed1d4b2c95a9714c3c245ed2",
+    "kuid": "i4d4ccac98d74899bc63fa1da2077c4e",
     "layouttype": 3,
     "masterType": 0,
     "name": "kony.ui.UserWidgetInstance",

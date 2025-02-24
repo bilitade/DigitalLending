@@ -18,14 +18,14 @@
         0
     ],
     "_skin_": "se9b7d300da44db48886a693c0accfda",
-    "_text_": "Personal Loan",
+    "_text_": "Your Money is on   Your way",
     "_top_": {
         "type": "string",
-        "value": "4%"
+        "value": "10%"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "40%"
     },
     "_wrapping_": 2,
     "android": {
@@ -40,8 +40,8 @@
         "value": "50%"
     },
     "containerweight": 100,
-    "contentalignment": 4,
-    "id": "loanType",
+    "contentalignment": 5,
+    "id": "moneyOnyourwayLabel",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,7 +55,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ia8c1b80f6ad41778a6f0be761368273",
+    "kuid": "e57b3916c1b74499b3d4b4895de13eea",
     "name": "kony.ui.Label",
     "parent": "mainContainer",
     "pf": "frmLoanApproved",
