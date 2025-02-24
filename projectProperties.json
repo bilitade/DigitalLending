@@ -88,7 +88,7 @@
     "appiniteventkey": "None",
     "applepushfunc": "None",
     "apploadeventkey": "None",
-    "applogokey": "",
+    "applogokey": "0=applogo.png",
     "appmenu": {
         "desktop": {
             "data": [
@@ -260,6 +260,9 @@
     "codeGeneration": "false",
     "contacts": "false",
     "cordovaModified": false,
+    "cordovaVersionInfo": {
+        "useGlobalCordova": false
+    },
     "createdVizVersion": "9.7.52",
     "createdgaversion": "9.7.52",
     "currentgaversion": "9.7.46",
@@ -323,6 +326,11 @@
     "hybridaddrkey": "",
     "hybridhttpsportkey": "",
     "hybridportkey": "",
+    "ide_appEvents": {
+        "mobile": {
+            "postappinit": "AS_AppEvents_jc795d20b1504fa9a54eb24807a6d96d"
+        }
+    },
     "imagewhendownloading": "",
     "initialRotationPreferenceKey": "landscape",
     "inputaccessoryviewtype": "nextprevtoolbar",
@@ -361,9 +369,11 @@
     "isA11yConfigEnabled": false,
     "isDpScaleFactor": true,
     "isI18nConfigEnabled": false,
+    "isI18nLayoutConfigEnabled": false,
     "isMVC": true,
     "isNewAppWithRespectToAndroidPackageName": "true",
     "isNewAppWithRespectToAndroidWearPackageName": "true",
+    "isScreenShotDisabledForTestReports": false,
     "keyAlias": "",
     "keyAliasandwear": "",
     "keyStoreFilePath": "",
@@ -650,6 +660,7 @@
     "protectedmodeenabled_android": "false",
     "protectedmodeenabled_androidwear": "false",
     "protectedmodeenabled_ios": "false",
+    "prototype": {},
     "proximity": "false",
     "readOnly": [],
     "read_device_identifying_information": "false",
@@ -680,7 +691,7 @@
     "spawindows480basefontsize": "12",
     "spawindowstabbasefontsize": "17",
     "splashlogokey": "",
-    "startupformkey": "d71619c76ea64fb6b3a752e89f75485d",
+    "startupformkey": "aac590218d58419f945495aa067a9154",
     "statusBarHidden": "false",
     "statusBarStyle": "STATUS_BAR_STYLE_DEFAULT",
     "support32bit": "false",
