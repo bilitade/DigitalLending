@@ -1,0 +1,42 @@
+{
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationExtensions": [],
+            "PresentationControllerClass": "Lending/PresentationControllers/PresentationController"
+        }
+    },
+    "Forms": {
+        "mobile": {
+            "frmLoanApproved": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "Lending/frmLoanApprovedController",
+                "FormName": "Lending/frmLoanApproved",
+                "friendlyName": "approvePage"
+            },
+            "frmLoanCheck": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "Lending/frmLoanCheckController",
+                "FormName": "Lending/frmLoanCheck",
+                "friendlyName": "frmLoanCheck"
+            },
+            "frmLoanForm": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "Lending/frmLoanFormController",
+                "FormName": "Lending/frmLoanForm",
+                "friendlyName": "frmLoanForm"
+            },
+            "frmLoanHome": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "Lending/frmLoanHomeController",
+                "FormName": "Lending/frmLoanHome",
+                "friendlyName": "frmLoanHome"
+            }
+        }
+    },
+    "ModuleType": "UIModule",
+    "ModuleName": "Lending"
+}
