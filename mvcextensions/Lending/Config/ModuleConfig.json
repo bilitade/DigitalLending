@@ -1,42 +1,42 @@
 {
-    "PresentationControllerConfig": {
-        "Default": {
-            "PresentationExtensions": [],
-            "PresentationControllerClass": "Lending/PresentationControllers/PresentationController"
-        }
-    },
     "Forms": {
         "mobile": {
             "frmLoanApproved": {
+                "Controller": "Lending/frmLoanApprovedController",
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
-                "Controller": "Lending/frmLoanApprovedController",
                 "FormName": "Lending/frmLoanApproved",
                 "friendlyName": "approvePage"
             },
             "frmLoanCheck": {
+                "Controller": "Lending/frmLoanCheckController",
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
-                "Controller": "Lending/frmLoanCheckController",
                 "FormName": "Lending/frmLoanCheck",
                 "friendlyName": "frmLoanCheck"
             },
             "frmLoanForm": {
+                "Controller": "Lending/frmLoanFormController",
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
-                "Controller": "Lending/frmLoanFormController",
                 "FormName": "Lending/frmLoanForm",
                 "friendlyName": "frmLoanForm"
             },
             "frmLoanHome": {
+                "Controller": "Lending/frmLoanHomeController",
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
-                "Controller": "Lending/frmLoanHomeController",
                 "FormName": "Lending/frmLoanHome",
                 "friendlyName": "frmLoanHome"
             }
         }
     },
+    "ModuleName": "Lending",
     "ModuleType": "UIModule",
-    "ModuleName": "Lending"
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "Lending/PresentationControllers/PresentationController",
+            "PresentationExtensions": []
+        }
+    }
 }

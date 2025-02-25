@@ -1,25 +1,19 @@
 {
   "android": {
-    "font_name": "Roboto"
+    "font_name": "default"
   },
   "androidwearos": {
     "font_name": "default"
   },
-  "background_color": "00adefff",
+  "background_color": "e4f7fdff",
   "bg_type": "one",
-  "border_color": "ffffffff",
-  "border_radius": 15,
-  "border_style": "custom",
+  "border_color": "000000ff",
+  "border_style": "plain",
   "border_type": 0,
-  "border_width": 2,
+  "border_width": 0,
   "desktopweb": {
     "font_name": "Helvetica"
   },
-  "font_color": "ffffffff",
-  "font_name": "iphoneSystem",
-  "font_size": 150,
-  "font_style": "normal",
-  "font_weight": "400",
   "ipad": {
     "font_name": "System"
   },
@@ -30,7 +24,7 @@
   "kiosk": {
     "font_name": "None"
   },
-  "kuid": "s807b7dac6c34105b19ab3acfcf10fee",
+  "kuid": "s4bcfb5170af4dba9c64c24939d0088b",
   "spaan": {
     "font_name": "Helvetica"
   },
@@ -52,7 +46,7 @@
   "tabrcandroid": {
     "font_name": "default"
   },
-  "wType": "Button",
+  "wType": "FlexContainer",
   "watchos": {
     "font_name": "System"
   },

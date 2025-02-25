@@ -1,0 +1,97 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "51.85%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "65dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s74c4d644cd642c497e3f9e4359a4c95",
+    "_top_": {
+        "type": "string",
+        "value": "19dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "63.55%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "chartData": {
+            "data": [
+                {
+                    "colorCode": "#00ADEF",
+                    "label": "Paid",
+                    "value": "70"
+                },
+                {
+                    "colorCode": "#E38524",
+                    "label": "Due",
+                    "value": "30"
+                }
+            ],
+            "schema": [
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "Label",
+                    "columnHeaderType": "text",
+                    "columnID": "label",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "c8434b6cbed443e6a6167d99e8c3bdcb"
+                },
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "Value",
+                    "columnHeaderType": "text",
+                    "columnID": "value",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "cddb65c1fe8c429bb5a4b5f93bd171ef"
+                },
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "Color Code",
+                    "columnHeaderType": "text",
+                    "columnID": "colorCode",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "f722303b71a8439eae528d9af9856f30"
+                }
+            ]
+        },
+        "chartTitle": "Loan Summary",
+        "enableChartAnimation": true,
+        "titleFontColor": "#595959",
+        "titleFontSize": "14"
+    },
+    "id": "donutchart",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ded3fbb768eb49bea36b308e9e344df9",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "mainContainer",
+    "pf": "frmaccountOverview",
+    "sourceUserWidget": "u829a0e5dddf480e9db9201e162ed826",
+    "wType": "UserWidgetInstance"
+}
