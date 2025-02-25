@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "10%"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
-        "value": "-1dp"
+        "value": "0"
     },
     "_margin_": [
         0,
@@ -25,30 +25,31 @@
     "_skin_": "s2d74824ef66412f96a0951ed0855af2",
     "_top_": {
         "type": "string",
-        "value": "91.00%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100.28%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "bottomNavBar"
+        "coopbankLogo",
+        "notification"
     ],
     "clipbounds": false,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "footerContainer",
+    "id": "headerBarContainer",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "fc20fa8478e04377a7f6c18eff1321a2",
+    "kuid": "j32eed1f2aeb4133beac0e2b19717ec0",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "frmaccountOverview",
-    "pf": "frmaccountOverview",
+    "parent": "headerContainer",
+    "pf": "frmPayments",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

@@ -6,6 +6,12 @@
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
                 "FormName": "Dashboard/frmaccountOverview"
+            },
+            "frmPayments": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "Dashboard/frmPaymentsController",
+                "FormName": "Dashboard/frmPayments"
             }
         }
     },

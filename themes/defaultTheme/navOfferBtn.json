@@ -1,17 +1,16 @@
 {
   "android": {
-    "font_name": "Roboto"
+    "font_name": "default"
   },
   "androidwearos": {
     "font_name": "default"
   },
-  "background_color": "e38524ff",
-  "bg_type": "one",
+  "background_image": "offer2x.png",
+  "bg_type": "image",
   "border_color": "ffffffff",
-  "border_radius": 72,
-  "border_style": "custom",
+  "border_style": "plain",
   "border_type": 0,
-  "border_width": 2,
+  "border_width": 0,
   "desktopweb": {
     "font_name": "Helvetica"
   },
@@ -30,7 +29,7 @@
   "kiosk": {
     "font_name": "None"
   },
-  "kuid": "sca87a5dee9e41f69dddab89a0c060c4",
+  "kuid": "s08db284d23944d0b805229a74cdac3d",
   "spaan": {
     "font_name": "Helvetica"
   },

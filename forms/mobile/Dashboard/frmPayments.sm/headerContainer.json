@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "10%"
+        "value": "25.38%"
     },
     "_left_": {
         "type": "string",
-        "value": "-1dp"
+        "value": "3dp"
     },
     "_margin_": [
         0,
@@ -22,33 +22,35 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s2d74824ef66412f96a0951ed0855af2",
+    "_skin_": "s4bcfb5170af4dba9c64c24939d0088b",
     "_top_": {
         "type": "string",
-        "value": "91.00%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100.28%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "bottomNavBar"
+        "headerBarContainer",
+        "headerLabel",
+        "selectAccountListBox"
     ],
     "clipbounds": false,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "footerContainer",
+    "id": "headerContainer",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "fc20fa8478e04377a7f6c18eff1321a2",
+    "kuid": "d360d0a447014b94ba74d7450ef0abb9",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "frmaccountOverview",
-    "pf": "frmaccountOverview",
+    "parent": "frmPayments",
+    "pf": "frmPayments",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
