@@ -7,10 +7,10 @@
   },
   "background_color": "e4f7fdff",
   "bg_type": "one",
-  "border_color": "000000ff",
-  "border_style": "plain",
+  "border_color": "00000000",
+  "border_style": "rc",
   "border_type": 0,
-  "border_width": 0,
+  "border_width": 2,
   "desktopweb": {
     "font_name": "Helvetica"
   },

@@ -57,9 +57,9 @@
         "formTransition": "None"
     },
     "paddinginpixel": false,
-    "platform": "android",
+    "platform": "spaan",
     "prevDevice": "Pixel3",
-    "prevPlatform": "spaan",
+    "prevPlatform": "android",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

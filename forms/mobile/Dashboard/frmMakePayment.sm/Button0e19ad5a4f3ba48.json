@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "38dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s807b7dac6c34105b19ab3acfcf10fee",
+    "_text_": "Loan Payoff",
+    "_top_": {
+        "type": "string",
+        "value": "358dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sff9348e0d6f4672b3899b1a9280733f",
+    "id": "Button0e19ad5a4f3ba48",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a703157f18874a84b08f3fa8a4e29704",
+    "name": "kony.ui.Button",
+    "parent": "FlexContainer0e91b2da2c9c048",
+    "pf": "frmMakePayment",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

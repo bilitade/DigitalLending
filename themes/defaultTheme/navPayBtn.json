@@ -1,9 +1,15 @@
 {
   "android": {
-    "font_name": "default"
+    "background_image": "mobilepay2x.png",
+    "bg_type": "image",
+    "font_name": "default",
+    "isForked": true
   },
   "androidwearos": {
-    "font_name": "default"
+    "background_image": "mobilepay2x.png",
+    "bg_type": "image",
+    "font_name": "default",
+    "isForked": true
   },
   "background_image": "mobilepay2x.png",
   "bg_type": "image",
@@ -12,7 +18,22 @@
   "border_type": 0,
   "border_width": 0,
   "desktopweb": {
-    "font_name": "Helvetica"
+    "background_image": "mobilepay2x.png",
+    "bg_type": "image",
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 0,
+    "font_name": "Helvetica",
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 0,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 0
   },
   "font_color": "ffffffff",
   "font_name": "iphoneSystem",
@@ -20,45 +41,156 @@
   "font_style": "normal",
   "font_weight": "400",
   "ipad": {
-    "font_name": "System"
+    "background_image": "mobilepay2x.png",
+    "bg_type": "image",
+    "font_name": "System",
+    "isForked": true
   },
   "iphone": {
-    "font_name": "System"
+    "background_image": "mobilepay2x.png",
+    "bg_type": "image",
+    "font_name": "System",
+    "isForked": true
   },
   "isDefaultSkin": false,
   "kiosk": {
-    "font_name": "None"
+    "background_image": "mobilepay2x.png",
+    "bg_type": "image",
+    "font_name": "None",
+    "isForked": true
   },
   "kuid": "sd416afa67a34f2580313656a3fc8a55",
   "spaan": {
-    "font_name": "Helvetica"
+    "background_image": "mobilepay.png",
+    "bg_type": "image",
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 0,
+    "font_name": "Helvetica",
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 0,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 0
   },
   "spaandroidtablet": {
-    "font_name": "Helvetica"
+    "background_image": "mobilepay2x.png",
+    "bg_type": "image",
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 0,
+    "font_name": "Helvetica",
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 0,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 0
   },
   "spaip": {
-    "font_name": "Helvetica"
+    "background_image": "mobilepay2x.png",
+    "bg_type": "image",
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 0,
+    "font_name": "Helvetica",
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 0,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 0
   },
   "spaipad": {
-    "font_name": "Helvetica"
+    "background_image": "mobilepay2x.png",
+    "bg_type": "image",
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 0,
+    "font_name": "Helvetica",
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 0,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 0
   },
   "spawindowstablet": {
-    "font_name": "Helvetica"
+    "background_image": "mobilepay2x.png",
+    "bg_type": "image",
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 0,
+    "font_name": "Helvetica",
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 0,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 0
   },
   "spawinphone8": {
-    "font_name": "Helvetica"
+    "background_image": "mobilepay2x.png",
+    "bg_type": "image",
+    "bottom_left_border_color": "ffffffff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "ffffffff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 0,
+    "font_name": "Helvetica",
+    "isForked": true,
+    "top_left_border_color": "ffffffff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 0,
+    "top_right_border_color": "ffffffff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 0
   },
   "tabrcandroid": {
-    "font_name": "default"
+    "background_image": "mobilepay2x.png",
+    "bg_type": "image",
+    "font_name": "default",
+    "isForked": true
   },
   "wType": "Button",
   "watchos": {
-    "font_name": "System"
+    "background_image": "mobilepay2x.png",
+    "bg_type": "image",
+    "font_name": "System",
+    "isForked": true
   },
   "windows8": {
-    "font_name": "None"
+    "background_image": "mobilepay2x.png",
+    "bg_type": "image",
+    "font_name": "None",
+    "isForked": true
   },
   "winphone8": {
-    "font_name": "None"
+    "background_image": "mobilepay2x.png",
+    "bg_type": "image",
+    "font_name": "None",
+    "isForked": true
   }
 }

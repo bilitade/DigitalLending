@@ -1,17 +1,59 @@
 {
     "Forms": {
         "mobile": {
+            "frmCreditScore": {
+                "Controller": "Dashboard/frmCreditScoreController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "Dashboard/frmCreditScore"
+            },
+            "frmPayments": {
+                "Controller": "Dashboard/frmPaymentsController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "Dashboard/frmPayments"
+            },
             "frmaccountOverview": {
                 "Controller": "Dashboard/frmaccountOverviewController",
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
                 "FormName": "Dashboard/frmaccountOverview"
             },
-            "frmPayments": {
+            "frmOffer": {
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
-                "Controller": "Dashboard/frmPaymentsController",
-                "FormName": "Dashboard/frmPayments"
+                "Controller": "Dashboard/frmOfferController",
+                "FormName": "Dashboard/frmOffer"
+            },
+            "frmSetting": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "Dashboard/frmSettingController",
+                "FormName": "Dashboard/frmSetting"
+            },
+            "frmMakePayment": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "Dashboard/frmMakePaymentController",
+                "FormName": "Dashboard/frmMakePayment"
+            },
+            "frmPaymentMethod": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "Dashboard/frmPaymentMethodController",
+                "FormName": "Dashboard/frmPaymentMethod"
+            },
+            "frmMngSchedulePay": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "Dashboard/frmMngSchedulePayController",
+                "FormName": "Dashboard/frmMngSchedulePay"
+            },
+            "frmAccountHistory": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "Dashboard/frmAccountHistoryController",
+                "FormName": "Dashboard/frmAccountHistory"
             }
         }
     },

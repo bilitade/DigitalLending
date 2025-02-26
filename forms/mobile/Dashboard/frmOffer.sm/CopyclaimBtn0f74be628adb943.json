@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "42dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s807b7dac6c34105b19ab3acfcf10fee",
+    "_text_": "Apply now",
+    "_top_": {
+        "type": "string",
+        "value": "73.43%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "52.24%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sca87a5dee9e41f69dddab89a0c060c4",
+    "id": "CopyclaimBtn0f74be628adb943",
+    "ide_onClick": "AS_Button_e3872760ee2941b78ec31245602f53b6",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "adab6ec7de7845acbac5617e4fc01e1e",
+    "name": "kony.ui.Button",
+    "parent": "labelContainer",
+    "pf": "frmOffer",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

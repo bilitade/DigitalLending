@@ -36,11 +36,25 @@
         "parent": "w2adce34d90f44fd812059dbeea94a92",
         "type": "F"
     },
+    "w12bfee2c95c422d99eebb4150c23aba": {
+        "extension": "js",
+        "kuid": "w12bfee2c95c422d99eebb4150c23aba",
+        "name": "chartist.js",
+        "parent": "wa1f037679d04f50bc5e984aa17aab77",
+        "type": "F"
+    },
     "w16f3d9214ca4668a085cf54d87a4fd4": {
         "extension": "js",
         "kuid": "w16f3d9214ca4668a085cf54d87a4fd4",
         "name": "donut_chartist.js",
         "parent": "w6faa469f8fd43df9e0a6fa39eaaf8ec",
+        "type": "F"
+    },
+    "w18337e3e68142a28f288dc2bb2e267a": {
+        "extension": "css",
+        "kuid": "w18337e3e68142a28f288dc2bb2e267a",
+        "name": "chartitst.css",
+        "parent": "wa1f037679d04f50bc5e984aa17aab77",
         "type": "F"
     },
     "w261962fa9024f72bb8373ba2a269725": {
@@ -91,11 +105,19 @@
             "w0b70931285a47189dfa19b8fd474711",
             "w6faa469f8fd43df9e0a6fa39eaaf8ec",
             "w4e03c89851d424abc8b8792cf2c7b51",
-            "w2adce34d90f44fd812059dbeea94a92"
+            "w2adce34d90f44fd812059dbeea94a92",
+            "wa1f037679d04f50bc5e984aa17aab77"
         ],
         "kuid": "w40a479ddc7f4e30ae84d31d6482507f",
         "name": "localfiles",
         "type": "L"
+    },
+    "w44803d481a546d8964a9d1395743cae": {
+        "extension": "js",
+        "kuid": "w44803d481a546d8964a9d1395743cae",
+        "name": "halfDonutUp.js",
+        "parent": "wa1f037679d04f50bc5e984aa17aab77",
+        "type": "F"
     },
     "w4557d27580f4fc2bbefdd6a58449975": {
         "extension": "js",
@@ -133,6 +155,13 @@
         "parent": "w2adce34d90f44fd812059dbeea94a92",
         "type": "F"
     },
+    "w5fd0d4d1c7a4761959d71f9881f7eef": {
+        "extension": "html",
+        "kuid": "w5fd0d4d1c7a4761959d71f9881f7eef",
+        "name": "halfDonutUp.html",
+        "parent": "wa1f037679d04f50bc5e984aa17aab77",
+        "type": "F"
+    },
     "w633d7d29e5e46918ce9df6822648395": {
         "extension": "html",
         "kuid": "w633d7d29e5e46918ce9df6822648395",
@@ -145,6 +174,13 @@
         "kuid": "w67c2aa011e74284b13e8fcf8451810a",
         "name": "chartistlegend.js",
         "parent": "w6faa469f8fd43df9e0a6fa39eaaf8ec",
+        "type": "F"
+    },
+    "w6c96615effe4340a5898cb133c71a17": {
+        "extension": "js",
+        "kuid": "w6c96615effe4340a5898cb133c71a17",
+        "name": "chartistlegend.js",
+        "parent": "wa1f037679d04f50bc5e984aa17aab77",
         "type": "F"
     },
     "w6f42d6adf78491988b0a05c02bfd0da": {
@@ -190,11 +226,33 @@
         "parent": "w6faa469f8fd43df9e0a6fa39eaaf8ec",
         "type": "F"
     },
+    "wa1f037679d04f50bc5e984aa17aab77": {
+        "children": [
+            "wd29e1f3dccb49ad9c255aab3623f2dc",
+            "w12bfee2c95c422d99eebb4150c23aba",
+            "w6c96615effe4340a5898cb133c71a17",
+            "w18337e3e68142a28f288dc2bb2e267a",
+            "w5fd0d4d1c7a4761959d71f9881f7eef",
+            "w44803d481a546d8964a9d1395743cae",
+            "wad3353eb5b3427eb6018557dfb25448"
+        ],
+        "kuid": "wa1f037679d04f50bc5e984aa17aab77",
+        "name": "Chart_halfDonutUp",
+        "parent": "w40a479ddc7f4e30ae84d31d6482507f",
+        "type": "D"
+    },
     "waa30c429e3b4a4b848d0de0dab7c940": {
         "extension": "js",
         "kuid": "waa30c429e3b4a4b848d0de0dab7c940",
         "name": "LIC.js",
         "parent": "w0b70931285a47189dfa19b8fd474711",
+        "type": "F"
+    },
+    "wad3353eb5b3427eb6018557dfb25448": {
+        "extension": "js",
+        "kuid": "wad3353eb5b3427eb6018557dfb25448",
+        "name": "LIC.js",
+        "parent": "wa1f037679d04f50bc5e984aa17aab77",
         "type": "F"
     },
     "wb2022c5a8a1471f89a57119ad9144d2": {
@@ -230,6 +288,13 @@
         "kuid": "wca685705f0d445caeee00495c642e13",
         "name": "chartist.js",
         "parent": "w0b70931285a47189dfa19b8fd474711",
+        "type": "F"
+    },
+    "wd29e1f3dccb49ad9c255aab3623f2dc": {
+        "extension": "js",
+        "kuid": "wd29e1f3dccb49ad9c255aab3623f2dc",
+        "name": "chartist-plugin-axistitle.js",
+        "parent": "wa1f037679d04f50bc5e984aa17aab77",
         "type": "F"
     },
     "wd477fddbbcd4825b31e26cc986b0df8": {
