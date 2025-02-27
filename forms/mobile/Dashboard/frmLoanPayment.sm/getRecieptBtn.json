@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "41dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s807b7dac6c34105b19ab3acfcf10fee",
+    "_text_": "Get Reciept",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.04%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sff9348e0d6f4672b3899b1a9280733f",
+    "id": "getRecieptBtn",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "df794429b5814a2381db33d1588c516d",
+    "name": "kony.ui.Button",
+    "parent": "row5",
+    "pf": "frmLoanPayment",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

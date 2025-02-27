@@ -54,6 +54,12 @@
                 "FormController": "kony.mvc.MDAFormController",
                 "Controller": "Dashboard/frmAccountHistoryController",
                 "FormName": "Dashboard/frmAccountHistory"
+            },
+            "frmLoanPayment": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "Dashboard/frmLoanPaymentController",
+                "FormName": "Dashboard/frmLoanPayment"
             }
         }
     },

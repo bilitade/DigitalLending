@@ -1,0 +1,80 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "32.34%"
+    },
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5801f4bba5b4e7385c963703683f14b",
+    "_text_": "Ref: TXN123456",
+    "_top_": {
+        "type": "string",
+        "value": "42%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "25.78%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "maxNumberOfLines": 3,
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        },
+        "textTruncatePosition": 0
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "txnref",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "maxNumberOfLines": 3,
+        "psp": {
+            "wrapping": 2
+        },
+        "textTruncatePosition": 0
+    },
+    "isvisible": true,
+    "kuid": "b5954539dd994e98b3b80acfb8c3ba8a",
+    "maxnumberoflines": 3,
+    "maxwidth": {
+        "type": "string",
+        "value": "70%"
+    },
+    "name": "kony.ui.Label",
+    "parent": "txnContainer",
+    "pf": "txnRow",
+    "textstyle": {},
+    "texttruncateposition": 0,
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

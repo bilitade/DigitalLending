@@ -42,7 +42,9 @@
         "type": "string",
         "value": "50%"
     },
-    "children": [],
+    "children": [
+        "Segment0a812787b925e42"
+    ],
     "clipbounds": false,
     "containerweight": 100,
     "enablescrolling": true,

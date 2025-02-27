@@ -1,0 +1,144 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "65.85%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "338dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s2d74824ef66412f96a0951ed0855af2",
+    "_top_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "9.27%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "notification": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "gb4bbb88e2c448d0a3e0d8bb82fbc991",
+                "srcKUID": "f6fe6f1418f549bdbd9ba1725ddb2359",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "65.85%"
+                }
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "338dp"
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "15dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "9.27%"
+                }
+            }
+        },
+        "notificationBellBtn": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gac8606b78064a1cb58c539559e59daf",
+                "srcKUID": "g862756c286f4977a404f181e7c4f373",
+                "wType": "Button"
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": "50%"
+                }
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "-10.10%"
+                }
+            },
+            "text": "",
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "notification",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "gb4bbb88e2c448d0a3e0d8bb82fbc991",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "headerBarContainer",
+    "pf": "frmLoanPayment",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "f6fe6f1418f549bdbd9ba1725ddb2359",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}
