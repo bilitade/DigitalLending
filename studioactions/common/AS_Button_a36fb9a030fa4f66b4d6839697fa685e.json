@@ -1,0 +1,27 @@
+{
+    "AS_Button_a36fb9a030fa4f66b4d6839697fa685e": {
+        "id": "AS_Button_a36fb9a030fa4f66b4d6839697fa685e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u2c762d9dcd24a5595b5b86c1e2a2fdf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ffdb9c323c32475c96041798b16598b0",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "payNavButtonClicked",
+            "display": "payNavButtonClicked",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -5,49 +5,57 @@
                 "Controller": "Dashboard/frmCreditScoreController",
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
-                "FormName": "Dashboard/frmCreditScore"
+                "FormName": "Dashboard/frmCreditScore",
+                "friendlyName": "frmCreditScore"
             },
             "frmPayments": {
                 "Controller": "Dashboard/frmPaymentsController",
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
-                "FormName": "Dashboard/frmPayments"
+                "FormName": "Dashboard/frmPayments",
+                "friendlyName": "frmPayments"
             },
             "frmaccountOverview": {
                 "Controller": "Dashboard/frmaccountOverviewController",
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
-                "FormName": "Dashboard/frmaccountOverview"
+                "FormName": "Dashboard/frmaccountOverview",
+                "friendlyName": "frmaccountOverview"
             },
             "frmOffer": {
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
                 "Controller": "Dashboard/frmOfferController",
-                "FormName": "Dashboard/frmOffer"
+                "FormName": "Dashboard/frmOffer",
+                "friendlyName": "frmOffer"
             },
             "frmSetting": {
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
                 "Controller": "Dashboard/frmSettingController",
-                "FormName": "Dashboard/frmSetting"
+                "FormName": "Dashboard/frmSetting",
+                "friendlyName": "frmSetting"
             },
             "frmMakePayment": {
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
                 "Controller": "Dashboard/frmMakePaymentController",
-                "FormName": "Dashboard/frmMakePayment"
+                "FormName": "Dashboard/frmMakePayment",
+                "friendlyName": "frmMakePayment"
             },
             "frmPaymentMethod": {
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
                 "Controller": "Dashboard/frmPaymentMethodController",
-                "FormName": "Dashboard/frmPaymentMethod"
+                "FormName": "Dashboard/frmPaymentMethod",
+                "friendlyName": "frmPaymentMethod"
             },
             "frmMngSchedulePay": {
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
                 "Controller": "Dashboard/frmMngSchedulePayController",
-                "FormName": "Dashboard/frmMngSchedulePay"
+                "FormName": "Dashboard/frmMngSchedulePay",
+                "friendlyName": "frmMngSchedulePay"
             },
             "frmAccountHistory": {
                 "ControllerExtensions": [],
@@ -59,7 +67,8 @@
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
                 "Controller": "Dashboard/frmLoanPaymentController",
-                "FormName": "Dashboard/frmLoanPayment"
+                "FormName": "Dashboard/frmLoanPayment",
+                "friendlyName": "frmLoanPayment"
             }
         }
     },

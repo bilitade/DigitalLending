@@ -386,6 +386,14 @@
     "keyStoreFilePath": "",
     "keyStoreFilePathandwear": "",
     "keyStorePassword": "",
+    "kfAppInfo": {
+        "89fc22e6-b53d-4068-a6eb-936b4973f8a9": {
+            "appName": "DigitalLending",
+            "baseId": "343076f6-32c4-4a88-9ee6-78dffa3f68db",
+            "id": "343076f6-32c4-4a88-9ee6-78dffa3f68db",
+            "version": "1.0"
+        }
+    },
     "konyVizVersion": "9.7.46",
     "lastmodifiedtime": "1740061775628",
     "location": "false",
@@ -700,7 +708,7 @@
     "spawindows480basefontsize": "12",
     "spawindowstabbasefontsize": "17",
     "splashlogokey": "",
-    "startupformkey": "h0044684ff4546149c6e551af54355db",
+    "startupformkey": "d71619c76ea64fb6b3a752e89f75485d",
     "statusBarHidden": "false",
     "statusBarStyle": "STATUS_BAR_STYLE_DEFAULT",
     "support32bit": "false",

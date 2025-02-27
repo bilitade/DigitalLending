@@ -41,6 +41,7 @@
     "displaytext": true,
     "focusskin": "sca87a5dee9e41f69dddab89a0c060c4",
     "id": "viewdDetailBtn",
+    "ide_onClick": "AS_Button_i906e6c2b07d4ca38060727a3ea0d18c",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

@@ -1,0 +1,27 @@
+{
+    "AS_Button_a56212a5bacc4b7d8f2631889de45f0f": {
+        "id": "AS_Button_a56212a5bacc4b7d8f2631889de45f0f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u2c762d9dcd24a5595b5b86c1e2a2fdf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__f57947def27943a8841d676ab616c503",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "scoreNavButtonClicked",
+            "display": "scoreNavButtonClicked",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "64.66%"
+        "value": "63.70%"
     },
     "_left_": {
         "type": "string",
@@ -36,7 +36,7 @@
     "canUpdateUI": true,
     "centery": {
         "type": "string",
-        "value": "56.51%"
+        "value": "55.08%"
     },
     "children": [
         "donutchart",

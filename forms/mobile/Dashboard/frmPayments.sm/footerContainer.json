@@ -6,7 +6,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "-1dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -25,7 +25,7 @@
     "_skin_": "s2d74824ef66412f96a0951ed0855af2",
     "_top_": {
         "type": "string",
-        "value": "91.00%"
+        "value": "89.95%"
     },
     "_width_": {
         "type": "string",
@@ -44,7 +44,7 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c7de2acc5bb44d909701aab6a60060e3",
+    "kuid": "e81f1f2a956246d8b4bacd4877165219",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "frmPayments",

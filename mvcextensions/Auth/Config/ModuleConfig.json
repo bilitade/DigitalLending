@@ -1,0 +1,20 @@
+{
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationExtensions": [],
+            "PresentationControllerClass": "Auth/PresentationControllers/PresentationController"
+        }
+    },
+    "Forms": {
+        "mobile": {
+            "frmLogin": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "Auth/frmLoginController",
+                "FormName": "Auth/frmLogin"
+            }
+        }
+    },
+    "ModuleType": "UIModule",
+    "ModuleName": "Auth"
+}

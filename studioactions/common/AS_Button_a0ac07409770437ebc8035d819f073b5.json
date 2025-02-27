@@ -1,0 +1,27 @@
+{
+    "AS_Button_a0ac07409770437ebc8035d819f073b5": {
+        "id": "AS_Button_a0ac07409770437ebc8035d819f073b5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u2c762d9dcd24a5595b5b86c1e2a2fdf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__bd9e544867cd4c239993b917c4cc3441",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "homeNavButtonClicked",
+            "display": "homeNavButtonClicked",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

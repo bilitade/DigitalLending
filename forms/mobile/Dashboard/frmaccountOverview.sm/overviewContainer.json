@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "108dp"
+        "value": "96dp"
     },
     "_margin_": [
         0,
@@ -32,7 +32,7 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "49.96%"
+        "value": "50.06%"
     },
     "children": [
         "greetingLabel",

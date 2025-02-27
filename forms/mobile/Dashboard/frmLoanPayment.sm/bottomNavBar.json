@@ -4,7 +4,7 @@
     "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "90.91%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -43,7 +43,7 @@
             "__events__": {},
             "__info__": {
                 "isRoot": true,
-                "kuid": "hf7bd1b6b94a4f60bb50d88b5b19d932",
+                "kuid": "d4ed99c4792d4a74a724b947dca7cb81",
                 "srcKUID": "f204b43281224f8f8eaf432a9a43e307",
                 "wType": "FlexContainer"
             },
@@ -53,30 +53,30 @@
             "height": {
                 "Default": {
                     "type": "string",
-                    "value": "90.91%"
+                    "value": "100%"
                 }
+            }
+        },
+        "dashboardNavBtn": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a11790c85a4c41ca8d2af6b91662b189",
+                "srcKUID": "d67cb737fa59453ab2a7a214bd64eef7",
+                "wType": "Button"
             }
         },
         "home": {
             "__events__": {},
             "__info__": {
-                "kuid": "b0a5980269c646d5841428e045d29006",
+                "kuid": "feba286af7ff4fef95db63e80c1c8c8e",
                 "srcKUID": "e969520425534bba835ca8d1930d3dc4",
                 "wType": "FlexContainer"
-            }
-        },
-        "homeNavBtn": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "g494ec5e95414ae88b3e104abd7a969e",
-                "srcKUID": "d67cb737fa59453ab2a7a214bd64eef7",
-                "wType": "Button"
             }
         },
         "homeNavLabel": {
             "__events__": {},
             "__info__": {
-                "kuid": "g3aeebff329a4e1ea82fe11981b4931f",
+                "kuid": "a2b26cf6d92e47fd9852ef0a9d99fb8f",
                 "srcKUID": "jbd9cdb834a6413f9667643bf03c2a74",
                 "wType": "Label"
             }
@@ -84,7 +84,7 @@
         "navOfferBtn": {
             "__events__": {},
             "__info__": {
-                "kuid": "a8f30ddc45ea410d9440f5865491d272",
+                "kuid": "cbb716a5b58244a5adaa8db8daae3bdd",
                 "srcKUID": "a0a3334ccefb49f5959650a664e39a57",
                 "wType": "Button"
             }
@@ -92,7 +92,7 @@
         "navOfferLabel": {
             "__events__": {},
             "__info__": {
-                "kuid": "c927499dbef443ab97b77e989ac3706b",
+                "kuid": "c2a9833ee4c04a6bb9126acf71b6a6fb",
                 "srcKUID": "hfccc79303394d30b8e0e368dac8b13b",
                 "wType": "Label"
             }
@@ -100,7 +100,7 @@
         "navScoreBtn": {
             "__events__": {},
             "__info__": {
-                "kuid": "ed4ebe2a584e4d6f9a1f120adac3ffd9",
+                "kuid": "j9b4ce5451ec4ad684c11fb99b5f69f9",
                 "srcKUID": "jeaf7753fd5045d787d6c6d258dd02e8",
                 "wType": "Button"
             }
@@ -108,7 +108,7 @@
         "navScoreLabel": {
             "__events__": {},
             "__info__": {
-                "kuid": "g0263320ecf4429ea80e5d7f462e99cc",
+                "kuid": "i6b2a19ed4744ddeb44d95c5ae2ca097",
                 "srcKUID": "a6532ea270154e22bd89dcc3c0f2b4df",
                 "wType": "Label"
             }
@@ -116,7 +116,7 @@
         "navSettingsBtn": {
             "__events__": {},
             "__info__": {
-                "kuid": "bfb78d8013b54fc0a9b3d546375ad22c",
+                "kuid": "ea26f2bad9c5453f95861e8392a40ac6",
                 "srcKUID": "b31557054b714085944b4e000a49ab4c",
                 "wType": "Button"
             }
@@ -124,7 +124,7 @@
         "navSettingsLabel": {
             "__events__": {},
             "__info__": {
-                "kuid": "i1163959b1644ed5a00a67d8b7852062",
+                "kuid": "f1ebc5fa7a594b498bad58b02154cdc7",
                 "srcKUID": "c4b808bf3b0642158aa4b7f96a46f177",
                 "wType": "Label"
             }
@@ -132,7 +132,7 @@
         "navbtnContainer": {
             "__events__": {},
             "__info__": {
-                "kuid": "fa6ac884aa9c44188dbae520e8129026",
+                "kuid": "d83763a5ce114725b9a493d8dde56a67",
                 "srcKUID": "fca33103b15c471c99d4c3f756a43022",
                 "wType": "FlexContainer"
             }
@@ -140,7 +140,7 @@
         "navpaymentsBtn": {
             "__events__": {},
             "__info__": {
-                "kuid": "ae97a741dbc54b3db1b371253a3ad477",
+                "kuid": "j1f38b32818a4aa2ad1ca88b1d5a4081",
                 "srcKUID": "ccf4e6d849844d4f81757cedd1c67651",
                 "wType": "Button"
             }
@@ -148,7 +148,7 @@
         "navpaymentsLabel": {
             "__events__": {},
             "__info__": {
-                "kuid": "eb71a06993da4b11bb1a3d01843ff102",
+                "kuid": "d7c6053127d748ecb5c2d0aec960f943",
                 "srcKUID": "d414facb35614c1bb6358d4e36cfacc8",
                 "wType": "Label"
             }
@@ -156,7 +156,7 @@
         "offers": {
             "__events__": {},
             "__info__": {
-                "kuid": "c6c06688fd5a4fbbb8db6ac154da92bb",
+                "kuid": "f200f4d49c514defb79dca7eb5ff5d57",
                 "srcKUID": "b6c58d53ed30421b838135002d948c5d",
                 "wType": "FlexContainer"
             }
@@ -164,7 +164,7 @@
         "payments": {
             "__events__": {},
             "__info__": {
-                "kuid": "ccc1e16494884d20829813cc7de1252b",
+                "kuid": "h743d5ff03084362afb4597d75641615",
                 "srcKUID": "aaca5dcb15df470798b9476d588b8c0f",
                 "wType": "FlexContainer"
             }
@@ -172,7 +172,7 @@
         "score": {
             "__events__": {},
             "__info__": {
-                "kuid": "f96623c1ed984e86bd8363b29bd5e2aa",
+                "kuid": "e78164b31c5b4288959a8a3ef50be7e5",
                 "srcKUID": "gd03285531a84168bbacf3633f85ad8f",
                 "wType": "FlexContainer"
             }
@@ -180,7 +180,7 @@
         "settings": {
             "__events__": {},
             "__info__": {
-                "kuid": "b2e4f16e4f1a4c47a93424ab684492ba",
+                "kuid": "f9f05cce66f2445bb1b964cdea8b692e",
                 "srcKUID": "g0f30499240b4a458455f54409f6fd6e",
                 "wType": "FlexContainer"
             }
@@ -192,7 +192,7 @@
     "iscustomlayout": false,
     "isdatareferenced": false,
     "isvisible": true,
-    "kuid": "hf7bd1b6b94a4f60bb50d88b5b19d932",
+    "kuid": "d4ed99c4792d4a74a724b947dca7cb81",
     "layouttype": 2,
     "masterType": 0,
     "name": "kony.ui.UserWidgetInstance",

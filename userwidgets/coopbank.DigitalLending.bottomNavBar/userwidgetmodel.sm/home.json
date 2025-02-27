@@ -35,7 +35,7 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "homeNavBtn",
+        "dashboardNavBtn",
         "homeNavLabel"
     ],
     "clipbounds": false,

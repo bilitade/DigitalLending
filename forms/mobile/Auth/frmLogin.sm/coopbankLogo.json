@@ -1,19 +1,20 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
+    "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "40dp"
+        "value": "192dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "110dp"
     },
     "_margin_": [
-        6,
-        6,
-        6,
-        6
+        0,
+        0,
+        0,
+        0
     ],
     "_padding_": [
         0,
@@ -21,34 +22,34 @@
         0,
         0
     ],
-    "_skin_": "sa2ada69e00e485ba034c95bac372909",
-    "_text_": "",
+    "_skin_": "sddb4137ca854d64ba2f2eb3a93da57b",
+    "_src_": "cooplogosquare2x.png",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "40dp"
+        "value": "185dp"
     },
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50.00%"
+        "value": "50%"
     },
     "containerweight": 100,
-    "contentalignment": 5,
-    "displaytext": true,
-    "focusskin": "sff9348e0d6f4672b3899b1a9280733f",
-    "id": "homeNavBtn",
+    "id": "coopbankLogo",
+    "imagescalemode": 1,
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "d67cb737fa59453ab2a7a214bd64eef7",
-    "name": "kony.ui.Button",
-    "parent": "home",
-    "pf": "userwidgetmodel",
+    "kuid": "e07bf07c19184ba081dea70802a94c91",
+    "name": "kony.ui.Image2",
+    "parent": "headerContainer",
+    "pf": "frmLogin",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "wType": "Button"
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5
 }

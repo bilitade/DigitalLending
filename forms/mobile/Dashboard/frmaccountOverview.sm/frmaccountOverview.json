@@ -18,8 +18,8 @@
     "_pxMenuIndex": [
         0,
         1,
-        0,
-        0
+        1,
+        1
     ],
     "_skin_": "s99cec21368a42019ae0e5f5a4ae663f",
     "_title_": null,
@@ -57,6 +57,7 @@
     "device": "Pixel3",
     "displayorientation": 1,
     "enabledforidletimeout": false,
+    "friendlyName": "frmaccountOverview",
     "id": "frmaccountOverview",
     "info": null,
     "initdone": false,

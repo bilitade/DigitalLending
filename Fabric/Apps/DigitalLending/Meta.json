@@ -1,0 +1,11 @@
+{
+  "subType" : "customapp",
+  "description" : "DigitalLending",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "DigitalLending",
+    "version" : "1.0",
+    "etag" : "9e881b2d-a8ae-4441-8389-182c963bde1f"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

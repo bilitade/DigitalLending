@@ -1,6 +1,10 @@
 define({ 
 
-
+ onNavigate:function(params){
+   
+   params.username
+   
+ }
   
   onContinueButtonClicked: function(){
     
