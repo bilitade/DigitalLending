@@ -35,13 +35,13 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "kebeleTextLabel",
-        "kebeleFieldLabel"
+        "woredaTextLabel",
+        "woredaFieldLabel"
     ],
     "clipbounds": false,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "kebele",
+    "id": "woreda",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

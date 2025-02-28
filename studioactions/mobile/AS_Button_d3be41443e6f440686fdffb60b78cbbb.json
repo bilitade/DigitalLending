@@ -1,0 +1,29 @@
+{
+    "AS_Button_d3be41443e6f440686fdffb60b78cbbb": {
+        "id": "AS_Button_d3be41443e6f440686fdffb60b78cbbb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPayments",
+            "type": "forms",
+            "platform": "",
+            "KUID": "cfe059479dfb404e9c7931008eaebb85"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__he0607020b9847dda184edb92a7bbfea",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmAccountHistory",
+            "formKUID": "h0044684ff4546149c6e551af54355db",
+            "projectName": "DigitalLending",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "Dashboard",
+            "isCustomInput": false
+        }]
+    }
+}

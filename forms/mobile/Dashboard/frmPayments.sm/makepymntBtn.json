@@ -41,6 +41,7 @@
     "displaytext": true,
     "focusskin": "sff9348e0d6f4672b3899b1a9280733f",
     "id": "makepymntBtn",
+    "ide_onClick": "AS_Button_j006ed2b6b8241f89fd08f52cbbb7f55",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

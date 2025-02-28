@@ -21,15 +21,15 @@
         0,
         0
     ],
-    "_skin_": "s1ded6ae497e4f7f9a5ad5e5a93458f2",
-    "_text_": "Bulbula",
+    "_skin_": "s0cc284acf3d446db581307d7567d91d",
+    "_text_": "Woreda",
     "_top_": {
         "type": "string",
-        "value": "0"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
-        "value": "70%"
+        "value": "30%"
     },
     "_wrapping_": 2,
     "android": {
@@ -41,7 +41,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
-    "id": "kebeleFieldLabel",
+    "id": "woredaTextLabel",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,9 +55,9 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "aab893b2c22a4ba4b285b0b9507f3bc9",
+    "kuid": "ea10a9c9b14c465db7ed409a4f8fcdb1",
     "name": "kony.ui.Label",
-    "parent": "kebele",
+    "parent": "woreda",
     "pf": "frmLoanForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

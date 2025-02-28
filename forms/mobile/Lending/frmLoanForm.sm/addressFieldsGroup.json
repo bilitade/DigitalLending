@@ -37,7 +37,7 @@
     "children": [
         "city",
         "subcity",
-        "kebele"
+        "woreda"
     ],
     "clipbounds": false,
     "containerweight": 100,

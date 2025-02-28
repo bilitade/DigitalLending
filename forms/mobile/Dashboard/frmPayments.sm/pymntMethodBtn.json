@@ -41,6 +41,7 @@
     "displaytext": true,
     "focusskin": "sff9348e0d6f4672b3899b1a9280733f",
     "id": "pymntMethodBtn",
+    "ide_onClick": "AS_Button_b338ff6bec65430bb7301f0bc584cc2a",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
