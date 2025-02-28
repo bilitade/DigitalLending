@@ -1,0 +1,28 @@
+{
+    "AS_Form_af7c5746c39144158649fd88d63d6c51": {
+        "id": "AS_Form_af7c5746c39144158649fd88d63d6c51",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoanForm",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ee19b801b00b445e9729c950481d73c0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ca5b5156082140e3a24253be700b2d9c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onFormPreShow",
+            "display": "onFormPreShow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "AS_Button_de2f66a858fe4709bbde6604e1f3cc50": {
+        "id": "AS_Button_de2f66a858fe4709bbde6604e1f3cc50",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPayments",
+            "type": "forms",
+            "platform": "",
+            "KUID": "cfe059479dfb404e9c7931008eaebb85"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__f267d32e37984d8093cefcb5af5bd8ce",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmMngSchedulePay",
+            "friendlyName": "frmMngSchedulePay",
+            "formKUID": "f5ace006e8a24c5aa94512ac916f31c7",
+            "projectName": "DigitalLending",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "Dashboard",
+            "isCustomInput": false
+        }]
+    }
+}

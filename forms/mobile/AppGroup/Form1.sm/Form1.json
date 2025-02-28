@@ -15,13 +15,7 @@
         0
     ],
     "_percent_": true,
-    "_pxMenuIndex": [
-        0,
-        1,
-        1,
-        2
-    ],
-    "_skin_": "s99cec21368a42019ae0e5f5a4ae663f",
+    "_skin_": "s5dea3e61d074b13a7aa36dab31bef80",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -38,28 +32,20 @@
         }
     },
     "canUpdateUI": true,
-    "children": [
-        "headerContainer",
-        "mainContainer",
-        "footerContainer"
-    ],
+    "children": [],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "frmLoanFormController"
+            "name": "Form1Controller"
         }
     },
-    "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "Pixel3",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "friendlyName": "frmLoanForm",
-    "id": "frmLoanForm",
-    "ide_preShow": "AS_Form_af7c5746c39144158649fd88d63d6c51",
+    "id": "Form1",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -77,7 +63,7 @@
             "titleBarAttributes": {
                 "barStyle": 0,
                 "hidesBackButton": false,
-                "kuid": "c143193082aa4277a71a31a3992c6b1e",
+                "kuid": "b043602c4be047ec8e599099655673b7",
                 "leftBarButtonItems": [],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
@@ -88,7 +74,7 @@
                         "info": {
                             "title": "Edit"
                         },
-                        "kuid": "fc4d6fe9878a4baba8c3932eeade9589",
+                        "kuid": "f63a3aa631ba4e418369e74f5241e910",
                         "style": 0,
                         "tintColor": "4b88f100",
                         "type": 1
@@ -105,14 +91,11 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "ee19b801b00b445e9729c950481d73c0",
+    "kuid": "jc1a1013c2e64e94891b9678b5efcf2a",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
-    "platform": "android",
-    "prevDevice": "Pixel3",
-    "prevPlatform": "spaan",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
@@ -136,7 +119,7 @@
     "spawinphone8": {
         "needAppMenu": false
     },
-    "titleBarSkin": "s11a6fabfe88437bac198c3cadac83a5",
+    "titleBarSkin": "s8ae2a681e884880a4c7ccd2ad751c84",
     "titlebar": true,
     "type": 3,
     "wType": "Form",
