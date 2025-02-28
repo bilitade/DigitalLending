@@ -5,6 +5,10 @@
         "type": "ref",
         "value": "preferred"
     },
+    "_left_": {
+        "type": "string",
+        "value": "76dp"
+    },
     "_margin_": [
         1,
         1,
@@ -17,11 +21,11 @@
         0,
         0
     ],
-    "_skin_": "sd261503aa0d4c4186ed841d6332ca8b",
-    "_text_": "Payed Due",
+    "_skin_": "sd9abb235562413fb69aca434eaa2054",
+    "_text_": "Lina",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "415dp"
     },
     "_width_": {
         "type": "ref",
@@ -35,13 +39,9 @@
         }
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50.01%"
-    },
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "paymentsLabel",
+    "id": "OfferUserLabel",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i55ea5fcf55f4e5a917d27c2a2ff2f6c",
+    "kuid": "c6d046328b634078a55514358786b44d",
     "name": "kony.ui.Label",
-    "parent": "headerLabel",
-    "pf": "frmLoanPayment",
+    "parent": "frmOffer",
+    "pf": "frmOffer",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

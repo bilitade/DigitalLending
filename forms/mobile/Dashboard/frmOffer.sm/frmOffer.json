@@ -18,8 +18,8 @@
     "_pxMenuIndex": [
         0,
         1,
-        0,
-        5
+        1,
+        6
     ],
     "_skin_": "s99cec21368a42019ae0e5f5a4ae663f",
     "_title_": null,
@@ -41,11 +41,12 @@
     "children": [
         "headerContainer",
         "adsImage",
-        "Label0c050fd0bb51a43",
-        "Label0b65682dd7d2c46",
-        "Label0a3b2cc51f6054a",
-        "claimBtn",
-        "Label0f1fe9afc098846",
+        "offerRecommendLabel",
+        "dearLabel",
+        "OfferUserLabel",
+        "offerMessageLabel",
+        "offerAcceptNow",
+        "offerExpireDate",
         "footerContainer"
     ],
     "containerweight": 100,

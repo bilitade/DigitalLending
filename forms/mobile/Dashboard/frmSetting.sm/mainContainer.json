@@ -40,12 +40,12 @@
     },
     "children": [
         "profilePlaceHolder",
-        "usernameLabel",
+        "profileUserrnameLabel",
         "signoutBtn",
         "profileSettingsBtn",
         "consentMngBtn",
         "referBtn",
-        "Label0a273e5b1860140",
+        "profileEmailLabel",
         "CopyLabel0a8aa1eccab3b46"
     ],
     "clipbounds": false,

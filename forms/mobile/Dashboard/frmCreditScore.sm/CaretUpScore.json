@@ -5,6 +5,10 @@
         "type": "ref",
         "value": "preferred"
     },
+    "_left_": {
+        "type": "string",
+        "value": "90dp"
+    },
     "_margin_": [
         1,
         1,
@@ -17,11 +21,11 @@
         0,
         0
     ],
-    "_skin_": "sd261503aa0d4c4186ed841d6332ca8b",
-    "_text_": "Payed Due",
+    "_skin_": "s8cdcc90e1ba42929bb919beacf32867",
+    "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "203dp"
     },
     "_width_": {
         "type": "ref",
@@ -35,13 +39,9 @@
         }
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50.01%"
-    },
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "paymentsLabel",
+    "id": "CaretUpScore",
     "info": null,
     "ipad": {
         "psp": {
@@ -53,15 +53,14 @@
             "wrapping": 2
         }
     },
-    "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i55ea5fcf55f4e5a917d27c2a2ff2f6c",
+    "kuid": "fb67bc77407c4250b1923a920cb44736",
+    "masterType": 1,
     "name": "kony.ui.Label",
-    "parent": "headerLabel",
-    "pf": "frmLoanPayment",
-    "retaincontentalignment": false,
-    "retainflexpositionproperties": false,
+    "parent": "mainContainer",
+    "pf": "frmCreditScore",
     "textstyle": {},
     "tooltip": "",
-    "wType": "Label"
+    "wType": "Label",
+    "zindex": 1
 }

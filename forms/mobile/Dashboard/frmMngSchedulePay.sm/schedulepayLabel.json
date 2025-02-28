@@ -5,6 +5,10 @@
         "type": "ref",
         "value": "preferred"
     },
+    "_left_": {
+        "type": "string",
+        "value": "38dp"
+    },
     "_margin_": [
         1,
         1,
@@ -17,11 +21,11 @@
         0,
         0
     ],
-    "_skin_": "sd261503aa0d4c4186ed841d6332ca8b",
-    "_text_": "Payed Due",
+    "_skin_": "sa2c95eedc164ba1b259da631c7f077e",
+    "_text_": "Schedule Pay",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "158dp"
     },
     "_width_": {
         "type": "ref",
@@ -35,13 +39,9 @@
         }
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50.01%"
-    },
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "paymentsLabel",
+    "id": "schedulepayLabel",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i55ea5fcf55f4e5a917d27c2a2ff2f6c",
+    "kuid": "hd0621f2f540485ab6f2f792f3c11973",
     "name": "kony.ui.Label",
-    "parent": "headerLabel",
-    "pf": "frmLoanPayment",
+    "parent": "FlexContainer0e91b2da2c9c048",
+    "pf": "frmMngSchedulePay",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

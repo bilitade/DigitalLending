@@ -43,9 +43,9 @@
         "value": "50%"
     },
     "children": [
-        "Label0b78c6d0c734642",
-        "Label0ae58228c73d440",
-        "Switch0e8f520bace8047"
+        "schedulepayDesc",
+        "schedulepayLabel",
+        "schedulePaySwitch"
     ],
     "clipbounds": false,
     "containerweight": 100,
