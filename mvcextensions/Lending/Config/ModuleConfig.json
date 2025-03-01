@@ -28,6 +28,31 @@
                 "FormController": "kony.mvc.MDAFormController",
                 "FormName": "Lending/frmLoanHome",
                 "friendlyName": "frmLoanHome"
+            },
+            "frmTermsCondition": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "Lending/frmTermsConditionController",
+                "FormName": "Lending/frmTermsCondition",
+                "friendlyName": "frmTermsCondition"
+            },
+            "frmPrivacyPolicy": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "Lending/frmPrivacyPolicyController",
+                "FormName": "Lending/frmPrivacyPolicy"
+            },
+            "frmContactUs": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "Lending/frmContactUsController",
+                "FormName": "Lending/frmContactUs"
+            },
+            "frmContract": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "Lending/frmContractController",
+                "FormName": "Lending/frmContract"
             }
         }
     },

@@ -33,7 +33,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "70%"
+        "value": "57.41%"
     },
     "allboxes": [],
     "autogrowmode": 0,
@@ -43,7 +43,8 @@
         "value": "50%"
     },
     "children": [
-        "signContract"
+        "signContract",
+        "Button0df4067f192ad4f"
     ],
     "clipbounds": false,
     "containerweight": 100,
@@ -53,7 +54,7 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "g4108ceaa7584f17a774091a354c2e5f",
-    "layouttype": 3,
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "mainContainer",
     "pf": "frmLoanCheck",

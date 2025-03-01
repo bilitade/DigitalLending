@@ -37,6 +37,7 @@
     "displaytext": true,
     "focusskin": "sff9348e0d6f4672b3899b1a9280733f",
     "id": "notificationBellBtn",
+    "ide_onClick": "AS_Button_j31a8514f45649aaa0557d679268fc21",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

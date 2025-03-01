@@ -1,0 +1,134 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "notificaitonmessage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Your Monthly Loan Payment Due is Today "
+            },
+            "notificationdate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Jan-05-2025"
+            }
+        },
+        {
+            "notificaitonmessage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "New App update on google play and apple Store , update now"
+            },
+            "notificationdate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Jan-04-2025"
+            }
+        },
+        {
+            "notificaitonmessage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Your are elligible for Personal Loan , Apply now "
+            },
+            "notificationdate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Jan-06-2025"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "469dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "23dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "notificationSegement",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i2c5119da0974e7b990304c7b863e263",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "mainContainer",
+    "pf": "frmNotification",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "eeb602cc5a53418789d0d0352e5971e3",
+    "rowcounter": 2,
+    "rowfocusskin": "s82faad8540c4dbaab96d1f2f73ed71f",
+    "rowskin": "s939256d701244d9aa7a8dc359fff924",
+    "rowtemplate": "notificationrowContainer",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sfc7393223e64b4a871ae6b03a05736d",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "fcfcfc06",
+    "separatorrequired": true,
+    "separatorthickness": 2,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "notificaitonmessage": "notificaitonmessage",
+        "notificationdate": "notificationdate",
+        "notificationrowContainer": "notificationrowContainer"
+    }
+}

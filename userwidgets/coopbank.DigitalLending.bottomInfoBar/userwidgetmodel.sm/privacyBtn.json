@@ -34,9 +34,13 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s8499b395959488580407c2f6ef0cdd6"
+    },
     "displaytext": true,
-    "focusskin": "sff9348e0d6f4672b3899b1a9280733f",
+    "focusskin": null,
     "id": "privacyBtn",
+    "ide_onClick": "AS_Button_d15b53e3f9dd487eb19445389b165adf",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

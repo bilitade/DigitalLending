@@ -38,9 +38,13 @@
     },
     "containerweight": 100,
     "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "sca87a5dee9e41f69dddab89a0c060c4"
+    },
     "displaytext": true,
-    "focusskin": "sff9348e0d6f4672b3899b1a9280733f",
+    "focusskin": null,
     "id": "contactusBtn",
+    "ide_onClick": "AS_Button_c1344c97c81149c7b268f25ca3e2a1de",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

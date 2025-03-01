@@ -25,7 +25,7 @@
   "font_name": "iphoneSystem",
   "font_size": 125,
   "font_style": "normal",
-  "font_weight": "bold",
+  "font_weight": "normal",
   "ipad": {
     "font_name": "System",
     "font_size": 125,

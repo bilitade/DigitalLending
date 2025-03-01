@@ -1,0 +1,29 @@
+{
+    "AS_Button_c8a32eebe28a4cab8c183774aabc8261": {
+        "id": "AS_Button_c8a32eebe28a4cab8c183774aabc8261",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNotification",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j1d06aaa74e744668784e2d22ecc2d99"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__bf7a87ac39bb453e9af144e610c116c2",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmNotification",
+            "formKUID": "j1d06aaa74e744668784e2d22ecc2d99",
+            "projectName": "DigitalLending",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "Dashboard",
+            "isCustomInput": false
+        }]
+    }
+}

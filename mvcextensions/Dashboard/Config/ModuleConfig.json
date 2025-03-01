@@ -69,6 +69,12 @@
                 "Controller": "Dashboard/frmLoanPaymentController",
                 "FormName": "Dashboard/frmLoanPayment",
                 "friendlyName": "frmLoanPayment"
+            },
+            "frmNotification": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "Dashboard/frmNotificationController",
+                "FormName": "Dashboard/frmNotification"
             }
         }
     },

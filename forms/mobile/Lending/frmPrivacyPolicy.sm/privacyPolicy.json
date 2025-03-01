@@ -1,0 +1,192 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "107.37%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "3dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s67b330e12c34dc9ba8e28f70edeff7b",
+    "_top_": {
+        "type": "string",
+        "value": "36dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.51%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "56.44%"
+    },
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "closeBtn": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c0f6feca305f48809e77a629efabea9f",
+                "srcKUID": "a3850550aca84be4906b40a0a612013c",
+                "wType": "Button"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "243dp"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "83.85%"
+                }
+            }
+        },
+        "termsCondition": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "e85ddacfe34f466681f18746021a9f6d",
+                "srcKUID": "bfaf82e13c12427aa7052c6d7a3ccee6",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": "50.51%"
+                }
+            },
+            "centerY": {
+                "Default": {
+                    "type": "string",
+                    "value": "56.44%"
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "107.37%"
+                }
+            }
+        },
+        "termsConditions": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b38c94ceebf24fe78411a550bcae92f0",
+                "srcKUID": "c16322d89d054db88382251000894886",
+                "wType": "RichText"
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": "50%"
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "text": "<h2>Privacy Policy for Coop LoanApp</h2>\n\n<p><i>Last Updated: March 01, 2025</i></p>\n<p>At Cooperative Bank of Oromia (\"Bank,\" \"we,\" \"us,\" or \"our\"), we value your privacy. This Privacy Policy explains how we collect, use, share, and protect your personal information when you use our LoanApp (\"App\"). By using the App, you agree to this Privacy Policy. If you do not agree, please do not use the App.</p>\n\n<h2>1. Information We Collect</h2>\n<p>We collect information to provide and improve our loan services. This includes:</p>\n<h3>1.1 Information You Provide</h3>\n<ul>\n    <li><b>Personal Details:</b> Name, address, phone number, email, and national ID number when you register or apply for a loan.</li>\n    <li><b>Financial Information:</b> Income details, bank account numbers, and loan repayment history.</li>\n    <li><b>Documents:</b> Uploaded files like ID copies or proof of income.</li>\n</ul>\n<h3>1.2 Information We Collect Automatically</h3>\n<ul>\n    <li><b>Device Data:</b> IP address, device type, operating system, and App usage data.</li>\n    <li><b>Location Data:</b> Approximate location (with your permission) to verify transactions or prevent fraud.</li>\n    <li><b>Analytics:</b> How you navigate the App, such as pages visited and time spent.</li>\n</ul>\n<h3>1.3 Information from Third Parties</h3>\n<p>We may collect data from credit bureaus or other financial institutions to assess your loan eligibility.</p>\n\n<h2>2. How We Use Your Information</h2>\n<p>We use your information to:</p>\n<ul>\n    <li>Process and manage your loan applications.</li>\n    <li>Verify your identity and prevent fraud.</li>\n    <li>Communicate with you about your account, loan status, or updates.</li>\n    <li>Improve the App’s features and performance.</li>\n    <li>Comply with legal requirements under Ethiopian law.</li>\n</ul>\n<p>For example, we may use your income data to determine your loan amount or your contact details to send repayment reminders.</p>\n\n<h2>3. How We Share Your Information</h2>\n<p>We do not sell your personal information. We may share it with:</p>\n<ul>\n    <li><b>Service Providers:</b> Third parties who help us process loans, host the App, or analyze data, under strict confidentiality agreements.</li>\n    <li><b>Credit Bureaus:</b> To report your loan repayment behavior or check your credit history.</li>\n    <li><b>Legal Authorities:</b> If required by law, court order, or to protect our rights.</li>\n    <li><b>Debt Collectors:</b> If you default on your loan and we need to recover funds.</li>\n</ul>\n<p>We ensure all recipients protect your data as required by law.</p>\n\n<h2>4. How We Protect Your Information</h2>\n<p>We take security seriously and use measures like:</p>\n<ul>\n    <li>Encryption to protect data during transmission.</li>\n    <li>Secure servers to store your information.</li>\n    <li>Access controls to limit who can view your data.</li>\n</ul>\n<p>However, no system is 100% secure. We cannot guarantee absolute protection against unauthorized access.</p>\n\n<h2>5. Your Choices and Rights</h2>\n<p>You have rights regarding your information:</p>\n<ul>\n    <li><b>Access:</b> Request a copy of the data we hold about you.</li>\n    <li><b>Correction:</b> Ask us to fix inaccurate information.</li>\n    <li><b>Deletion:</b> Request removal of your data, subject to legal retention requirements.</li>\n    <li><b>Opt-Out:</b> Stop receiving promotional messages (e.g., via App settings).</li>\n</ul>\n<p>To exercise these rights, contact us at <font color=\"#0000FF\">support@coopbankoromia.com.et</font>. We will respond within 30 days.</p>\n\n<h2>6. Cookies and Tracking</h2>\n<p>The App uses cookies or similar technologies to:</p>\n<ul>\n    <li>Remember your login session.</li>\n    <li>Track usage patterns for analytics.</li>\n</ul>\n<p>You can disable cookies in your device settings, but this may limit App functionality.</p>\n\n<h2>7. Data Retention</h2>\n<p>We keep your information:</p>\n<ul>\n    <li>As long as you have an active account or loan with us.</li>\n    <li>For 7 years after account closure, as required by Ethiopian financial regulations.</li>\n</ul>\n<p>After this period, we securely delete or anonymize your data.</p>\n\n<h2>8. International Data Transfers</h2>\n<p>If we use service providers outside Ethiopia, we ensure your data is protected under agreements that meet local privacy standards.</p>\n\n<h2>9. Changes to This Privacy Policy</h2>\n<p>We may update this Privacy Policy as needed. If we do:</p>\n<ul>\n    <li>We’ll notify you via the App or email.</li>\n    <li>Changes take effect 30 days after notice.</li>\n    <li>Continued use of the App means you accept the updated policy.</li>\n</ul>\n<p>Check the \"Last Updated\" date above for the latest version.</p>\n\n<h2>10. Contact Us</h2>\n<p>For questions, concerns, or to exercise your rights, please contact:</p>\n<p><b>Cooperative Bank of Oromia</b></p>\n<p>Address: Get House Building, Africa Avenue, Addis Ababa, Ethiopia</p>\n<p>Email: <font color=\"#0000FF\">support@coopbankoromia.com.et</font></p>\n<p>Phone: +251 11 557 1234</p>\n<p>We’re committed to addressing your privacy needs promptly.</p>\n\n<p><i>Thank you for trusting Cooperative Bank of Oromia with your personal information.</i></p>",
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0%"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "96.65%"
+                }
+            }
+        },
+        "termsScrollFlexContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bbb50fbb28374304a3f10ab908242b8b",
+                "srcKUID": "g9997b7bf14d4ce8b5673e349c5d44f1",
+                "wType": "FlexScrollContainer"
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": "50%"
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "83.57%"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0%"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "98.22%"
+                }
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "privacyPolicy",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "e85ddacfe34f466681f18746021a9f6d",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "mainContainer",
+    "pf": "frmPrivacyPolicy",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "bfaf82e13c12427aa7052c6d7a3ccee6",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "240dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se4ff0a863694f9f96ef5b6340dd65e9",
+    "_text_": "Back",
+    "_top_": {
+        "type": "string",
+        "value": "90.68%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sca87a5dee9e41f69dddab89a0c060c4",
+    "id": "closeBtn",
+    "ide_onClick": "AS_Button_cc2f081e118448f3b4ed39609fae49c8",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a3850550aca84be4906b40a0a612013c",
+    "name": "kony.ui.Button",
+    "parent": "termsCondition",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

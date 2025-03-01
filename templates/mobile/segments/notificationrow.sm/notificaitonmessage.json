@@ -1,0 +1,69 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "12dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        6,
+        0,
+        2,
+        0
+    ],
+    "_skin_": "s9b9fae4b67b4ed79a98744d5c7fbbcd",
+    "_text_": "Your Monthly Loan Payment Due is Today ",
+    "_top_": {
+        "type": "string",
+        "value": "8dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "notificaitonmessage",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f6210f30e2524c9c80df65395d858908",
+    "name": "kony.ui.Label",
+    "paddinginpixel": false,
+    "parent": "notificationrowContainer",
+    "pf": "notificationrow",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label"
+}

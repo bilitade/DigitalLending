@@ -28,7 +28,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "62.91%"
     },
     "canUpdateUI": true,
     "centery": {
@@ -55,7 +55,7 @@
     "masterdata": [
         [
             "cbg1",
-            "Sign Contract"
+            "Agree to The "
         ]
     ],
     "name": "kony.ui.CheckBoxGroup",
@@ -66,16 +66,9 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "selectedkey": null,
-    "selectedkeys": [
-        "cbg1"
-    ],
+    "selectedkeys": [],
     "selectedkeyvalue": null,
-    "selectedkeyvalues": [
-        [
-            "cbg1",
-            "Sign Contract"
-        ]
-    ],
+    "selectedkeyvalues": null,
     "size": 18,
     "tickedimage": "checkboxchecked24.png",
     "untickedimage": "checkboxunchecked24.png",

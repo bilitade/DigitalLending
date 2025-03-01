@@ -1,0 +1,23 @@
+{
+    "AS_Button_b72c2ac38b85484e92812ee759f1ed5a": {
+        "id": "AS_Button_b72c2ac38b85484e92812ee759f1ed5a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoanCheck",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c2cb8ac9bfba4bf18f32a49c45a64e08"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_h9f372c0f3ba422dbbe434c70e9cd9ae",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "    var navObj=new kony.mvc.Navigation('Lending/frmContract');\n             navObj.navigate();",
+            "parentId": null
+        }]
+    }
+}

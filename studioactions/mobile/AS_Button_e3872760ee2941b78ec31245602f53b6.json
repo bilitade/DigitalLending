@@ -7,15 +7,6 @@
             "name": "eventobject"
         }],
         "language": "js",
-        "actions": [{
-            "id": "INVOKE_FUNCTION__ide_onClick_iab142b0521f428e9b3951ddfd4d5d16",
-            "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "onClaimButtonClicked",
-            "display": "onClaimButtonClicked",
-            "inputparams": [],
-            "callbackType": null,
-            "disabled": null,
-            "source": "controller"
-        }]
+        "actions": []
     }
 }

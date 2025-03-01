@@ -1,0 +1,192 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "107.37%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "3dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s67b330e12c34dc9ba8e28f70edeff7b",
+    "_top_": {
+        "type": "string",
+        "value": "36dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.51%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "56.44%"
+    },
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "closeBtn": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g92e4cae54644620b3ca11b852ebf288",
+                "srcKUID": "a3850550aca84be4906b40a0a612013c",
+                "wType": "Button"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "243dp"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "83.85%"
+                }
+            }
+        },
+        "termsCondition": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "be93a55b947b498c8d304a29182c177c",
+                "srcKUID": "bfaf82e13c12427aa7052c6d7a3ccee6",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": "50.51%"
+                }
+            },
+            "centerY": {
+                "Default": {
+                    "type": "string",
+                    "value": "56.44%"
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "107.37%"
+                }
+            }
+        },
+        "termsConditions": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "be95d1035c2b4cf2a73b4c03e04b0f44",
+                "srcKUID": "c16322d89d054db88382251000894886",
+                "wType": "RichText"
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": "50%"
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "text": "<h2>Cooperative Bank of Oromia CoopApp Loan</h2>\n<p><i>Last Updated: March 01, 2025</i></p>\n<p>Welcome to the Cooperative Bank of Oromia LoanApp \n    These Terms and Conditions (\"Terms\") govern your use of the LoanApp to apply for and manage loans provided by Cooperative Bank of Oromia (\"Bank,\" \"we,\" \"us,\" or \"our\"). By using the LoanApp, you agree to these Terms. If you do not agree, please do not use the LoanApp.</p>\n\n<h2>1. Eligibility</h2>\n<p>To use the LoanApp and apply for a loan, you must:</p>\n<ul>\n    <li>Be at least 18 years old.</li>\n    <li>Have a valid account with Cooperative Bank of Oromia.</li>\n    <li>Provide accurate and complete information during the application process.</li>\n    <li>Be engaged in lawful activities or businesses as required by Ethiopian law.</li>\n</ul>\n<p>We reserve the right to reject any application that does not meet these requirements or our internal policies.</p>\n\n<h2>2. Loan Application Process</h2>\n<p>The LoanApp allows you to apply for personal or business loans digitally. Here’s how it works:</p>\n<ol>\n    <li><b>Application:</b> Submit your loan request through the LoanApp with all required details (e.g., loan amount, purpose, repayment period).</li>\n    <li><b>Review:</b> We will review your application based on your creditworthiness, income, and other factors.</li>\n    <li><b>Approval:</b> If approved, you will receive a loan offer with details like interest rate, repayment schedule, and total amount payable.</li>\n    <li><b>Acceptance:</b> You must accept the offer in the LoanApp to receive the loan funds.</li>\n</ol>\n<p>Processing times may vary. We are not responsible for delays caused by incomplete or inaccurate information.</p>\n\n<h2>3. Loan Terms</h2>\n<p><u>Interest Rates:</u> Loans come with an interest rate set by the Bank at the time of approval. Rates may vary based on loan type and your profile.</p>\n<p><u>Repayment:</u> You agree to repay the loan in installments as outlined in your loan agreement. Payments must be made on time via the LoanApp or other approved methods.</p>\n<p><u>Late Payments:</u> If you miss a payment, a penalty fee may apply, and we may report this to credit agencies.</p>\n<p><u>Early Repayment:</u> You can repay your loan early without penalty, unless otherwise stated in your loan agreement.</p>\n<p>All loan details will be provided in your loan agreement within the LoanApp. Read them carefully before accepting.</p>\n\n<h2>4. Your Responsibilities</h2>\n<p>As a LoanApp user, you agree to:</p>\n<ul>\n    <li>Keep your login credentials secure and not share them with others.</li>\n    <li>Use the loan funds only for the purpose stated in your application.</li>\n    <li>Notify us immediately if you suspect unauthorized access to your LoanApp account.</li>\n    <li>Provide updated contact and financial information if it changes.</li>\n</ul>\n<p>Failure to meet these responsibilities may result in loan default or account suspension.</p>\n\n<h2>5. Fees and Charges</h2>\n<p>The following fees may apply:</p>\n<table border=\"1\">\n    <tr>\n        <th>Fee Type</th>\n        <th>Description</th>\n    </tr>\n    <tr>\n        <td>Application Fee</td>\n        <td>A one-time fee for processing your loan application (if applicable).</td>\n    </tr>\n    <tr>\n        <td>Late Payment Fee</td>\n        <td>Charged if you miss a repayment deadline.</td>\n    </tr>\n    <tr>\n        <td>Service Fee</td>\n        <td>For maintaining your LoanApp account, deducted annually.</td>\n    </tr>\n</table>\n<p>Exact amounts will be disclosed in your loan agreement. All fees are non-refundable.</p>\n\n<h2>6. Privacy and Data Use</h2>\n<p>We collect personal information (e.g., name, ID, income details) to process your loan and improve our services. We will:</p>\n<ul>\n    <li>Protect your data as per Ethiopian laws.</li>\n    <li>Share it only with authorized parties (e.g., credit bureaus) when required.</li>\n    <li>Not sell your information to third parties.</li>\n</ul>\n<p>For more details, see our Privacy Policy in the LoanApp.</p>\n\n<h2>7. Default and Consequences</h2>\n<p>If you fail to repay your loan as agreed:</p>\n<ul>\n    <li>We may charge additional penalties.</li>\n    <li>Your account may be handed over to a collection agency.</li>\n    <li>We may take legal action to recover the amount owed.</li>\n    <li>Your credit score may be affected.</li>\n</ul>\n<p>We will notify you before taking such actions and give you a chance to resolve the issue.</p>\n\n<h2>8. Termination</h2>\n<p>We may terminate your access to the LoanApp if:</p>\n<ul>\n    <li>You breach these Terms.</li>\n    <li>You misuse the LoanApp or engage in fraudulent activity.</li>\n    <li>We discontinue the LoanApp service (with prior notice).</li>\n</ul>\n<p>You may stop using the LoanApp at any time by closing your account, but this does not cancel your loan obligations.</p>\n\n<h2>9. Changes to These Terms</h2>\n<p>We may update these Terms from time to time. If we do:</p>\n<ul>\n    <li>We will notify you through the LoanApp or email.</li>\n    <li>The updated Terms take effect 30 days after notice.</li>\n    <li>Continued use of the LoanApp means you accept the changes.</li>\n</ul>\n<p>Check the \"Last Updated\" date at the top to know when changes were made.</p>\n\n<h2>10. Contact Us</h2>\n<p>If you have questions or concerns about these Terms or the LoanApp, please reach out:</p>\n<p><b>Cooperative Bank of Oromia</b></p>\n<p>Address: Get House Building, Africa Avenue, Addis Ababa, Ethiopia</p>\n<p>Email: <font color=\"#0000FF\">support@coopbankoromia.com.et</font></p>\n<p>Phone: +251 11 557 1234</p>\n<p>We’re here to assist you!</p>\n\n<h2>11. Governing Law</h2>\n<p>These Terms are governed by the laws of Ethiopia. Any disputes will be resolved in the courts of Addis Ababa, Ethiopia.</p>\n\n<p><i>By using the LoanApp, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.</i></p>",
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "5%"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "96.65%"
+                }
+            }
+        },
+        "termsScrollFlexContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e163b000f0e246399181aeeced66159b",
+                "srcKUID": "g9997b7bf14d4ce8b5673e349c5d44f1",
+                "wType": "FlexScrollContainer"
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": "50%"
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "83.57%"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0%"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "98.22%"
+                }
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "termsCondition",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "be93a55b947b498c8d304a29182c177c",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "mainContainer",
+    "pf": "frmTermsCondition",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "bfaf82e13c12427aa7052c6d7a3ccee6",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

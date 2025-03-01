@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "26dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "138dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sec7939667b9465f98ec5f4463d8af71",
+    "_text_": "Contract",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "162dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {
+        "focusSkin": "sff9348e0d6f4672b3899b1a9280733f"
+    },
+    "displaytext": true,
+    "id": "Button0df4067f192ad4f",
+    "ide_onClick": "AS_Button_b72c2ac38b85484e92812ee759f1ed5a",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i25d4e420dea4d27ba37533745c9b5c0",
+    "name": "kony.ui.Button",
+    "parent": "agreementContainer",
+    "pf": "frmLoanCheck",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

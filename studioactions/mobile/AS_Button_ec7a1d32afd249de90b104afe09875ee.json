@@ -1,0 +1,23 @@
+{
+    "AS_Button_ec7a1d32afd249de90b104afe09875ee": {
+        "id": "AS_Button_ec7a1d32afd249de90b104afe09875ee",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNotification",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j1d06aaa74e744668784e2d22ecc2d99"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_cf35d4de11cb4c4c93d879bf2620ef89",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "",
+            "parentId": null
+        }]
+    }
+}
