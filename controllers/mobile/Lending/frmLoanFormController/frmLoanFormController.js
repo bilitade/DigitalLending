@@ -2,7 +2,7 @@
 
 define([], function() {
     return {
-       onContinueButtonClicked: function(){
+      onContinueButtonClicked: function(){
     
     navObj= new kony.mvc.Navigation("Lending/frmLoanCheck");
     navObj.navigate(null);
@@ -20,9 +20,10 @@ define([], function() {
             presController.fetchUserDetails(
                 function(response) {
                     // Assume response.records[0] contains the user info
-                  console.log("response2",response);
                     if (response && response.records && response.records.length > 0) {
                         var userRecord = response.records[0];
+                      var customerId = "1234567890";
+                      kony.store.setItem("customer_id", customerId); 
                         self.populateMainContainer(userRecord);
                     } else {
                         kony.print("No records found in response.");

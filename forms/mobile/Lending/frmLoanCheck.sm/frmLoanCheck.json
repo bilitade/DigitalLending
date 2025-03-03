@@ -59,6 +59,7 @@
     "enabledforidletimeout": false,
     "friendlyName": "frmLoanCheck",
     "id": "frmLoanCheck",
+    "ide_preShow": "AS_Form_ib47b3547bb94615b8572bbabae076d3",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
