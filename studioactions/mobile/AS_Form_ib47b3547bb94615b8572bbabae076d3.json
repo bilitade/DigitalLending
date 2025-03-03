@@ -1,0 +1,28 @@
+{
+    "AS_Form_ib47b3547bb94615b8572bbabae076d3": {
+        "id": "AS_Form_ib47b3547bb94615b8572bbabae076d3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoanCheck",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c2cb8ac9bfba4bf18f32a49c45a64e08"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__b9b9a4d498b84ce097f15e54253e918b",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onFormPreShow",
+            "display": "onFormPreShow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
