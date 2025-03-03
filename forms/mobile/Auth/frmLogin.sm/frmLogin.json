@@ -21,7 +21,7 @@
         0,
         0
     ],
-    "_skin_": "s99cec21368a42019ae0e5f5a4ae663f",
+    "_skin_": "seff021ac78648b1aca4369b8b35c3ce",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -54,7 +54,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone13",
+    "device": "Pixel3",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "frmLogin",
@@ -108,9 +108,9 @@
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
-    "platform": "iphone",
+    "platform": "android",
     "prevDevice": "iPhone13",
-    "prevPlatform": "iphone",
+    "prevPlatform": "spaip",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

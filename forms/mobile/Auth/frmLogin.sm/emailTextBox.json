@@ -21,12 +21,12 @@
         0,
         0
     ],
-    "_placeholder_": "Placeholder",
+    "_placeholder_": "Email",
     "_skin_": "s15568fdea77424b93722de786aaf75c",
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "5%"
+        "value": "20%"
     },
     "_width_": {
         "type": "string",
@@ -39,7 +39,7 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "50.56%"
     },
     "containerheight": "",
     "containerheightmode": 1,

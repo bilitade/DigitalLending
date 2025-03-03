@@ -334,7 +334,7 @@
     "hybridportkey": "",
     "ide_appEvents": {
         "mobile": {
-            "postappinit": "AS_AppEvents_jc795d20b1504fa9a54eb24807a6d96d"
+            "preappinit": "AS_AppEvents_h3159bb6377849848a653d96d1b01e58"
         }
     },
     "imagewhendownloading": "",
@@ -709,7 +709,7 @@
     "spawindows480basefontsize": "12",
     "spawindowstabbasefontsize": "17",
     "splashlogokey": "",
-    "startupformkey": "d71619c76ea64fb6b3a752e89f75485d",
+    "startupformkey": "a745744f1ee646adb81f319eff98cae4",
     "statusBarHidden": "false",
     "statusBarStyle": "STATUS_BAR_STYLE_DEFAULT",
     "support32bit": "false",

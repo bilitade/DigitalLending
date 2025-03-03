@@ -4,11 +4,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "192dp"
+        "value": "169dp"
     },
     "_left_": {
         "type": "string",
-        "value": "110dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -23,19 +23,19 @@
         0
     ],
     "_skin_": "sddb4137ca854d64ba2f2eb3a93da57b",
-    "_src_": "cooplogosquare2x.png",
+    "_src_": "cooplogosquarewhitex4.png",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "20dp"
     },
     "_width_": {
         "type": "string",
-        "value": "185dp"
+        "value": "165dp"
     },
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "50.00%"
     },
     "containerweight": 100,
     "id": "coopbankLogo",
