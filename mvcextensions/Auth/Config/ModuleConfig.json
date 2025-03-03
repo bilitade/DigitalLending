@@ -11,7 +11,14 @@
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
                 "Controller": "Auth/frmLoginController",
-                "FormName": "Auth/frmLogin"
+                "FormName": "Auth/frmLogin",
+                "friendlyName": "frmLogin"
+            },
+            "Form2": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "Auth/Form2Controller",
+                "FormName": "Auth/Form2"
             }
         }
     },

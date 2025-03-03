@@ -11,12 +11,19 @@ define({
     let password = this.view.passwordTextBox.text;
 
     if (email && password) {
-      kony.ui.Alert({
-        message: "Login credentials are correct!",
-        alertTitle: "Login",
-        alertType: constants.ALERT_TYPE_INFO,
-        yesLabel: "OK"
-      }, {});
+      
+       var authModule = kony.mvc.MDAApplication
+                                 .getSharedInstance()
+                                 .getModuleManager()
+                                 .getModule("Auth");
+
+        var authPresentationController = authModule.presentationController;
+
+        authPresentationController.authenticateUser(email, password);
+   
+      
+      
+      
     } else {
       kony.ui.Alert(basicConfig, {});
     }
