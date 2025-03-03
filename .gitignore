@@ -25,6 +25,11 @@ velocity.log
 # Auto-generated test resource js files
 testresources/Jasmine/\*.js
 
+#ignore thumbs
+**/.thumbs/
+
+
+
 # Below list of files are optionally commented to support Headless/CI build
 
 # Starting with Visualizer 7.3 the /sdkplugin.properties file has been moved to
