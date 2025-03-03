@@ -41,6 +41,7 @@
     "displaytext": true,
     "focusskin": "sca87a5dee9e41f69dddab89a0c060c4",
     "id": "payLoanBtn",
+    "ide_onClick": "AS_Button_hf3a5212cb5445128c23d6b46e226157",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

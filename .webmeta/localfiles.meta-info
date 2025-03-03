@@ -57,6 +57,13 @@
         "parent": "wa1f037679d04f50bc5e984aa17aab77",
         "type": "F"
     },
+    "w1e2f379c58a4a189b26f298a79b2020": {
+        "extension": "js",
+        "kuid": "w1e2f379c58a4a189b26f298a79b2020",
+        "name": "chartist-plugin-axistitle.js",
+        "parent": "w4f479046365442dae2f22ef91505029",
+        "type": "F"
+    },
     "w261962fa9024f72bb8373ba2a269725": {
         "extension": "css",
         "kuid": "w261962fa9024f72bb8373ba2a269725",
@@ -86,6 +93,13 @@
         "parent": "w6faa469f8fd43df9e0a6fa39eaaf8ec",
         "type": "F"
     },
+    "w351a4444ee04af49f7b34f2aea260dc": {
+        "extension": "html",
+        "kuid": "w351a4444ee04af49f7b34f2aea260dc",
+        "name": "donut.html",
+        "parent": "w4f479046365442dae2f22ef91505029",
+        "type": "F"
+    },
     "w3913febb0fd4e00bf3c43b851d4f8df": {
         "extension": "html",
         "kuid": "w3913febb0fd4e00bf3c43b851d4f8df",
@@ -106,7 +120,8 @@
             "w6faa469f8fd43df9e0a6fa39eaaf8ec",
             "w4e03c89851d424abc8b8792cf2c7b51",
             "w2adce34d90f44fd812059dbeea94a92",
-            "wa1f037679d04f50bc5e984aa17aab77"
+            "wa1f037679d04f50bc5e984aa17aab77",
+            "w4f479046365442dae2f22ef91505029"
         ],
         "kuid": "w40a479ddc7f4e30ae84d31d6482507f",
         "name": "localfiles",
@@ -145,6 +160,28 @@
         ],
         "kuid": "w4e03c89851d424abc8b8792cf2c7b51",
         "name": "CopyChart_donut1",
+        "parent": "w40a479ddc7f4e30ae84d31d6482507f",
+        "type": "D"
+    },
+    "w4e1d70e22064a209c84eaaa725aed87": {
+        "extension": "js",
+        "kuid": "w4e1d70e22064a209c84eaaa725aed87",
+        "name": "LIC.js",
+        "parent": "w4f479046365442dae2f22ef91505029",
+        "type": "F"
+    },
+    "w4f479046365442dae2f22ef91505029": {
+        "children": [
+            "w1e2f379c58a4a189b26f298a79b2020",
+            "w79ee1450dea4c3fbdc7fa3670c787c0",
+            "wb54aa38b8234166b81fb928054e5759",
+            "wa31f50336b149fd8f2deec25329e17d",
+            "w351a4444ee04af49f7b34f2aea260dc",
+            "w729735ec18144fb931c9c4d0e7d6732",
+            "w4e1d70e22064a209c84eaaa725aed87"
+        ],
+        "kuid": "w4f479046365442dae2f22ef91505029",
+        "name": "CopyChart_donut3",
         "parent": "w40a479ddc7f4e30ae84d31d6482507f",
         "type": "D"
     },
@@ -205,11 +242,25 @@
         "parent": "w40a479ddc7f4e30ae84d31d6482507f",
         "type": "D"
     },
+    "w729735ec18144fb931c9c4d0e7d6732": {
+        "extension": "js",
+        "kuid": "w729735ec18144fb931c9c4d0e7d6732",
+        "name": "donut_chartist.js",
+        "parent": "w4f479046365442dae2f22ef91505029",
+        "type": "F"
+    },
     "w75e943fc5354dad94809868db3f7ba9": {
         "extension": "js",
         "kuid": "w75e943fc5354dad94809868db3f7ba9",
         "name": "donut_chartist.js",
         "parent": "w0b70931285a47189dfa19b8fd474711",
+        "type": "F"
+    },
+    "w79ee1450dea4c3fbdc7fa3670c787c0": {
+        "extension": "js",
+        "kuid": "w79ee1450dea4c3fbdc7fa3670c787c0",
+        "name": "chartist.js",
+        "parent": "w4f479046365442dae2f22ef91505029",
         "type": "F"
     },
     "w848e15eb9864a0fb7e12bb1a82f4e59": {
@@ -241,6 +292,13 @@
         "parent": "w40a479ddc7f4e30ae84d31d6482507f",
         "type": "D"
     },
+    "wa31f50336b149fd8f2deec25329e17d": {
+        "extension": "css",
+        "kuid": "wa31f50336b149fd8f2deec25329e17d",
+        "name": "chartitst.css",
+        "parent": "w4f479046365442dae2f22ef91505029",
+        "type": "F"
+    },
     "waa30c429e3b4a4b848d0de0dab7c940": {
         "extension": "js",
         "kuid": "waa30c429e3b4a4b848d0de0dab7c940",
@@ -267,6 +325,13 @@
         "kuid": "wb3f137d11944c1984e9a16520ad4fde",
         "name": "LIC.js",
         "parent": "w6faa469f8fd43df9e0a6fa39eaaf8ec",
+        "type": "F"
+    },
+    "wb54aa38b8234166b81fb928054e5759": {
+        "extension": "js",
+        "kuid": "wb54aa38b8234166b81fb928054e5759",
+        "name": "chartistlegend.js",
+        "parent": "w4f479046365442dae2f22ef91505029",
         "type": "F"
     },
     "wbf07ba9ca4943c0bfcbc8c31e500d55": {

@@ -1,8 +1,9 @@
 {
     "BusinessControllerConfig": {
-        "BusinessExtensions": [],
-        "BusinessControllerClass": "LendingManager/BusinessControllers/BusinessController"
+        "BusinessControllerClass": "LendingManager/BusinessControllers/BusinessController",
+        "BusinessExtensions": []
     },
-    "ModuleType": "Manager",
-    "ModuleName": "LendingManager"
+    "Forms": {},
+    "ModuleName": "LendingManager",
+    "ModuleType": "Manager"
 }

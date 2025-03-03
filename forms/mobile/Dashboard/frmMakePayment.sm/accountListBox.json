@@ -37,7 +37,7 @@
     "dropdownimage": "selectarrowsmall.png",
     "focusskin": "s9bfa15eec6a41399a7c5175a56cf1ee",
     "groupcells": false,
-    "id": "ListBox0g44921fe405f4e",
+    "id": "accountListBox",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

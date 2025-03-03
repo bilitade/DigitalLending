@@ -39,11 +39,11 @@
     "canUpdateUI": true,
     "children": [
         "Label0e9792c1bea3243",
-        "ListBox0g44921fe405f4e",
-        "Label0d16897b907fe4f",
-        "Label0aeadb158134847",
+        "accountListBox",
+        "dueAmountLabel",
+        "dueDateLabel",
         "Label0dbddb8e1409f41",
-        "Label0hbb6932a3e5744",
+        "remainingBalance",
         "Label0d7be6a77626f49"
     ],
     "clipbounds": false,

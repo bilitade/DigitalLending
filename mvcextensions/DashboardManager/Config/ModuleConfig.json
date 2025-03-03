@@ -1,8 +1,9 @@
 {
     "BusinessControllerConfig": {
-        "BusinessExtensions": [],
-        "BusinessControllerClass": "DashboardManager/BusinessControllers/BusinessController"
+        "BusinessControllerClass": "DashBoardManager/BusinessControllers/BusinessController",
+        "BusinessExtensions": []
     },
-    "ModuleType": "Manager",
-    "ModuleName": "DashboardManager"
+    "Forms": {},
+    "ModuleName": "DashBoardManager",
+    "ModuleType": "Manager"
 }

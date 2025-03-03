@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "214dp"
+        "value": "33dp"
     },
     "_margin_": [
         1,
@@ -21,11 +21,11 @@
         0,
         0
     ],
-    "_skin_": "s4d95e4bfda44a0094a3962f53c859a7",
-    "_text_": "ETB2,000",
+    "_skin_": "s2d1149bfc034da998ac33905f68eb7c",
+    "_text_": "ETB 685",
     "_top_": {
         "type": "string",
-        "value": "182dp"
+        "value": "115dp"
     },
     "_width_": {
         "type": "ref",
@@ -41,7 +41,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "Label0hbb6932a3e5744",
+    "id": "dueAmountLabel",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,9 +55,8 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "a25ae55f68d24513be12daf5df604b4b",
+    "kuid": "c8f9a93d5f9348449cf8c1bf4264ae77",
     "name": "kony.ui.Label",
-    "paddinginpixel": false,
     "parent": "FlexContainer0g1f2bf4af29d45",
     "pf": "frmMakePayment",
     "retaincontentalignment": false,

@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "33dp"
+        "value": "214dp"
     },
     "_margin_": [
         1,
@@ -21,11 +21,11 @@
         0,
         0
     ],
-    "_skin_": "s4ab184e73da41278640466ce9c5c0ef",
-    "_text_": "Payment due by Nov 23",
+    "_skin_": "s4d95e4bfda44a0094a3962f53c859a7",
+    "_text_": "ETB2,000",
     "_top_": {
         "type": "string",
-        "value": "148dp"
+        "value": "182dp"
     },
     "_width_": {
         "type": "ref",
@@ -41,7 +41,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "Label0aeadb158134847",
+    "id": "remainingBalance",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,8 +55,9 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ea547dd5e05747d4a766e0ec9520791f",
+    "kuid": "a25ae55f68d24513be12daf5df604b4b",
     "name": "kony.ui.Label",
+    "paddinginpixel": false,
     "parent": "FlexContainer0g1f2bf4af29d45",
     "pf": "frmMakePayment",
     "retaincontentalignment": false,

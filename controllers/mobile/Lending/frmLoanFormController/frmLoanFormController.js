@@ -22,8 +22,9 @@ define([], function() {
                     // Assume response.records[0] contains the user info
                     if (response && response.records && response.records.length > 0) {
                         var userRecord = response.records[0];
-                      var customerId = "1234567890";
-                      kony.store.setItem("customer_id", customerId); 
+                        var customerId = "1089348743";
+                       kony.store.setItem("customer_id", customerId);
+                       kony.store.setItem("user_record", userRecord); 
                         self.populateMainContainer(userRecord);
                     } else {
                         kony.print("No records found in response.");
@@ -72,7 +73,11 @@ define([], function() {
     form.mainContainer.accountGroupContainer.accountListBox.masterData = bankAccounts.map(function(account) {
         return [account.account_number, account.account_type + " - " + account.account_number];
     });
+        
 
+     if(bankAccounts.length > 0) {
+    form.mainContainer.accountGroupContainer.accountListBox.selectedKey = bankAccounts[0][0];
+}
     kony.print("mainContainer updated successfully with user data.");
 }
 

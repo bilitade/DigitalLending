@@ -1,6 +1,18 @@
 {
     "Forms": {
         "mobile": {
+            "frmContactUs": {
+                "Controller": "Lending/frmContactUsController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "Lending/frmContactUs"
+            },
+            "frmContract": {
+                "Controller": "Lending/frmContractController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "Lending/frmContract"
+            },
             "frmLoanApproved": {
                 "Controller": "Lending/frmLoanApprovedController",
                 "ControllerExtensions": [],
@@ -29,30 +41,18 @@
                 "FormName": "Lending/frmLoanHome",
                 "friendlyName": "frmLoanHome"
             },
-            "frmTermsCondition": {
-                "ControllerExtensions": [],
-                "FormController": "kony.mvc.MDAFormController",
-                "Controller": "Lending/frmTermsConditionController",
-                "FormName": "Lending/frmTermsCondition",
-                "friendlyName": "frmTermsCondition"
-            },
             "frmPrivacyPolicy": {
+                "Controller": "Lending/frmPrivacyPolicyController",
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
-                "Controller": "Lending/frmPrivacyPolicyController",
                 "FormName": "Lending/frmPrivacyPolicy"
             },
-            "frmContactUs": {
+            "frmTermsCondition": {
+                "Controller": "Lending/frmTermsConditionController",
                 "ControllerExtensions": [],
                 "FormController": "kony.mvc.MDAFormController",
-                "Controller": "Lending/frmContactUsController",
-                "FormName": "Lending/frmContactUs"
-            },
-            "frmContract": {
-                "ControllerExtensions": [],
-                "FormController": "kony.mvc.MDAFormController",
-                "Controller": "Lending/frmContractController",
-                "FormName": "Lending/frmContract"
+                "FormName": "Lending/frmTermsCondition",
+                "friendlyName": "frmTermsCondition"
             }
         }
     },
