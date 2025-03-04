@@ -4,6 +4,30 @@
             "class": "GraphLinksModel",
             "linkDataArray": [
                 {
+                    "actionId": "NAVIGATE_TO_FORM__f6201a2c3a2b4016b4d6d284b08cba44",
+                    "actionSequenceId": "AS_Button_hf3a5212cb5445128c23d6b46e226157",
+                    "beautifiedPath": "frmaccountOverview > payLoanBtn > onClick",
+                    "evt": "ide_onClick",
+                    "from": "f7e8a9e58fac4a7e9dd1528a289de3d9",
+                    "isPSP": false,
+                    "points": [
+                        168,
+                        1092.708984375,
+                        178,
+                        1092.708984375,
+                        178,
+                        1092.708984375,
+                        178,
+                        1092.708984375,
+                        444,
+                        1092.708984375,
+                        454,
+                        1092.708984375
+                    ],
+                    "to": "cfe059479dfb404e9c7931008eaebb85",
+                    "widgetKUID": "c3a1df20e54c464fb2d9a8785f92ae29"
+                },
+                {
                     "actionId": "NAVIGATE_TO_FORM__d31810eaa30e491b84dcb8d315cbd84c",
                     "actionSequenceId": "AS_Button_b338ff6bec65430bb7301f0bc584cc2a",
                     "beautifiedPath": "frmPayments > pymntMethodBtn > onClick",
@@ -114,14 +138,6 @@
             ],
             "nodeDataArray": [
                 {
-                    "formKUID": "jc1a1013c2e64e94891b9678b5efcf2a",
-                    "formName": "Form1",
-                    "isStartupForm": false,
-                    "key": "jc1a1013c2e64e94891b9678b5efcf2a",
-                    "loc": "368 354.7544921875",
-                    "thumbnailURL": null
-                },
-                {
                     "formKUID": "a745744f1ee646adb81f319eff98cae4",
                     "formName": "frmLogin",
                     "isStartupForm": false,
@@ -151,12 +167,11 @@
                     "isStartupForm": false,
                     "key": "h9dc71e3340a4f1490bbca79c94b3bec",
                     "loc": "188 1984.7544921875",
-                    "thumbnailURL": "/assets/DigitalLending/forms/mobile/Dashboard/frmCreditScore.sm/.thumbs/default.jpeg"
+                    "thumbnailURL": null
                 },
                 {
                     "formKUID": "c53f04cfd05447129a8bf18948adee79",
                     "formName": "frmLoanPayment",
-                    "isStartupForm": false,
                     "isStartupForm": false,
                     "key": "c53f04cfd05447129a8bf18948adee79",
                     "loc": "8 2424.7544921875",
@@ -176,14 +191,6 @@
                     "isStartupForm": false,
                     "key": "f5ace006e8a24c5aa94512ac916f31c7",
                     "loc": "900 1239.508984375",
-                    "thumbnailURL": null
-                },
-                {
-                    "formKUID": "j1d06aaa74e744668784e2d22ecc2d99",
-                    "formName": "frmNotification",
-                    "isStartupForm": false,
-                    "key": "j1d06aaa74e744668784e2d22ecc2d99",
-                    "loc": "900 4839.508984374999",
                     "thumbnailURL": null
                 },
                 {
@@ -231,22 +238,6 @@
                     "formName": "frmContactUs",
                     "isStartupForm": false,
                     "key": "fe6c89b721e244789fdca7ef4a556b5d",
-                    "loc": "900 6639.508984374999",
-                    "thumbnailURL": null
-                },
-                {
-                    "formKUID": "h37826649d24477c96407e9e4ae8ee5a",
-                    "formName": "frmContract",
-                    "isStartupForm": false,
-                    "key": "h37826649d24477c96407e9e4ae8ee5a",
-                    "loc": "900 7239.508984374999",
-                    "thumbnailURL": null
-                },
-                {
-                    "formKUID": "fe6c89b721e244789fdca7ef4a556b5d",
-                    "formName": "frmContactUs",
-                    "isStartupForm": false,
-                    "key": "fe6c89b721e244789fdca7ef4a556b5d",
                     "loc": "368 954.7544921875",
                     "thumbnailURL": null
                 },
@@ -256,7 +247,7 @@
                     "isStartupForm": false,
                     "key": "h37826649d24477c96407e9e4ae8ee5a",
                     "loc": "368 1554.7544921875",
-                    "thumbnailURL": "/assets/DigitalLending/forms/mobile/Lending/frmContract.sm/.thumbs/default.jpeg"
+                    "thumbnailURL": null
                 },
                 {
                     "formKUID": "aac590218d58419f945495aa067a9154",
@@ -288,7 +279,7 @@
                     "isStartupForm": true,
                     "key": "d71619c76ea64fb6b3a752e89f75485d",
                     "loc": "8 1839.508984375",
-                    "thumbnailURL": "/assets/DigitalLending/forms/mobile/Lending/frmLoanHome.sm/.thumbs/default.jpeg"
+                    "thumbnailURL": null
                 },
                 {
                     "formKUID": "b1f5c12d767648c596fe50bf551ff012",
@@ -296,7 +287,7 @@
                     "isStartupForm": false,
                     "key": "b1f5c12d767648c596fe50bf551ff012",
                     "loc": "368 2154.7544921875",
-                    "thumbnailURL": "/assets/DigitalLending/forms/mobile/Lending/frmPrivacyPolicy.sm/.thumbs/default.jpeg"
+                    "thumbnailURL": null
                 },
                 {
                     "formKUID": "h79523fe78f147599d1b6ef0e84fe48e",

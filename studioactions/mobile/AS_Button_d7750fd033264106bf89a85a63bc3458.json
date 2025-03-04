@@ -13,6 +13,16 @@
             "KUID": "a745744f1ee646adb81f319eff98cae4"
         },
         "language": "js",
-        "actions": []
+        "actions": [{
+            "id": "INVOKE_FUNCTION__dd99d27247ef403084fabb6eaed4eb4c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onLoginBtnClick",
+            "display": "onLoginBtnClick",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
     }
 }
