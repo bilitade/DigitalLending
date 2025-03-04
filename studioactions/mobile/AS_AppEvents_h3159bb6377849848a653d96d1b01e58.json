@@ -1,0 +1,17 @@
+{
+    "AS_AppEvents_h3159bb6377849848a653d96d1b01e58": {
+        "id": "AS_AppEvents_h3159bb6377849848a653d96d1b01e58",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_a0453c35fb334951ac473549f6ffb9d3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\nkony.application.setApplicationProperties({\n    statusBarColor: '00adef',\n    statusBarHidden: false,\n    statusBarStyle: constants.STATUS_BAR_STYLE_DEFAULT,\n  \n    \n\n   \n});\t",
+            "parentId": null
+        }]
+    }
+}

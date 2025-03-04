@@ -1,7 +1,7 @@
-function AS_AppEvents_jc795d20b1504fa9a54eb24807a6d96d(eventobject) {
+function AS_AppEvents_h3159bb6377849848a653d96d1b01e58(eventobject) {
     var self = this;
     kony.application.setApplicationProperties({
-        statusBarColor: "FFFFFF",
+        statusBarColor: '00adef',
         statusBarHidden: false,
         statusBarStyle: constants.STATUS_BAR_STYLE_DEFAULT,
     });

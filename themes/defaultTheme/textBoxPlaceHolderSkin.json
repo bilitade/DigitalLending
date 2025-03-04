@@ -7,11 +7,11 @@
   },
   "background_color": "ffffff00",
   "bg_type": "one",
-  "border_color": "e38524ff",
-  "border_radius": 5,
+  "border_color": "e3e1deff",
+  "border_radius": 15,
   "border_style": "custom",
   "border_type": 0,
-  "border_width": 1,
+  "border_width": 2,
   "desktopweb": {
     "font_name": "Helvetica"
   },

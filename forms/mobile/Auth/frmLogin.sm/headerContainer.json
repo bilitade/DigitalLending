@@ -2,11 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "30%"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0"
+        "value": "25.86%"
     },
     "_margin_": [
         0,
@@ -24,16 +20,20 @@
     "_percent_": true,
     "_skin_": "sf5349992a7f492f8159ccd01a8b6680",
     "_top_": {
-        "type": "number",
-        "value": "0"
+        "type": "string",
+        "value": "0.00%"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "100.85%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "49.54%"
+    },
     "children": [
         "coopbankLogo"
     ],
@@ -45,7 +45,7 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "d7e17fd911424317a4ca936e5e63b9ab",
-    "layouttype": 4,
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "frmLogin",
     "pf": "frmLogin",

@@ -126,7 +126,7 @@
                     "formName": "frmLogin",
                     "isStartupForm": false,
                     "key": "a745744f1ee646adb81f319eff98cae4",
-                    "loc": "188 184.7544921875",
+                    "loc": "900 3039.508984375",
                     "thumbnailURL": null
                 },
                 {
@@ -134,7 +134,7 @@
                     "formName": "frmAccountHistory",
                     "isStartupForm": false,
                     "key": "h0044684ff4546149c6e551af54355db",
-                    "loc": "188 784.7544921875",
+                    "loc": "900 639.508984375",
                     "thumbnailURL": null
                 },
                 {
@@ -142,7 +142,7 @@
                     "formName": "frmaccountOverview",
                     "isStartupForm": false,
                     "key": "f7e8a9e58fac4a7e9dd1528a289de3d9",
-                    "loc": "188 1384.7544921874999",
+                    "loc": "8 939.508984375",
                     "thumbnailURL": null
                 },
                 {
@@ -156,6 +156,7 @@
                 {
                     "formKUID": "c53f04cfd05447129a8bf18948adee79",
                     "formName": "frmLoanPayment",
+                    "isStartupForm": false,
                     "isStartupForm": false,
                     "key": "c53f04cfd05447129a8bf18948adee79",
                     "loc": "8 2424.7544921875",
@@ -174,7 +175,15 @@
                     "formName": "frmMngSchedulePay",
                     "isStartupForm": false,
                     "key": "f5ace006e8a24c5aa94512ac916f31c7",
-                    "loc": "8 3624.7544921875",
+                    "loc": "900 1239.508984375",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "j1d06aaa74e744668784e2d22ecc2d99",
+                    "formName": "frmNotification",
+                    "isStartupForm": false,
+                    "key": "j1d06aaa74e744668784e2d22ecc2d99",
+                    "loc": "900 4839.508984374999",
                     "thumbnailURL": null
                 },
                 {
@@ -190,7 +199,7 @@
                     "formName": "frmOffer",
                     "isStartupForm": false,
                     "key": "d8ab60107da547ea83da65ad4b3f6bdc",
-                    "loc": "8 4224.7544921875",
+                    "loc": "900 5439.508984374999",
                     "thumbnailURL": null
                 },
                 {
@@ -198,7 +207,7 @@
                     "formName": "frmPaymentMethod",
                     "isStartupForm": false,
                     "key": "e0733932529e4cfe87facea4be6c157e",
-                    "loc": "8 4824.754492187501",
+                    "loc": "900 39.508984375",
                     "thumbnailURL": null
                 },
                 {
@@ -206,7 +215,7 @@
                     "formName": "frmPayments",
                     "isStartupForm": false,
                     "key": "cfe059479dfb404e9c7931008eaebb85",
-                    "loc": "8 5424.7544921875",
+                    "loc": "454 939.508984375",
                     "thumbnailURL": null
                 },
                 {
@@ -214,7 +223,23 @@
                     "formName": "frmSetting",
                     "isStartupForm": false,
                     "key": "af45716a887248bda15d0f9307f56bd7",
-                    "loc": "8 6024.7544921875",
+                    "loc": "900 6039.508984374999",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "fe6c89b721e244789fdca7ef4a556b5d",
+                    "formName": "frmContactUs",
+                    "isStartupForm": false,
+                    "key": "fe6c89b721e244789fdca7ef4a556b5d",
+                    "loc": "900 6639.508984374999",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "h37826649d24477c96407e9e4ae8ee5a",
+                    "formName": "frmContract",
+                    "isStartupForm": false,
+                    "key": "h37826649d24477c96407e9e4ae8ee5a",
+                    "loc": "900 7239.508984374999",
                     "thumbnailURL": null
                 },
                 {
@@ -238,7 +263,7 @@
                     "formName": "frmLoanApproved",
                     "isStartupForm": false,
                     "key": "aac590218d58419f945495aa067a9154",
-                    "loc": "8 639.508984375",
+                    "loc": "900 7839.508984374999",
                     "thumbnailURL": null
                 },
                 {
@@ -246,7 +271,7 @@
                     "formName": "frmLoanCheck",
                     "isStartupForm": false,
                     "key": "c2cb8ac9bfba4bf18f32a49c45a64e08",
-                    "loc": "8 39.508984375",
+                    "loc": "900 8439.508984375",
                     "thumbnailURL": null
                 },
                 {
@@ -254,7 +279,7 @@
                     "formName": "frmLoanForm",
                     "isStartupForm": false,
                     "key": "ee19b801b00b445e9729c950481d73c0",
-                    "loc": "8 1239.508984375",
+                    "loc": "900 9039.508984375",
                     "thumbnailURL": null
                 },
                 {
