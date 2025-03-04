@@ -46,8 +46,9 @@ define({
 
       // Assume response.records[0] contains the user info
       if (response && response.records && response.records.length > 0) {
-        var loanRecord = response.records[0].Result;
-
+        console.log("loan respnse",response);
+        var loanRecord = response.records1[0].Result;
+        
         self.view.amountLabel.text=  "ETB" + " " + loanRecord;
       } else {
         kony.print("No records found in response.");

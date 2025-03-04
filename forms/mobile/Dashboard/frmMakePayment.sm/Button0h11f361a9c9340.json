@@ -37,6 +37,7 @@
     "displaytext": true,
     "focusskin": "sff9348e0d6f4672b3899b1a9280733f",
     "id": "Button0h11f361a9c9340",
+    "ide_onClick": "AS_Button_b1e1804db36f4cd2b7d93fd6c1134666",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

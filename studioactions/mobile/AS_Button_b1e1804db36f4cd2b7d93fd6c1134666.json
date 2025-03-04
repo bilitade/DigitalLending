@@ -1,0 +1,28 @@
+{
+    "AS_Button_b1e1804db36f4cd2b7d93fd6c1134666": {
+        "id": "AS_Button_b1e1804db36f4cd2b7d93fd6c1134666",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMakePayment",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d8e44526dacf4c0cbe486c43da0b347a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__h8db0149ffce456c89259e42f78e7572",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onMakePaymentClick",
+            "display": "onMakePaymentClick",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

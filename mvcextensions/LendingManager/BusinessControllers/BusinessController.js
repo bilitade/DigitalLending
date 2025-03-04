@@ -54,8 +54,7 @@ define([], function () {
          
         var operationName = "digitallending_SetNewLoan"; 
         var custumerId = kony.store.getItem("customer_id");
-        console.log("custumerId",custumerId);
-        console.log("amount",amount);
+       
         var data = {
             "p_customer_id": custumerId,
             "p_loan_amount":amount,

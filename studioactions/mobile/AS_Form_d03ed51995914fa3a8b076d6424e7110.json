@@ -1,0 +1,28 @@
+{
+    "AS_Form_d03ed51995914fa3a8b076d6424e7110": {
+        "id": "AS_Form_d03ed51995914fa3a8b076d6424e7110",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCreditScore",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h9dc71e3340a4f1490bbca79c94b3bec"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__f48752ba68f7434098eb2b093e1588b4",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onFormPreShow",
+            "display": "onFormPreShow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

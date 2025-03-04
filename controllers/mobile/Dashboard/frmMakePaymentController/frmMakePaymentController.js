@@ -1,5 +1,80 @@
 define({ 
+  onMakePaymentClick: function() {
+    var self = this;
+    var combinedData = {
+      s_account: self.view.accountListBox.selectedKey,
+      due_amount: parseFloat(self.view.dueAmountLabel.text),
+      customer_id: kony.store.getItem("customer_id")
+    };
+    console.log("due_amount",combinedData.due_amount);
+    var presController = kony.mvc.MDAApplication.getSharedInstance()
+    .getModuleManager()
+    .getModule("Dashboard")
+    .presentationController;
+    presController.makePayment(combinedData,
+      function(response) {
 
+        if (response && response.records && response.records.length > 0) {
+             var transaction_id = response.records[0];
+             combinedData.transaction_id = transaction_id.TransactionReference;
+             console.log("combinedData",combinedData);
+             navObj= new kony.mvc.Navigation("Dashboard/frmLoanPayment");
+            
+             navObj.navigate(combinedData);
+          
+
+        } else {
+          kony.print("No records found in response.");
+           
+        }
+      },
+      function(error) {
+        alert("Failed to make payment: " + JSON.stringify(error));
+      }
+    );
+
+
+  },
+  
+  
+  onLoanPayClick: function() {
+    
+    var self = this;
+    var combinedData = {
+      s_account: self.view.accountListBox.selectedKey,
+      due_amount: parseFloat(self.view.remainingBalance.text),
+      customer_id: kony.store.getItem("customer_id")
+    };
+    console.log("due_amount",combinedData.due_amount);
+    var presController = kony.mvc.MDAApplication.getSharedInstance()
+    .getModuleManager()
+    .getModule("Dashboard")
+    .presentationController;
+    presController.makePayment(combinedData,
+      function(response) {
+
+        if (response && response.records && response.records.length > 0) {
+             var transaction_id = response.records[0];
+             combinedData.transaction_id = transaction_id.TransactionReference;
+             console.log("combinedData",combinedData);
+             navObj= new kony.mvc.Navigation("Dashboard/frmLoanPayment");
+            
+             navObj.navigate(combinedData);
+          
+
+        } else {
+          kony.print("No records found in response.");
+           
+        }
+      },
+      function(error) {
+        alert("Failed to make payment: " + JSON.stringify(error));
+      }
+    );
+
+    
+    
+  },
   onFormPreShow: function() {
     var self = this;
     var presController = kony.mvc.MDAApplication.getSharedInstance()
@@ -40,9 +115,9 @@ define({
     }
     self.view.remainingBalance.text = LoadAccountDetails.remaining_balance;
     let payment_due = JSON.parse(LoadAccountDetails.payment_due);
-    self.view.dueAmountLabel.text = payment_due.due_amount;
-    let last_payment = JSON.parse(LoadAccountDetails.last_payment);
-    self.view.dueDateLabel.text= last_payment.due_date;
+    self.view.dueAmountLabel.text = payment_due.due_amount; 
+    console.log("payment_due.due_amount",payment_due.due_amount);
+    self.view.dueDateLabel.text= payment_due.due_date;
 
 
 
