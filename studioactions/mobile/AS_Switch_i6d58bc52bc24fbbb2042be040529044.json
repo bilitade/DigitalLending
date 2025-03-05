@@ -1,0 +1,28 @@
+{
+    "AS_Switch_i6d58bc52bc24fbbb2042be040529044": {
+        "id": "AS_Switch_i6d58bc52bc24fbbb2042be040529044",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMngSchedulePay",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f5ace006e8a24c5aa94512ac916f31c7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__aa31863ac5fb4d44bb43e85293be9f26",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onScheduleToggle",
+            "display": "onScheduleToggle",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

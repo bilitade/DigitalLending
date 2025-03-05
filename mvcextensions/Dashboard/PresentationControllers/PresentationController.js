@@ -119,5 +119,39 @@ define([], function() {
 
     kony.print("Exiting PresentationController.fetchCreditScore");
   };
+    PresentationController.prototype.makeSchedule = 
+    function (combinedData,successCallback, errorCallback) {
+    kony.print("Entering PresentationController.makeSchedule");
+
+    
+    var DashboardModule = kony.mvc.MDAApplication.getSharedInstance()
+    .getModuleManager()
+    .getModule("DashBoardManager");
+    var businessController = DashboardModule.businessController;
+
+    if (!businessController) {
+      kony.print("BusinessController is not initialized.");
+      return;
+    }
+
+    
+    businessController.makeSchedule(combinedData,
+                                        function (response) {
+      kony.print("makeSchedule Success");
+      if (successCallback && typeof successCallback === "function") {
+        successCallback(response);
+      }
+    },
+                                        function (error) {
+      kony.print("makeSchedule Failed: " + JSON.stringify(error));
+      if (errorCallback && typeof errorCallback === "function") {
+        errorCallback(error);
+      }
+    }
+                                       );
+
+    kony.print("Exiting PresentationController.makeSchedule");
+  };
+  
   return PresentationController;
 });

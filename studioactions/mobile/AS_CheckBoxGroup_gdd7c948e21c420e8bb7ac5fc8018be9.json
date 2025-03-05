@@ -1,0 +1,26 @@
+{
+    "AS_CheckBoxGroup_gdd7c948e21c420e8bb7ac5fc8018be9": {
+        "id": "AS_CheckBoxGroup_gdd7c948e21c420e8bb7ac5fc8018be9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPaymentMethod",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e0733932529e4cfe87facea4be6c157e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__f7c0b7372e424a42aff1f0529bab2dc9",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onAccountSelection",
+            "display": "onAccountSelection",
+            "inputparams": [],
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

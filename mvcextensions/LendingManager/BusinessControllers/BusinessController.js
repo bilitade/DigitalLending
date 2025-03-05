@@ -75,6 +75,7 @@ define([], function () {
             }
         );
     };
+  
 
     return BusinessController;
 });

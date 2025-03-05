@@ -33,6 +33,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "id": "schedulePaySwitch",
+    "ide_onSlide": "AS_Switch_i6d58bc52bc24fbbb2042be040529044",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
