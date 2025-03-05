@@ -1,4 +1,21 @@
 define({
+  
+  
+  onNavigate(params){
+    
+    if (params.authErrorResponse){
+      
+      alert("Login Failed"+ JSON.stringify( params.authErrorResponse));
+      
+    }
+    
+    
+    
+  },
+  
+  
+  
+  
   onLoginBtnClick: function() {
     var basicConfig = {
       message: "Invalid Credentials",

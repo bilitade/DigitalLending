@@ -5,6 +5,7 @@ define([], function () {
     } 
 
     inheritsFrom(BusinessController, kony.mvc.Business.Delegator); 
+  
     var serviceName = "DigitalLending";  
     BusinessController.prototype.fetchUserDetails = function(successCallback, errorCallback) {
        

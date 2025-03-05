@@ -140,10 +140,10 @@
                 {
                     "formKUID": "a745744f1ee646adb81f319eff98cae4",
                     "formName": "frmLogin",
-                    "isStartupForm": false,
+                    "isStartupForm": true,
                     "key": "a745744f1ee646adb81f319eff98cae4",
                     "loc": "900 3039.508984375",
-                    "thumbnailURL": null
+                    "thumbnailURL": "/assets/DigitalLending/forms/mobile/Auth/frmLogin.sm/.thumbs/default.jpeg"
                 },
                 {
                     "formKUID": "h0044684ff4546149c6e551af54355db",
@@ -175,7 +175,7 @@
                     "isStartupForm": false,
                     "key": "c53f04cfd05447129a8bf18948adee79",
                     "loc": "8 2424.7544921875",
-                    "thumbnailURL": null
+                    "thumbnailURL": "/assets/DigitalLending/forms/mobile/Dashboard/frmLoanPayment.sm/.thumbs/default.jpeg"
                 },
                 {
                     "formKUID": "d8e44526dacf4c0cbe486c43da0b347a",
@@ -183,7 +183,7 @@
                     "isStartupForm": false,
                     "key": "d8e44526dacf4c0cbe486c43da0b347a",
                     "loc": "8 3024.7544921875",
-                    "thumbnailURL": null
+                    "thumbnailURL": "/assets/DigitalLending/forms/mobile/Dashboard/frmMakePayment.sm/.thumbs/default.jpeg"
                 },
                 {
                     "formKUID": "f5ace006e8a24c5aa94512ac916f31c7",
@@ -276,7 +276,7 @@
                 {
                     "formKUID": "d71619c76ea64fb6b3a752e89f75485d",
                     "formName": "frmLoanHome",
-                    "isStartupForm": true,
+                    "isStartupForm": false,
                     "key": "d71619c76ea64fb6b3a752e89f75485d",
                     "loc": "8 1839.508984375",
                     "thumbnailURL": null
@@ -295,7 +295,7 @@
                     "isStartupForm": false,
                     "key": "h79523fe78f147599d1b6ef0e84fe48e",
                     "loc": "188 2584.7544921875",
-                    "thumbnailURL": null
+                    "thumbnailURL": "/assets/DigitalLending/forms/mobile/Lending/frmTermsCondition.sm/.thumbs/default.jpeg"
                 }
             ]
         }

@@ -66,7 +66,6 @@ define([], function() {
     var navigationObject = new kony.mvc.Navigation("frmaccountOverview");
     navigationObject.navigate({
       "authSuccessResponse": response,
-
       "userid": userid
     });
   };
@@ -80,6 +79,8 @@ define([], function() {
     navigationObject.navigate({
       "authErrorResponse": response
     });
+    
+   
   };
 
 

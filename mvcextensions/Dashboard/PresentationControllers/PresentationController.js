@@ -15,7 +15,8 @@ define([], function() {
      * This method gets called when presentation controller gets initialized
      * @method
      */
-  PresentationController.prototype.initializePresentationController = function() {
+  PresentationController.prototype.initializePresentationController
+    = function() {
 
   };
   PresentationController.prototype.fetchLoanAccount = 
