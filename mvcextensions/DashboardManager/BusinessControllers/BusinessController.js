@@ -86,6 +86,29 @@ define([], function () {
     }
                            );
   };
+  BusinessController.prototype.makeSchedule = function(combinedData,successCallback, errorCallback) {
+         
+        var operationName = "digitallending_SchedulePaymentControl";  
+        var data = {
+            "p_customer_id": combinedData.customer_id,
+            "p_account_number":combinedData.account,
+            "p_control_flag":combinedData.toggleValue,
+        };  
+        console.log("data",data);
+        var sdkInstance = kony.sdk.getCurrentInstance();
+        var service = sdkInstance.getIntegrationService(serviceName);
+
+        service.invokeOperation(operationName, {}, data,
+            function(response) {  
+                kony.print("Service call successful: " + JSON.stringify(response));
+                if (successCallback) successCallback(response);
+            },
+            function(error) {  
+                kony.print("Service call failed: " + JSON.stringify(error));
+                if (errorCallback) errorCallback(error);
+            }
+        );
+    };
   return BusinessController;
 
 });

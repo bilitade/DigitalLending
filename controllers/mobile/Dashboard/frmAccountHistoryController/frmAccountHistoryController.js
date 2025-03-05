@@ -1,5 +1,8 @@
 define({ 
 
- //Type your controller code here 
-
+ displayTransactionHistory: function(){
+   var self = this;
+   
+   
+ }
  });

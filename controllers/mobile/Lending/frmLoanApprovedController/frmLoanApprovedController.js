@@ -1,11 +1,11 @@
 define({ 
 
 
-  viewDetailBtnClicked: function (){
+//   viewDetailBtnClicked: function (){
     
-    var navObj= new kony.mvc.Navigation("Dashboard/frmaccountOverview");
-    navObj.navigate(null); 
-  }
+//     var navObj= new kony.mvc.Navigation("Dashboard/frmaccountOverview");
+//     navObj.navigate(null); 
+//   }
   
   
 

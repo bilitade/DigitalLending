@@ -39,7 +39,8 @@
         "value": "48.95%"
     },
     "children": [
-        "FlexContainer0e91b2da2c9c048"
+        "FlexContainer0e91b2da2c9c048",
+        "AccountListRadioButton"
     ],
     "clipbounds": false,
     "containerweight": 100,
