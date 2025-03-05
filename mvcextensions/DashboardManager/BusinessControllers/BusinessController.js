@@ -15,8 +15,9 @@ define([], function () {
 
 
   var serviceName = "DigitalLending";  
-  var custumerId = kony.store.getItem("customer_id");
-  BusinessController.prototype.fetchLoanAccount = function(successCallback, errorCallback) {
+  var custumerId = "1089348743";
+  BusinessController.prototype.fetchLoanAccount = 
+    function(successCallback, errorCallback) {
 
     var operationName = "digitallending_LoanOverview";  
     var data = {
