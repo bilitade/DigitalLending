@@ -59,6 +59,7 @@
     "enabledforidletimeout": false,
     "friendlyName": "frmMngSchedulePay",
     "id": "frmMngSchedulePay",
+    "ide_postShow": "AS_Form_f84ffad604f741f49aa1078645d7a42b",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,

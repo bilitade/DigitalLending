@@ -6,19 +6,19 @@ define({
     .getModuleManager()
     .getModule("Dashboard")
     .presentationController;
-
+     var CreditChange= 0;
     // Call your fetchUserDetails or similar method
     presController.fetchCreditScore(
       function(response) {
-
+       
         if (response && response.records && response.records.length > 0) {
           var CreditScore = response.records[0];
 
           self.view.creditScoreFieldlabel.text=CreditScore.CurrentCreditScore;
           console.log("CreditScore.CurrentCreditScore",CreditScore.CurrentCreditScore);
           
-          self.view.scoreChangeField.text = CreditScore.PreviousCreditScore-CreditScore.CurrentCreditScore
-          var CreditChange= 0;
+          self.view.scoreChangeField.text = CreditScore.CurrentCreditScore - CreditScore.PreviousCreditScore
+          
           if (CreditScore.CurrentCreditScore > 0) {
            CreditChange = Math.round(
             (parseFloat(CreditScore.CurrentCreditScore) / 

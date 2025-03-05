@@ -1,0 +1,28 @@
+{
+    "AS_Form_f84ffad604f741f49aa1078645d7a42b": {
+        "id": "AS_Form_f84ffad604f741f49aa1078645d7a42b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMngSchedulePay",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f5ace006e8a24c5aa94512ac916f31c7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__b2001523fb0544f2bb3a60931ef10943",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onFormPostShow",
+            "display": "onFormPostShow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
