@@ -22,7 +22,6 @@ define(['UserSessionManager'], function(UserSessionManager) {
       success: this.authSuccessCallback,
       error: this.authErrorCallback
     });
-
     kony.print("Exiting PresentationController.authenticateUser");
   };
 
