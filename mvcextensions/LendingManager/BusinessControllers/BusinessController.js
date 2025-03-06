@@ -1,11 +1,13 @@
-define([], function () { 
+define(['UserSessionManager'], function (UserSessionManager) { 
     function BusinessController() { 
         kony.mvc.Business.Delegator.call(this); 
         kony.print("BusinessController initialized");
     } 
 
     inheritsFrom(BusinessController, kony.mvc.Business.Delegator); 
-  
+    var session = UserSessionManager.getInstance();
+    var authUser = session.getUser();
+   
     var serviceName = "DigitalLending";  
     BusinessController.prototype.fetchUserDetails = function(successCallback, errorCallback) {
        

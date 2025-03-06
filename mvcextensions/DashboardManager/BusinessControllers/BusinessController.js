@@ -1,4 +1,4 @@
-define([], function () { 
+define(['UserSessionManager'], function (UserSessionManager) { 
 
   /**
      * User defined business controller
@@ -13,38 +13,45 @@ define([], function () {
 
   inheritsFrom(BusinessController, kony.mvc.Business.Delegator); 
 
-
+  
+ 
   var serviceName = "DigitalLending";  
-  var custumerId = "1089348743";
-  BusinessController.prototype.fetchLoanAccount = 
-    function(successCallback, errorCallback) {
-
+  
+  BusinessController.prototype.fetchLoanAccount = function(successCallback, errorCallback) {
+    var session = UserSessionManager.getInstance();
+    var authUser = session.getUser();
     var operationName = "digitallending_LoanOverview";  
     var data = {
-      "p_customer_id": custumerId,
+        "p_customer_id": authUser.profile.Customer_Id,
     };  
 
     var sdkInstance = kony.sdk.getCurrentInstance();
     var service = sdkInstance.getIntegrationService(serviceName);
 
     service.invokeOperation(operationName, {}, data,
-                            function(response) {  
-      kony.print("Service call successful: " + JSON.stringify(response));
-      if (successCallback) successCallback(response);
-    },
-                            function(error) {  
-      kony.print("Service call failed: " + JSON.stringify(error));
-      if (errorCallback) errorCallback(error);
-    }
-                           );
-  };
+        function(response) {  
+            kony.print("Service call successful: " + JSON.stringify(response));
+
+            // Attach authUser to the response
+            response.authUser = authUser;
+
+            if (successCallback) successCallback(response);
+        },
+        function(error) {  
+            kony.print("Service call failed: " + JSON.stringify(error));
+            if (errorCallback) errorCallback(error);
+        }
+    );
+};
+
   BusinessController.prototype.makePayment = 
     function(combinedData,successCallback, errorCallback) {
 
-
+ var session = UserSessionManager.getInstance();
+  var authUser = session.getUser();
     var operationName = "digitallending_MakePayment";  
     var data = {
-      "p_customer_id" : combinedData.customer_id,
+      "p_customer_id" : authUser.profile.Customer_Id,
       "p_saving_account_number": combinedData.s_account,
       "p_amount": parseFloat(combinedData.due_amount)*100,
     };  
@@ -65,12 +72,13 @@ define([], function () {
   };
   BusinessController.prototype.fetchCreditScore = 
     function(successCallback, errorCallback) {
-
+ var session = UserSessionManager.getInstance();
+  var authUser = session.getUser();
 
     var operationName = "digitallending_CalculateCreditScore";  
-    var custumerId = kony.store.getItem("customer_id");
+   
     var data = {
-      "p_customer_id" : custumerId,
+      "p_customer_id" : authUser.profile.Customer_Id,
     };  
      
     var sdkInstance = kony.sdk.getCurrentInstance();
@@ -88,10 +96,11 @@ define([], function () {
                            );
   };
   BusinessController.prototype.makeSchedule = function(combinedData,successCallback, errorCallback) {
-         
+          var session = UserSessionManager.getInstance();
+  var authUser = session.getUser();
         var operationName = "digitallending_SchedulePaymentControl";  
         var data = {
-            "p_customer_id": combinedData.customer_id,
+            "p_customer_id": authUser.profile.Customer_Id,
             "p_account_number":combinedData.account,
             "p_control_flag":combinedData.toggleValue,
         };  

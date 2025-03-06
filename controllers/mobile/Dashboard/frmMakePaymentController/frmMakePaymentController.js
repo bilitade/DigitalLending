@@ -4,7 +4,6 @@ define({
     var combinedData = {
       s_account: self.view.accountListBox.selectedKey,
       due_amount: parseFloat(self.view.dueAmountLabel.text),
-      customer_id: kony.store.getItem("customer_id")
     };
     console.log("due_amount",combinedData.due_amount);
     var presController = kony.mvc.MDAApplication.getSharedInstance()
@@ -43,7 +42,6 @@ define({
     var combinedData = {
       s_account: self.view.accountListBox.selectedKey,
       due_amount: parseFloat(self.view.remainingBalance.text),
-      customer_id: kony.store.getItem("customer_id")
     };
     console.log("due_amount",combinedData.due_amount);
     var presController = kony.mvc.MDAApplication.getSharedInstance()
@@ -76,6 +74,7 @@ define({
     
   },
   onFormPreShow: function() {
+    
     var self = this;
     var presController = kony.mvc.MDAApplication.getSharedInstance()
     .getModuleManager()
@@ -87,9 +86,7 @@ define({
       function(response) {
 
         if (response && response.records && response.records.length > 0) {
-          var LoadAccountDetails = response.records[0];
-          console.log("LoadAccountDetails",LoadAccountDetails);
-          self.populateMainContainer(LoadAccountDetails);
+          self.populateMainContainer(response);
         } else {
           kony.print("No records found in response.");
         }
@@ -99,10 +96,10 @@ define({
       }
     );
   },
-  populateMainContainer: function(LoadAccountDetails) {
-    userRecord=kony.store.getItem("user_record");
+  populateMainContainer: function(response) {
     var self = this;
-    var bankAccounts = JSON.parse(userRecord.Bank_Accounts || "[]");
+    var LoadAccountDetails = response.records[0];
+    var bankAccounts = response.authUser.profile.Bank_Accounts || "[]";
     var masterData = bankAccounts.map(function(account) {
       return [account.account_number, account.account_type + " - " + account.account_number];
     });
