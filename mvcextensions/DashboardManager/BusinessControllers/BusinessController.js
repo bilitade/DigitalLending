@@ -97,11 +97,12 @@ define(['UserSessionManager'], function (UserSessionManager) {
   };
   BusinessController.prototype.makeSchedule = function(combinedData,successCallback, errorCallback) {
           var session = UserSessionManager.getInstance();
-  var authUser = session.getUser();
+          var authUser = session.getUser();
+          console.log("authUser",authUser);
         var operationName = "digitallending_SchedulePaymentControl";  
         var data = {
             "p_customer_id": authUser.profile.Customer_Id,
-            "p_account_number":combinedData.account,
+            "p_account_number":authUser.profile.Selected_Account_Number,
             "p_control_flag":combinedData.toggleValue,
         };  
         console.log("data",data);
@@ -119,6 +120,57 @@ define(['UserSessionManager'], function (UserSessionManager) {
             }
         );
     };
+  
+  
+  BusinessController.prototype.fetchTransactionHistory = function(successCallback, errorCallback) {
+        var session = UserSessionManager.getInstance();
+        var authUser = session.getUser();
+        var operationName = "digitallending_AccountHistory";  
+        var data = {
+            "customerId": authUser.profile.Customer_Id,
+        };  
+        console.log("data",data);
+        var sdkInstance = kony.sdk.getCurrentInstance();
+        var service = sdkInstance.getIntegrationService(serviceName);
+
+        service.invokeOperation(operationName, {}, data,
+            function(response) {  
+                console.log("b_response",response)
+                kony.print("Service call successful: " + JSON.stringify(response));
+                if (successCallback) successCallback(response);
+            },
+            function(error) {  
+                kony.print("Service call failed: " + JSON.stringify(error));
+                if (errorCallback) errorCallback(error);
+            }
+        );
+    };
+  BusinessController.prototype.saveSelectedAccount = function(data,successCallback, errorCallback) {
+        var session = UserSessionManager.getInstance();
+        var authUser = session.getUser();
+        var operationName = "digitallending_save_selected_account";  
+        var params = {
+            "p_customer_id": authUser.profile.Customer_Id,
+             "p_account_number":data.account_number,
+          
+        };  
+        console.log("data",data);
+        var sdkInstance = kony.sdk.getCurrentInstance();
+        var service = sdkInstance.getIntegrationService(serviceName);
+
+        service.invokeOperation(operationName, {}, params,
+            function(response) {  
+                kony.print(operationName+" Service call successful: " + JSON.stringify(response));
+                authUser.profile.Selected_Account_Number = params.p_account_number;
+                if (successCallback) successCallback(response);
+            },
+            function(error) {  
+                kony.print("Service call failed: " + JSON.stringify(error));
+                if (errorCallback) errorCallback(error);
+            }
+        );
+    };
+  
   return BusinessController;
 
 });

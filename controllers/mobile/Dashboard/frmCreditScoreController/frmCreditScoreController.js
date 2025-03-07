@@ -15,13 +15,15 @@ define({
           var CreditScore = response.records[0];
 
           self.view.creditScoreFieldlabel.text=CreditScore.CurrentCreditScore;
+          self.view.ScoreUpdateLabel.text= "Score updated: "+CreditScore.LastUpdated;
+          
           console.log("CreditScore.CurrentCreditScore",CreditScore.CurrentCreditScore);
           
           self.view.scoreChangeField.text = CreditScore.CurrentCreditScore - CreditScore.PreviousCreditScore
           
           if (CreditScore.CurrentCreditScore > 0) {
            CreditChange = Math.round(
-            (parseFloat(CreditScore.CurrentCreditScore) / 
+            ((parseFloat(CreditScore.CurrentCreditScore)-parseFloat(CreditScore.PreviousCreditScore)) / 
              (parseFloat(CreditScore.PreviousCreditScore) + parseFloat(CreditScore.CurrentCreditScore))) * 100
           );}
           

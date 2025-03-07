@@ -5,10 +5,6 @@
         "type": "ref",
         "value": "preferred"
     },
-    "_left_": {
-        "type": "string",
-        "value": "124dp"
-    },
     "_margin_": [
         1,
         1,
@@ -21,15 +17,15 @@
         0,
         0
     ],
-    "_skin_": "s3b1fcbe1c57439db18dc82f4aa95057",
-    "_text_": "+251923243356",
+    "_skin_": "se9b7d300da44db48886a693c0accfda",
+    "_text_": "Congratulations",
     "_top_": {
         "type": "string",
-        "value": "200dp"
+        "value": "10%"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "60%"
     },
     "_wrapping_": 2,
     "android": {
@@ -39,9 +35,13 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
-    "contentalignment": 4,
-    "id": "CopyLabel0a8aa1eccab3b46",
+    "contentalignment": 5,
+    "id": "CongratulationsLabel",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ab90292b5210405294a8e3d23744a8c0",
+    "kuid": "h49540aa3f3d4de495274d21abfc9ef4",
     "name": "kony.ui.Label",
-    "parent": "mainContainer",
-    "pf": "frmSetting",
+    "parent": "col1",
+    "pf": "frmFullLoanPayment",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

@@ -1,21 +1,25 @@
 define({
-  
-  
+
+
   onNavigate(params){
-    
-    if (params.authErrorResponse){
-      
+
+    if ( params && params.authErrorResponse){
+
       alert("Login Failed"+ JSON.stringify( params.authErrorResponse));
-      
+
     }
-    
-    
-    
+    else if ( params && params.authSuccessResponse) { 
+      alert(""+ JSON.stringify( params.authErrorResponse));
+
+    }
+
+
+
   },
-  
-  
-  
-  
+
+
+
+
   onLoginBtnClick: function() {
     var basicConfig = {
       message: "Invalid Credentials",
@@ -28,19 +32,19 @@ define({
     let password = this.view.passwordTextBox.text;
 
     if (email && password) {
-      
-       var authModule = kony.mvc.MDAApplication
-                                 .getSharedInstance()
-                                 .getModuleManager()
-                                 .getModule("Auth");
 
-        var authPresentationController = authModule.presentationController;
+      var authModule = kony.mvc.MDAApplication
+      .getSharedInstance()
+      .getModuleManager()
+      .getModule("Auth");
 
-        authPresentationController.authenticateUser(email, password);
-   
-      
-      
-      
+      var authPresentationController = authModule.presentationController;
+
+      authPresentationController.authenticateUser(email, password);
+
+
+
+
     } else {
       kony.ui.Alert(basicConfig, {});
     }

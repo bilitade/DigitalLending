@@ -26,6 +26,7 @@
     "addWidgetsdone": false,
     "allboxes": [],
     "android": {
+        "ide_onDeviceBack": "AS_Form_g464aa3599b24376b1cc70d383dee04d",
         "needAppMenu": false,
         "psp": {
             "windowSoftInputMode": 1
@@ -59,8 +60,7 @@
     "enabledforidletimeout": false,
     "friendlyName": "frmaccountOverview",
     "id": "frmaccountOverview",
-    "ide_onNavigate": "AS_Form_gaad11269e2e4b4eb08ca95880c6605f",
-    "ide_postShow": "AS_Form_bb980468f842416a91edbf0b89daae00",
+    "ide_preShow": "AS_Form_c0ea0667caaf432fb62e299d8601c2d2",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,

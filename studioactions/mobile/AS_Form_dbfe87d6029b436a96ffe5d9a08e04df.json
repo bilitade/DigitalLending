@@ -1,0 +1,23 @@
+{
+    "AS_Form_dbfe87d6029b436a96ffe5d9a08e04df": {
+        "id": "AS_Form_dbfe87d6029b436a96ffe5d9a08e04df",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFullLoanPayment",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a82fbc3c334e4e7baf4f9b77046c5f0f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_a40b11d06f154ea2a80b1720dde2ccbf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\n    var basicConf = {\n        message: \"Are you sure you want to exit?\",\n        alertType: constants.ALERT_TYPE_CONFIRMATION,\n        alertTitle: \"Exit Confirmation\",\n        yesLabel: \"Yes\",\n        noLabel: \"Cancel\",\n        alertHandler: function(response) {\n            if (response === true) {\n                // User clicked \"Yes\"\n                kony.application.exit(); // Exits the app\n            } else {\n                // User clicked \"Cancel\"\n                kony.print(\"User chose to stay.\");\n            }\n        }\n    };\n    var pspConf = {};\n    kony.ui.Alert(basicConf, pspConf);\n\n",
+            "parentId": null
+        }]
+    }
+}

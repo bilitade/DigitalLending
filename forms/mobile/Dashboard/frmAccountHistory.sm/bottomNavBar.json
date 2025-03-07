@@ -4,7 +4,7 @@
     "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "9.96%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -46,6 +46,15 @@
                 "kuid": "i39e65f4cec6418987bfe8efc5aea32c",
                 "srcKUID": "f204b43281224f8f8eaf432a9a43e307",
                 "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "100%"
+                }
             }
         },
         "dashboardNavBtn": {

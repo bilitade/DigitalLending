@@ -1,0 +1,38 @@
+{
+    "AS_Label_de8ab573604643a28013db6efbc8f840": {
+        "id": "AS_Label_de8ab573604643a28013db6efbc8f840",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmLoanForm",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ee19b801b00b445e9729c950481d73c0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__a7ff2ce49bb743209e8cc15fe8e234be",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmTermsCondition",
+            "friendlyName": "frmTermsCondition",
+            "formKUID": "h79523fe78f147599d1b6ef0e84fe48e",
+            "projectName": "DigitalLending",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": null,
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "Lending",
+            "isCustomInput": false
+        }]
+    }
+}

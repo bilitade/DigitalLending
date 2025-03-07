@@ -59,6 +59,7 @@
     "enabledforidletimeout": false,
     "friendlyName": "frmSetting",
     "id": "frmSetting",
+    "ide_postShow": "AS_Form_e73c974ea6324aa08d08d7bccd3bac95",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,

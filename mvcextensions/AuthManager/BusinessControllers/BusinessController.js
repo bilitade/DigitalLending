@@ -56,11 +56,12 @@ define(['UserSessionManager'], function (UserSessionManager) {
               Customer_Id: profile.Customer_Id || "N/A",
               Primary_Phone: profile.Primary_Phone || "N/A",
               Active_Loan: profile.Active_Loan === "Yes",
-              Active_Scheduled_Payment: profile.Active_Scheduled_Payment === "Yes",
+              Active_Scheduled_Payment: profile.Active_Scheduled_Payment,
               All_Addresses: JSON.parse(profile.All_Addresses || "[]"),
               Bank_Accounts: JSON.parse(profile.Bank_Accounts || "[]"),
               All_Phones: JSON.parse(profile.All_Phones || "[]"),
-              Primary_Address: JSON.parse(profile.Primary_Address || "{}")
+              Primary_Address: JSON.parse(profile.Primary_Address || "{}"),
+              Selected_Account_Number:JSON.parse(profile.Selected_Account_Number),
             };
 
             session.setAuthUser({ profile: cleanedDataProfile });

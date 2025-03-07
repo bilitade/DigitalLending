@@ -153,5 +153,71 @@ define([], function() {
     kony.print("Exiting PresentationController.makeSchedule");
   };
   
+ PresentationController.prototype.fetchTransactionHistory = 
+    function (successCallback, errorCallback) {
+    kony.print("Entering PresentationController.fetchTransactionHistory");
+
+    
+    var DashboardModule = kony.mvc.MDAApplication.getSharedInstance()
+    .getModuleManager()
+    .getModule("DashBoardManager");
+    var businessController = DashboardModule.businessController;
+
+    if (!businessController) {
+      kony.print("BusinessController is not initialized.");
+      return;
+    }
+
+    
+    businessController.fetchTransactionHistory(
+                                        function (response) {
+      kony.print("fetchTransactionHistory Success");
+      if (successCallback && typeof successCallback === "function") {
+        successCallback(response);
+      }
+    },
+                                        function (error) {
+      kony.print("fetchTransactionHistory Failed: " + JSON.stringify(error));
+      if (errorCallback && typeof errorCallback === "function") {
+        errorCallback(error);
+      }
+    }
+                                       );
+
+    kony.print("Exiting PresentationController.fetchTransactionHistory");
+  };
+  PresentationController.prototype.saveSelectedAccount = 
+    function (data,successCallback, errorCallback) {
+    kony.print("Entering PresentationController.saveSelectedAccount");
+
+    
+    var DashboardModule = kony.mvc.MDAApplication.getSharedInstance()
+    .getModuleManager()
+    .getModule("DashBoardManager");
+    var businessController = DashboardModule.businessController;
+
+    if (!businessController) {
+      kony.print("BusinessController is not initialized.");
+      return;
+    }
+
+    
+    businessController.saveSelectedAccount(data,
+                                        function (response) {
+      kony.print("saveSelectedAccount Success");
+      if (successCallback && typeof successCallback === "function") {
+        successCallback(response);
+      }
+    },
+                                        function (error) {
+      kony.print("saveSelectedAccount Failed: " + JSON.stringify(error));
+      if (errorCallback && typeof errorCallback === "function") {
+        errorCallback(error);
+      }
+    }
+                                       );
+
+    kony.print("Exiting PresentationController.saveSelectedAccount");
+  };
   return PresentationController;
 });

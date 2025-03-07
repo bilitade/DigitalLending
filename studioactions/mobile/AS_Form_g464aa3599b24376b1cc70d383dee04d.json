@@ -1,0 +1,23 @@
+{
+    "AS_Form_g464aa3599b24376b1cc70d383dee04d": {
+        "id": "AS_Form_g464aa3599b24376b1cc70d383dee04d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmaccountOverview",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f7e8a9e58fac4a7e9dd1528a289de3d9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_fb1336c7875e4a38832e86270420c5c7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\n    var basicConf = {\n        message: \"Are you sure you want to exit?\",\n        alertType: constants.ALERT_TYPE_CONFIRMATION,\n        alertTitle: \"Exit Confirmation\",\n        yesLabel: \"Yes\",\n        noLabel: \"Cancel\",\n        alertHandler: function(response) {\n            if (response === true) {\n                // User clicked \"Yes\"\n                kony.application.exit(); // Exits the app\n            } else {\n                // User clicked \"Cancel\"\n                kony.print(\"User chose to stay.\");\n            }\n        }\n    };\n    var pspConf = {};\n    kony.ui.Alert(basicConf, pspConf);\n\n",
+            "parentId": null
+        }]
+    }
+}

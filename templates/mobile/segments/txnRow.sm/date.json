@@ -5,6 +5,10 @@
         "type": "ref",
         "value": "preferred"
     },
+    "_left_": {
+        "type": "string",
+        "value": "4%"
+    },
     "_margin_": [
         1,
         1,
@@ -28,8 +32,8 @@
         "value": "66.45%"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "70%"
     },
     "_wrapping_": 2,
     "android": {

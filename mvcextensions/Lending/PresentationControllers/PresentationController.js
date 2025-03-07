@@ -10,7 +10,7 @@ define([], function () {
     };
     
     // Now fetchUserDetails accepts success and error callbacks
-    PresentationController.prototype.fetchUserDetails = function (successCallback, errorCallback) {
+    PresentationController.prototype.fetchUserDetails = function () {
         kony.print("Entering PresentationController.fetchUserDetails");
     
         // Get the callbacks from this method’s parameters
@@ -25,23 +25,10 @@ define([], function () {
         }
     
         // Call the business controller and pass the callbacks
-        businessController.fetchUserDetails(
-            function (response) {
-                kony.print("fetchUserDetails Success");
-                // Directly call the success callback provided by the Form Controller
-                if (successCallback && typeof successCallback === "function") {
-                    successCallback(response);
-                }
-            },
-            function (error) {
-                kony.print("fetchUserDetails Failed: " + JSON.stringify(error));
-                if (errorCallback && typeof errorCallback === "function") {
-                    errorCallback(error);
-                }
-            }
-        );
-    
+        var UserDetail=businessController.fetchUserDetails();
+         
         kony.print("Exiting PresentationController.fetchUserDetails");
+      return UserDetail;
     };
     
   // Now fetchUserDetails accepts success and error callbacks
@@ -107,7 +94,7 @@ define([], function () {
                 }
             },
             function (error) {
-                kony.print("fetchUserDetails Failed: " + JSON.stringify(error));
+                kony.print("saveLoadDetails Failed: " + JSON.stringify(error));
                 if (errorCallback && typeof errorCallback === "function") {
                     errorCallback(error);
                 }

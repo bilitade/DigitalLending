@@ -1,80 +1,124 @@
 define({ 
   onMakePaymentClick: function() {
     var self = this;
-    var combinedData = {
-      s_account: self.view.accountListBox.selectedKey,
-      due_amount: parseFloat(self.view.dueAmountLabel.text),
-    };
-    console.log("due_amount",combinedData.due_amount);
-    var presController = kony.mvc.MDAApplication.getSharedInstance()
-    .getModuleManager()
-    .getModule("Dashboard")
-    .presentationController;
-    presController.makePayment(combinedData,
-      function(response) {
+    var basicConf = {
+      message: "you are about to  make payment, Do you want to continue?",
+      alertType: constants.ALERT_TYPE_CONFIRMATION,
+      alertTitle: "Exit Confirmation",
+      yesLabel: "Yes",
+      noLabel: "Cancel",
+      alertHandler: function(response) {
+        if (response === true) {
+         
+          var combinedData = {
+            s_account: self.view.accountListBox.selectedKey,
+            due_amount: parseFloat(self.view.dueAmountLabel.text),
+          };
+          console.log("due_amount",combinedData.due_amount);
+          var presController = kony.mvc.MDAApplication.getSharedInstance()
+          .getModuleManager()
+          .getModule("Dashboard")
+          .presentationController;
+          presController.makePayment(combinedData,
+                                     function(response) {
 
-        if (response && response.records && response.records.length > 0) {
-             var transaction_id = response.records[0];
-             combinedData.transaction_id = transaction_id.TransactionReference;
-             console.log("combinedData",combinedData);
-             navObj= new kony.mvc.Navigation("Dashboard/frmLoanPayment");
-            
-             navObj.navigate(combinedData);
-          
+            if (response && response.records && response.records.length > 0) {
+              var transaction_id = response.records[0];
+              combinedData.transaction_id = transaction_id.TransactionReference;
+              if(transaction_id.FullyPaid === "Yes"){
+                navObj= new kony.mvc.Navigation("Dashboard/frmFullLoanPayment");   
+                navObj.navigate(combinedData);
+              }
+              else{
+                navObj= new kony.mvc.Navigation("Dashboard/frmLoanPayment");   
+                navObj.navigate(combinedData);
+              }
+
+            } else {
+              kony.print("No records found in response.");
+
+            }
+          },
+                                     function(error) {
+            alert("Failed to make payment: " + JSON.stringify(error));
+          }
+                                    );
 
         } else {
-          kony.print("No records found in response.");
-           
+          navObj= new kony.mvc.Navigation("Dashboard/frmMakePayment");       
+          navObj.navigate();
+
         }
-      },
-      function(error) {
-        alert("Failed to make payment: " + JSON.stringify(error));
       }
-    );
+    };
+    var pspConf = {};
+    kony.ui.Alert(basicConf, pspConf);
+
+
+
 
 
   },
-  
-  
-  onLoanPayClick: function() {
-    
-    var self = this;
-    var combinedData = {
-      s_account: self.view.accountListBox.selectedKey,
-      due_amount: parseFloat(self.view.remainingBalance.text),
-    };
-    console.log("due_amount",combinedData.due_amount);
-    var presController = kony.mvc.MDAApplication.getSharedInstance()
-    .getModuleManager()
-    .getModule("Dashboard")
-    .presentationController;
-    presController.makePayment(combinedData,
-      function(response) {
 
-        if (response && response.records && response.records.length > 0) {
-             var transaction_id = response.records[0];
-             combinedData.transaction_id = transaction_id.TransactionReference;
-             console.log("combinedData",combinedData);
-             navObj= new kony.mvc.Navigation("Dashboard/frmLoanPayment");
-            
-             navObj.navigate(combinedData);
-          
+
+  onLoanPayClick: function() {
+    var self = this;
+
+    var basicConf = {
+      message: "You are about fully pay your loan, do you want to continue?",
+      alertType: constants.ALERT_TYPE_CONFIRMATION,
+      alertTitle: "Exit Confirmation",
+      yesLabel: "Yes",
+      noLabel: "Cancel",
+      alertHandler: function(response) {
+        if (response === true) {
+         
+          var combinedData = {
+            s_account: self.view.accountListBox.selectedKey,
+            due_amount: parseFloat(self.view.remainingBalance.text),
+          };
+          console.log("due_amount",combinedData.due_amount);
+          var presController = kony.mvc.MDAApplication.getSharedInstance()
+          .getModuleManager()
+          .getModule("Dashboard")
+          .presentationController;
+          presController.makePayment(combinedData,
+                                     function(response) {
+
+            if (response && response.records && response.records.length > 0) {
+              var transaction_id = response.records[0];
+              combinedData.transaction_id = transaction_id.TransactionReference;
+              console.log("combinedData",combinedData);
+              navObj= new kony.mvc.Navigation("Dashboard/frmFullLoanPayment");       
+              navObj.navigate(combinedData);
+            } else {
+              kony.print("No records found in response.");
+
+            }
+          },
+                                     function(error) {
+            alert("Failed to make payment: " + JSON.stringify(error));
+          }
+                                    );
+
 
         } else {
-          kony.print("No records found in response.");
-           
-        }
-      },
-      function(error) {
-        alert("Failed to make payment: " + JSON.stringify(error));
-      }
-    );
 
-    
-    
+
+        }
+      }
+    };
+    var pspConf = {};
+    kony.ui.Alert(basicConf, pspConf);
+
+
+
+
+
+
   },
   onFormPreShow: function() {
-    
+
     var self = this;
     var presController = kony.mvc.MDAApplication.getSharedInstance()
     .getModuleManager()
@@ -96,6 +140,7 @@ define({
       }
     );
   },
+
   populateMainContainer: function(response) {
     var self = this;
     var LoadAccountDetails = response.records[0];

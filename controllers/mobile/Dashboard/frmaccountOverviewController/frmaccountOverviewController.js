@@ -1,53 +1,58 @@
 define({ 
+  onNavigate: function(){
+  },
+  onFormPostShow: function() {
+    
+    var self = this;
+    var presController = kony.mvc.MDAApplication.getSharedInstance()
+    .getModuleManager()
+    .getModule("Dashboard")
+    .presentationController;
 
- onFormPreShow: function() {
-            var self = this;
-            var presController = kony.mvc.MDAApplication.getSharedInstance()
-                .getModuleManager()
-                .getModule("Dashboard")
-                .presentationController;
+    // Call your fetchUserDetails or similar method
+    presController.fetchLoanAccount(
+      function(response) {
 
-            // Call your fetchUserDetails or similar method
-            presController.fetchLoanAccount(
-                function(response) {
-                    
-                    if (response && response.records && response.records.length > 0) {
-                       var LoadAccountDetails = response.records[0];
-                       console.log("LoadAccountDetails",LoadAccountDetails);
-                        self.populateMainContainer(LoadAccountDetails);
-                    } else {
-                        kony.print("No records found in response.");
-                    }
-                },
-                function(error) {
-                    alert("Failed to fetch LoadAccountDetails details: " + JSON.stringify(error));
-                }
-            );
-        },
-  
-     
-      populateMainContainer: function(LoadAccountDetails) {
-         var self = this;
-        self.view.remainingBalanceField.text= LoadAccountDetails.remaining_balance;
-        let payment_due = JSON.parse(LoadAccountDetails.payment_due);
-        self.view.dueFieldLabel.text= payment_due.due_amount;
-        let last_payment = JSON.parse(LoadAccountDetails.last_payment);
-        self.view.lastPaymentFieldLabel.text= last_payment.amount_paid;
-        self.view.loanStatusFieldLabel.text= LoadAccountDetails.loan_status;
-        self.view.creditScoreFieldLabel.text= LoadAccountDetails.credit_score;
-        
-        var loanAmount = parseFloat(LoadAccountDetails.loan_amount);
-        var remainingBalance = parseFloat(LoadAccountDetails.remaining_balance);
-        var paidAmount = loanAmount - remainingBalance;
+        if (response && response.records && response.records.length > 0) {
+          var LoadAccountDetails = response.records[0];
+          console.log("LoadAccountDetails",LoadAccountDetails);
+          self.populateMainContainer(LoadAccountDetails);
+        } else {
+          kony.print("No records found in response.");
+        }
+      },
+      function(error) {
+        alert("Failed to fetch LoadAccountDetails details: " + JSON.stringify(error));
+      }
+    );
+  },
 
-        var paidPercentage = (paidAmount / loanAmount) * 100;
-        var duePercentage = 100 - paidPercentage;
-        console.log("paidPercentage",paidPercentage);
-        console.log("duePercentage",duePercentage);
-         if (paidPercentage === 0){
-         this.view.donutchart.chartData =
 
-      {
+  populateMainContainer: function(LoadAccountDetails) {
+    this.view.forceLayout();
+    console.log("LoadAccountDetails",LoadAccountDetails);
+    var self = this;
+    self.view.remainingBalanceField.text= LoadAccountDetails.remaining_balance;
+    let payment_due = JSON.parse(LoadAccountDetails.payment_due);
+    self.view.dueFieldLabel.text= payment_due.due_amount;
+    let last_payment = JSON.parse(LoadAccountDetails.last_payment);
+    self.view.lastPaymentFieldLabel.text= last_payment.amount_paid;
+    self.view.loanStatusFieldLabel.text= LoadAccountDetails.loan_status;
+    self.view.creditScoreFieldLabel.text= LoadAccountDetails.credit_score;
+
+    var loanAmount = parseFloat(LoadAccountDetails.loan_amount);
+    var remainingBalance = parseFloat(LoadAccountDetails.remaining_balance);
+    var paidAmount = loanAmount - remainingBalance;
+
+    var paidPercentage = ((paidAmount / loanAmount) * 100).toFixed(1);
+    var duePercentage = (100 - paidPercentage).toFixed(1);
+    console.log("paidPercentage",paidPercentage);
+    console.log("duePercentage",duePercentage);
+    if (parseInt(paidPercentage) === 0){
+      
+      this.view.donutchart.chartData =
+
+        {
 
         "data":
 
@@ -57,11 +62,12 @@ define({
 
       };
 
-}
-else{
-  this.view.donutchart.chartData =
+    }
+    else{
+     
+      this.view.donutchart.chartData =
 
-      {
+        {
 
         "data":
 
@@ -71,14 +77,14 @@ else{
         ]
 
       };
-  
-}
+
+    }
 
 
 
-      
-}
-  
-  
 
- });
+  }
+
+
+
+});

@@ -1,0 +1,18 @@
+{
+    "AS_CheckBoxGroup_b1e7cb3d9b004b80bb04841dc679d249": {
+        "id": "AS_CheckBoxGroup_b1e7cb3d9b004b80bb04841dc679d249",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoanForm",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ee19b801b00b445e9729c950481d73c0"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

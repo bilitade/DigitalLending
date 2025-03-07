@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "41dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s807b7dac6c34105b19ab3acfcf10fee",
+    "_text_": "Re Apply",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.04%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sff9348e0d6f4672b3899b1a9280733f",
+    "id": "getRecieptBtn",
+    "ide_onClick": "AS_Button_b3bd30ca66ec4d9190a715820532a8b1",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e6f6a33c3b99495197478ff0fa14b3c5",
+    "name": "kony.ui.Button",
+    "parent": "row5",
+    "pf": "frmFullLoanPayment",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

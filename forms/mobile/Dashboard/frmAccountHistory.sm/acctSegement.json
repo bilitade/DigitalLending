@@ -5,227 +5,29 @@
         {
             "amount": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "685"
+                "text": ""
             },
             "currency": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "ETB"
+                "text": ""
             },
             "date": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date:2025-09-13"
+                "text": ""
             },
             "txnref": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Ref: TXN123456"
+                "text": ""
             },
             "txntype": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Loan Repayment"
-            }
-        },
-        {
-            "amount": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "685"
-            },
-            "currency": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "ETB"
-            },
-            "date": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date:2025-09-13"
-            },
-            "txnref": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Ref: TXN123456"
-            },
-            "txntype": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Loan Repayment"
-            }
-        },
-        {
-            "amount": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "685"
-            },
-            "currency": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "ETB"
-            },
-            "date": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date:2025-09-13"
-            },
-            "txnref": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Ref: TXN123456"
-            },
-            "txntype": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Loan Repayment"
-            }
-        },
-        {
-            "amount": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "685"
-            },
-            "currency": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "ETB"
-            },
-            "date": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date:2025-09-13"
-            },
-            "txnref": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Ref: TXN123456"
-            },
-            "txntype": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Loan Repayment"
-            }
-        },
-        {
-            "amount": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "685"
-            },
-            "currency": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "ETB"
-            },
-            "date": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date:2025-09-13"
-            },
-            "txnref": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Ref: TXN123456"
-            },
-            "txntype": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Loan Repayment"
-            }
-        },
-        {
-            "amount": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "10000"
-            },
-            "currency": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "ETB"
-            },
-            "date": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date:2025-09-13"
-            },
-            "txnref": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Ref: TXN123456"
-            },
-            "txntype": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Loan Disbursment"
-            }
-        },
-        {
-            "amount": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "685"
-            },
-            "currency": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "ETB"
-            },
-            "date": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date:2025-09-13"
-            },
-            "txnref": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Ref: TXN123456"
-            },
-            "txntype": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Loan Repayment"
-            }
-        },
-        {
-            "amount": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "685"
-            },
-            "currency": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "ETB"
-            },
-            "date": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date:2025-09-13"
-            },
-            "txnref": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Ref: TXN123456"
-            },
-            "txntype": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Loan Repayment"
-            }
-        },
-        {
-            "amount": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "685"
-            },
-            "currency": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "ETB"
-            },
-            "date": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date:2025-09-13"
-            },
-            "txnref": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Ref: TXN123456"
-            },
-            "txntype": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Loan Repayment"
-            }
-        },
-        {
-            "amount": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "685"
-            },
-            "currency": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "ETB"
-            },
-            "date": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Date:2025-09-13"
-            },
-            "txnref": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Ref: TXN123456"
-            },
-            "txntype": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Loan Repayment"
+                "text": ""
             }
         }
     ],
     "_height_": {
         "type": "string",
-        "value": "481dp"
+        "value": "100%"
     },
     "_indicator_": "none",
     "_left_": {
@@ -256,7 +58,7 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "containerweight": 100,
-    "counter": "09",
+    "counter": "00",
     "focusedindex": null,
     "focuseditem": null,
     "groupcells": false,
@@ -290,7 +92,7 @@
     "retainflexpositionproperties": false,
     "retainselection": false,
     "rowTemplateId": "b6ebb6d0dcfb44d79a66047fb752dcb4",
-    "rowcounter": 9,
+    "rowcounter": 0,
     "rowfocusskin": "s82faad8540c4dbaab96d1f2f73ed71f",
     "rowskin": "s4a63978c5fa4c93998e41723f9f73ba",
     "rowtemplate": "txnContainer",
@@ -302,7 +104,7 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": 0,
+    "selectedsectionindex": null,
     "selectionbehavior": "default",
     "separatorcolor": "aaaaaa00",
     "separatorrequired": true,

@@ -14,17 +14,15 @@
         },
         "language": "js",
         "actions": [{
-            "id": "NAVIGATE_TO_FORM__j9d6ba7d7c87453db297d2d6af88e659",
-            "type": "NAVIGATE_TO_FORM",
-            "formId": "frmaccountOverview",
-            "friendlyName": "frmaccountOverview",
-            "formKUID": "f7e8a9e58fac4a7e9dd1528a289de3d9",
-            "projectName": "DigitalLending",
-            "mappings": {},
-            "mappingsOrder": [],
-            "enableMappingEditor": true,
-            "package": "Dashboard",
-            "isCustomInput": false
+            "id": "INVOKE_FUNCTION__f08896f348914031aae63ae53c1fead0",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "viewDetailBtnClicked",
+            "display": "viewDetailBtnClicked",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
         }]
     }
 }

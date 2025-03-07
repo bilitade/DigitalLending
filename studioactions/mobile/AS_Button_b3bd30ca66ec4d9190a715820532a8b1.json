@@ -1,0 +1,28 @@
+{
+    "AS_Button_b3bd30ca66ec4d9190a715820532a8b1": {
+        "id": "AS_Button_b3bd30ca66ec4d9190a715820532a8b1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFullLoanPayment",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a82fbc3c334e4e7baf4f9b77046c5f0f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__h8b060053e5a4465a2ba28c89bbcfaa6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onReapplyClick",
+            "display": "onReapplyClick",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
