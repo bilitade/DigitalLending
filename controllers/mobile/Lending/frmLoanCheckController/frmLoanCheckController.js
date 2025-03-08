@@ -10,6 +10,7 @@ define({
       var amountText = self.view.amountLabel.text;  
       var amountNumber = amountText.replace(/[^\d.]/g, ''); 
       var amount = parseFloat(amountNumber);  
+      amount= (amount * 0.07) + amount;
       var presController = kony.mvc.MDAApplication.getSharedInstance()
       .getModuleManager()
       .getModule("Lending")

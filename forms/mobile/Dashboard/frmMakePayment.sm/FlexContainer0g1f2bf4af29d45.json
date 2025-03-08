@@ -33,10 +33,15 @@
     },
     "_width_": {
         "type": "string",
-        "value": "89.23%"
+        "value": "95%"
     },
     "allboxes": [],
+    "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
         "Label0e9792c1bea3243",
         "accountListBox",
@@ -44,7 +49,7 @@
         "dueDateLabel",
         "Label0dbddb8e1409f41",
         "remainingBalance",
-        "Label0d7be6a77626f49"
+        "scheduleLabel"
     ],
     "clipbounds": false,
     "containerweight": 100,

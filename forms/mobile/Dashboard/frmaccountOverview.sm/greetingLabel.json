@@ -31,7 +31,6 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "welcomLabel",
         "nameLabel"
     ],
     "clipbounds": false,

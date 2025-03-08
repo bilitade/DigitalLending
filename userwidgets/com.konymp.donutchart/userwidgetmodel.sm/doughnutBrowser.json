@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizBrowser",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
         "value": "100%"
@@ -40,7 +39,7 @@
     "desktopweb": {
         "width": {
             "type": "string",
-            "value": "100%"
+            "value": "80%"
         }
     },
     "detecttelnumber": false,

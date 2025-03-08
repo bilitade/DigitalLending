@@ -2,12 +2,12 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "30dp"
     },
     "_left_": {
         "type": "string",
-        "value": "235dp"
+        "value": "45%"
     },
     "_margin_": [
         1,
@@ -41,7 +41,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "Label0d7be6a77626f49",
+    "id": "scheduleLabel",
     "info": null,
     "ipad": {
         "psp": {

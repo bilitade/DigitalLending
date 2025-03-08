@@ -150,7 +150,7 @@ define(['UserSessionManager'], function (UserSessionManager) {
         var authUser = session.getUser();
         var operationName = "digitallending_save_selected_account";  
         var params = {
-            "p_customer_id": authUser.profile.Customer_Id,
+             "p_customer_id": authUser.profile.Customer_Id,
              "p_account_number":data.account_number,
           
         };  
@@ -162,6 +162,7 @@ define(['UserSessionManager'], function (UserSessionManager) {
             function(response) {  
                 kony.print(operationName+" Service call successful: " + JSON.stringify(response));
                 authUser.profile.Selected_Account_Number = params.p_account_number;
+                console.log("Selected_Account_Number",authUser.profile.Selected_Account_Number);
                 if (successCallback) successCallback(response);
             },
             function(error) {  

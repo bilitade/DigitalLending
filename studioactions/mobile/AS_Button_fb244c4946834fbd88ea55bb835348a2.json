@@ -1,0 +1,30 @@
+{
+    "AS_Button_fb244c4946834fbd88ea55bb835348a2": {
+        "id": "AS_Button_fb244c4946834fbd88ea55bb835348a2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoanCheck",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c2cb8ac9bfba4bf18f32a49c45a64e08"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__e8a7f3499f694e418bddcaca2504e4df",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmLoanHome",
+            "friendlyName": "frmLoanHome",
+            "formKUID": "d71619c76ea64fb6b3a752e89f75485d",
+            "projectName": "DigitalLending",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "Lending",
+            "isCustomInput": false
+        }]
+    }
+}

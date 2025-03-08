@@ -4,11 +4,11 @@
     "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "51.16%"
+        "value": "45%"
     },
     "_left_": {
         "type": "string",
-        "value": "65dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -31,9 +31,13 @@
     },
     "_width_": {
         "type": "string",
-        "value": "71.03%"
+        "value": "60%"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.00%"
+    },
     "containerweight": 0,
     "data": {
         "chartData": {
@@ -79,10 +83,10 @@
                 }
             ]
         },
-        "chartTitle": "Loan Summary",
+        "chartTitle": "",
         "enableChartAnimation": true,
         "titleFontColor": "#595959",
-        "titleFontSize": "14"
+        "titleFontSize": "1"
     },
     "id": "donutchart",
     "info": null,

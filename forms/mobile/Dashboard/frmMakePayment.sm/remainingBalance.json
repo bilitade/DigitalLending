@@ -5,10 +5,6 @@
         "type": "ref",
         "value": "preferred"
     },
-    "_left_": {
-        "type": "string",
-        "value": "214dp"
-    },
     "_margin_": [
         1,
         1,
@@ -21,6 +17,10 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "string",
+        "value": "2%"
+    },
     "_skin_": "s4d95e4bfda44a0094a3962f53c859a7",
     "_text_": "ETB2,000",
     "_top_": {
@@ -28,8 +28,8 @@
         "value": "182dp"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "35%"
     },
     "_wrapping_": 2,
     "android": {

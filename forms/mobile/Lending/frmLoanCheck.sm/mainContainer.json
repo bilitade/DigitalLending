@@ -42,9 +42,11 @@
         "congraLabel",
         "eligibleLabel",
         "amountLabel",
+        "CopyamountLabel0ic489131cf564b",
         "loanType",
         "agreementContainer",
-        "acceptBtn"
+        "acceptBtn",
+        "CopyacceptBtn0i1e075a7da2347"
     ],
     "clipbounds": false,
     "containerweight": 100,

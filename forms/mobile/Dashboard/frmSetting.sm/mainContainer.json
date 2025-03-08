@@ -41,12 +41,9 @@
     "children": [
         "profilePlaceHolder",
         "profileUserrnameLabel",
-        "signoutBtn",
-        "profileSettingsBtn",
-        "consentMngBtn",
-        "referBtn",
         "profileEmailLabel",
-        "phoneLabel"
+        "phoneLabel",
+        "signoutBtn"
     ],
     "clipbounds": false,
     "containerweight": 100,
@@ -56,7 +53,7 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "i272df0927b9437ba134ef6b437a3f5a",
-    "layouttype": 2,
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
     "parent": "frmSetting",
     "pf": "frmSetting",

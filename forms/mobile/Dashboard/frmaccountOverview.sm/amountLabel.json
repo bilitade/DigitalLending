@@ -23,13 +23,9 @@
     ],
     "_skin_": "seaf97aed2114af690f3ea36162b23a2",
     "_text_": "10,000",
-    "_top_": {
-        "type": "string",
-        "value": "0"
-    },
     "_width_": {
         "type": "string",
-        "value": "48%"
+        "value": "100%"
     },
     "_wrapping_": 2,
     "android": {
@@ -39,8 +35,12 @@
         }
     },
     "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
-    "contentalignment": 4,
+    "contentalignment": 5,
     "id": "amountLabel",
     "info": null,
     "ipad": {

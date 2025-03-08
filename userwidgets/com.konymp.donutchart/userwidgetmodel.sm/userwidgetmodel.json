@@ -19,6 +19,17 @@
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
+    "breakpointInfo": {
+        "b1": {
+            "width": 1366
+        },
+        "b2": {
+            "width": 1024
+        },
+        "b3": {
+            "width": 640
+        }
+    },
     "canUpdateUI": true,
     "canvasWidth": 1200,
     "children": [
@@ -29,10 +40,7 @@
     "device": "desktopweb",
     "displayorientation": 3,
     "enabledforidletimeout": false,
-    "globalUserWidgetRefs": [
-        "uc6fdade04fb4d35986ce31c448b5824",
-        "u5d1b7def4e443759a56fa6ac3234708"
-    ],
+    "globalUserWidgetRefs": [],
     "id": "userwidgetmodel",
     "info": null,
     "initdone": false,
@@ -51,10 +59,9 @@
     },
     "paddinginpixel": false,
     "platform": "desktopweb",
-    "prevDevice": "Pixel3",
-    "prevPlatform": "android",
+    "prevDevice": "desktopweb",
+    "prevPlatform": "desktopweb",
     "retainscrollposition": false,
-    "shellCSS": "desktop",
     "titleBarSkin": "",
     "titlebar": true,
     "type": 3,

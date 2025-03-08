@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "63.70%"
+        "value": "65%"
     },
     "_left_": {
         "type": "string",
@@ -34,15 +34,11 @@
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centery": {
-        "type": "string",
-        "value": "55.08%"
-    },
     "children": [
         "donutchart",
         "summaryContainer"
     ],
-    "clipbounds": false,
+    "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
     "id": "mainContainer",

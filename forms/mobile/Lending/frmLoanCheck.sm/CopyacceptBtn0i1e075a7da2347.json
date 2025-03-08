@@ -3,11 +3,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "42dp"
     },
     "_left_": {
         "type": "string",
-        "value": "50dp"
+        "value": "0"
     },
     "_margin_": [
         6,
@@ -21,29 +21,34 @@
         0,
         0
     ],
-    "_skin_": "s6ea85b0c8a64abea496002b7f739467",
-    "_text_": "Profile Settings",
+    "_skin_": "sc9f30d75fa3491f825c768f3b7533ee",
+    "_text_": "Cancel",
     "_top_": {
         "type": "string",
-        "value": "234dp"
+        "value": "4%"
     },
     "_width_": {
         "type": "string",
-        "value": "300dp"
+        "value": "40%"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "49.97%"
+    },
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "sff9348e0d6f4672b3899b1a9280733f",
-    "id": "profileSettingsBtn",
+    "focusskin": "sca87a5dee9e41f69dddab89a0c060c4",
+    "id": "CopyacceptBtn0i1e075a7da2347",
+    "ide_onClick": "AS_Button_fb244c4946834fbd88ea55bb835348a2",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e6c969241a314d5ea195f60a298f4396",
+    "kuid": "g1fc7226fa4e4383b55b1c9c79b0b12f",
     "name": "kony.ui.Button",
     "parent": "mainContainer",
-    "pf": "frmSetting",
+    "pf": "frmLoanCheck",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "wType": "Button"

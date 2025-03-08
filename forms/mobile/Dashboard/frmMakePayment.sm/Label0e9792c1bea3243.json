@@ -2,12 +2,12 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "30dp"
     },
     "_left_": {
         "type": "string",
-        "value": "100dp"
+        "value": "5%"
     },
     "_margin_": [
         1,
@@ -22,14 +22,14 @@
         0
     ],
     "_skin_": "s07e71fdf59a4c87bfaf7a78a613f3b3",
-    "_text_": "Schedule Pay",
+    "_text_": "Schedule Pay:",
     "_top_": {
         "type": "string",
         "value": "11dp"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "50%"
     },
     "_wrapping_": 2,
     "android": {

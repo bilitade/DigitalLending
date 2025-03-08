@@ -143,6 +143,7 @@ define({
 
   populateMainContainer: function(response) {
     var self = this;
+    
     var LoadAccountDetails = response.records[0];
     var bankAccounts = response.authUser.profile.Bank_Accounts || "[]";
     var masterData = bankAccounts.map(function(account) {
@@ -150,16 +151,23 @@ define({
     });
 
     self.view.accountListBox.masterData = masterData;
+    if (response.authUser.profile.Active_Scheduled_Payment === "Yes"){
+          self.view.scheduleLabel.text = "ON";
 
+    } else {
+          self.view.scheduleLabel.text = "OFF";
+
+    }
+    
     // If there is at least one item, select the first one.
     if(masterData.length > 0) {
       self.view.accountListBox.selectedKey = masterData[0][0];
     }
-    self.view.remainingBalance.text = LoadAccountDetails.remaining_balance;
+    self.view.remainingBalance.text =LoadAccountDetails.remaining_balance;
     let payment_due = JSON.parse(LoadAccountDetails.payment_due);
-    self.view.dueAmountLabel.text = payment_due.due_amount; 
+    self.view.dueAmountLabel.text =payment_due.due_amount; 
     console.log("payment_due.due_amount",payment_due.due_amount);
-    self.view.dueDateLabel.text= payment_due.due_date;
+    self.view.dueDateLabel.text= "Payment due by " +payment_due.due_date;
 
 
 

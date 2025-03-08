@@ -12,38 +12,38 @@ define(['UserSessionManager'], function (UserSessionManager) {
       self.view.AccountListRadioButton.masterData = masterData;
 
       var storedAccount =  authUser.profile.Selected_Account_Number;
-      if(storedAccount) {
-        self.view.AccountListRadioButton.selectedKey = storedAccount;
-      }
+
+      self.view.AccountListRadioButton.selectedKey = storedAccount;
+
       console.log("storedAccount",storedAccount);
     },
     onAccountSelection: function (){
       var self = this;
       var selectedValue = self.view.AccountListRadioButton.selectedKey;
       var data = {
-            account_number: selectedValue,
-        };
+        account_number: selectedValue,
+      };
 
-    var presController = kony.mvc.MDAApplication.getSharedInstance()
-    .getModuleManager()
-    .getModule("Dashboard")
-    .presentationController;
-    presController.saveSelectedAccount(data,
-                                function(response) {
+      var presController = kony.mvc.MDAApplication.getSharedInstance()
+      .getModuleManager()
+      .getModule("Dashboard")
+      .presentationController;
+      presController.saveSelectedAccount(data,
+                                         function(response) {
 
-      if (response && response.records && response.records.length > 0) {
+        if (response && response.records && response.records.length > 0) {
           alert(response.records[0].message);
           navObj= new kony.mvc.Navigation("Dashboard/frmPaymentMethod");       
           navObj.navigate();
-      } else {
-        kony.print("No records found in response.");
+        } else {
+          kony.print("No records found in response.");
 
+        }
+      },
+                                         function(error) {
+        alert("Failed to makeSchedule: " + JSON.stringify(error));
       }
-    },
-                                function(error) {
-      alert("Failed to makeSchedule: " + JSON.stringify(error));
-    }
-                               );
+                                        );
     }};
 
 });

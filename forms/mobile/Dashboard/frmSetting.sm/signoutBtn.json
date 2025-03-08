@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "135dp"
+        "value": "0dp"
     },
     "_margin_": [
         6,
@@ -25,13 +25,17 @@
     "_text_": "Signout",
     "_top_": {
         "type": "string",
-        "value": "434dp"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
-        "value": "161dp"
+        "value": "120dp"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,

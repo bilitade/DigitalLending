@@ -15,7 +15,8 @@ define({
 
         if (response && response.records && response.records.length > 0) {
           var LoadAccountDetails = response.records[0];
-          console.log("LoadAccountDetails",LoadAccountDetails);
+          self.view.nameLabel.text=response.authUser.profile.Name;
+          console.log("LoadAccountDetails",response);
           self.populateMainContainer(LoadAccountDetails);
         } else {
           kony.print("No records found in response.");
@@ -32,6 +33,7 @@ define({
     this.view.forceLayout();
     console.log("LoadAccountDetails",LoadAccountDetails);
     var self = this;
+    self.view.amountLabel.text ="Loan Amount "+ LoadAccountDetails.loan_amount;
     self.view.remainingBalanceField.text= LoadAccountDetails.remaining_balance;
     let payment_due = JSON.parse(LoadAccountDetails.payment_due);
     self.view.dueFieldLabel.text= payment_due.due_amount;
@@ -41,7 +43,6 @@ define({
     if(last_payment.payment_date === null){
       last_payment.payment_date="Pending";
       last_payment.amount_paid ="Pending";
-
     }
     self.view.dueFieldDate.text="By "+payment_due.due_date;
     self.view.LastPaymentLabel.text=last_payment.amount_paid;
