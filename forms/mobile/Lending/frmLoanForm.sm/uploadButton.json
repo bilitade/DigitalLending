@@ -29,7 +29,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "32dp"
+        "value": "10%"
     },
     "canUpdateUI": true,
     "containerweight": 100,
@@ -37,6 +37,7 @@
     "displaytext": true,
     "focusskin": "sff9348e0d6f4672b3899b1a9280733f",
     "id": "uploadButton",
+    "ide_onClick": "AS_Button_a091a7a6f20446ad856d32d7da6850bc",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

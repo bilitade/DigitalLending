@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "38dp"
+        "value": "8%"
     },
     "_left_": {
         "type": "string",
@@ -40,7 +40,8 @@
     },
     "children": [
         "uploadTextLabel",
-        "uploadButton"
+        "uploadButton",
+        "filenamelabel"
     ],
     "clipbounds": false,
     "containerweight": 100,

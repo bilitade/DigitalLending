@@ -19,6 +19,36 @@ define([], function() {
 
 
     },
+    onuploadclicked:function(){
+
+      try {
+        // Define query context for selecting only images
+        var queryContext = { mimeType: ["image/*"] };
+
+        // Open the media gallery to select an image
+        kony.phone.openMediaGallery(
+          function onSuccess(selectedMedia) {
+            if (selectedMedia && selectedMedia.rawBytes) {
+              alert("Image Selected: " + selectedMedia.fileName);
+
+              // Convert the selected image to Base64 if needed
+              var base64String = kony.convertToBase64(selectedMedia.rawBytes);
+              alert("Base64 Image: " + base64String.substring(0, 50) + "..."); // Show first 50 chars
+            }
+          },
+          function onFailure(error) {
+            alert("Error: " + JSON.stringify(error));
+          },
+          queryContext // Pass the query context properly
+        );
+      } catch (e) {
+        alert("Exception: " + e.message);
+      }
+
+
+
+
+    },
     onFormPreShow: function() {
       var self = this;
       var presController = kony.mvc.MDAApplication.getSharedInstance()
