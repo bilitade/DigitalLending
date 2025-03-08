@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "31dp"
     },
     "_left_": {
         "type": "string",
@@ -35,20 +35,20 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lastPaymentTextLabel",
-        "LastPaymentDateContainer"
+        "LastPaymentLabel",
+        "lastPaymentDate"
     ],
     "clipbounds": false,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "lastPaymentContainer",
+    "id": "LastPaymentDateContainer",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "g2122fbded0c40ff9c6df39d164e24ab",
-    "layouttype": 3,
+    "kuid": "b31f4d1a659541b191513e382fdd663d",
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "summaryContainer",
+    "parent": "lastPaymentContainer",
     "pf": "frmaccountOverview",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

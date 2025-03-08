@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "31dp"
+        "value": "38dp"
     },
     "_left_": {
         "type": "string",
@@ -36,7 +36,7 @@
     "canUpdateUI": true,
     "children": [
         "dueTextLabel",
-        "dueFieldLabel"
+        "FlexContainer0gdfd584256bb4f"
     ],
     "clipbounds": false,
     "containerweight": 100,

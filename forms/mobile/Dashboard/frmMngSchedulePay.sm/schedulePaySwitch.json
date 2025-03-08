@@ -3,11 +3,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "32dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "223dp"
+        "value": "33dp"
     },
     "_margin_": [
         0,
@@ -21,16 +17,24 @@
         0,
         0
     ],
-    "_skin_": "s21ed6a8fb2842d8a8a56d142d2689d4",
+    "_right_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_skin_": "sdd10affafe441c3b9954f5bdfe2af0c",
     "_top_": {
         "type": "string",
-        "value": "162dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
         "value": "100dp"
     },
     "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "id": "schedulePaySwitch",
     "ide_onSlide": "AS_Switch_i6d58bc52bc24fbbb2042be040529044",

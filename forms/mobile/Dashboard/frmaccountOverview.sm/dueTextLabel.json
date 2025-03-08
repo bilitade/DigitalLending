@@ -23,6 +23,10 @@
     ],
     "_skin_": "s17770b3777d4514b7fccd53e3436a70",
     "_text_": "Payment Due",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
     "_width_": {
         "type": "string",
         "value": "50%"
@@ -35,10 +39,6 @@
         }
     },
     "canUpdateUI": true,
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 100,
     "contentalignment": 4,
     "id": "dueTextLabel",

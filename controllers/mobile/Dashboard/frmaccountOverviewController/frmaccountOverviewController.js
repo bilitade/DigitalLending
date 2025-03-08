@@ -36,10 +36,36 @@ define({
     let payment_due = JSON.parse(LoadAccountDetails.payment_due);
     self.view.dueFieldLabel.text= payment_due.due_amount;
     let last_payment = JSON.parse(LoadAccountDetails.last_payment);
-    self.view.lastPaymentFieldLabel.text= last_payment.amount_paid;
     self.view.loanStatusFieldLabel.text= LoadAccountDetails.loan_status;
     self.view.creditScoreFieldLabel.text= LoadAccountDetails.credit_score;
+    if(last_payment.payment_date === null){
+      last_payment.payment_date="Pending";
+      last_payment.amount_paid ="Pending";
+      
+    }
+    self.view.dueFieldDate.text="By "+payment_due.due_date;
+    self.view.LastPaymentLabel.text=last_payment.amount_paid;
+   var paymentDateTimeString = last_payment.payment_date;
 
+// Parse the datetime string into a Date object
+var paymentDate = new Date(paymentDateTimeString);
+
+// Check if the Date object is valid
+if (!isNaN(paymentDate.getTime())) {
+    // Extract the date components
+    var year = paymentDate.getFullYear();
+    var month = paymentDate.getMonth() + 1; // Months are zero-based
+    var day = paymentDate.getDate();
+
+    // Format the date as YYYY-MM-DD
+    var formattedDate = year + '-' +
+        (month < 10 ? '0' + month : month) + '-' +
+        (day < 10 ? '0' + day : day);
+
+    last_payment.payment_date= formattedDate;
+   
+} 
+     self.view.lastPaymentDate.text = "On "+ last_payment.payment_date;
     var loanAmount = parseFloat(LoadAccountDetails.loan_amount);
     var remainingBalance = parseFloat(LoadAccountDetails.remaining_balance);
     var paidAmount = loanAmount - remainingBalance;

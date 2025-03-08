@@ -3,7 +3,7 @@ define({
   onAcceptButtonClicked: function(){
     var self =this;
     if(self.view.signContract.selectedKeyValues === null){
-      alert("Please read  and accept the Contract first");
+      self.showToast("Please read and accept the Contract first");
 
     }
     else{
@@ -35,7 +35,13 @@ define({
 
 
   },
-
+  showToast: function(message) {
+    var toast = new kony.ui.Toast({
+      text: message,
+      duration: constants.TOAST_LENGTH_SHORT
+    });
+    toast.show();
+  },
   onFormPreShow: function() {
     var self = this;
     var presController = kony.mvc.MDAApplication.getSharedInstance()

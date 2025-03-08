@@ -3,18 +3,18 @@
 define([], function() {
   return {
     onContinueButtonClicked: function(){
-      
-       var self =this;
-       if(self.view.agreetoTermsCheckBox.selectedKeyValues === null){
-           alert("Please read  and accept the agreement first");
-         
-       }
+
+      var self =this;
+      if(self.view.agreetoTermsCheckBox.selectedKeyValues === null){
+        self.showToast("Please read and accept the terms and agreement first");
+
+      }
       else{
         navObj= new kony.mvc.Navigation("Lending/frmLoanCheck");
         navObj.navigate(null);
       }
-      
-   
+
+
 
 
 
@@ -31,7 +31,13 @@ define([], function() {
 
     },
 
-
+    showToast: function(message) {
+      var toast = new kony.ui.Toast({
+        text: message,
+        duration: constants.TOAST_LENGTH_SHORT
+      });
+      toast.show();
+    },
     populateMainContainer: function(userRecord) {
       var self =this;
       var primaryAddress = userRecord.Primary_Address || "{}";

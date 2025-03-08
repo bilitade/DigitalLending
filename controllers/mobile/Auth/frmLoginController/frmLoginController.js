@@ -9,16 +9,10 @@ define({
 
     }
     else if ( params && params.authSuccessResponse) { 
-      alert(""+ JSON.stringify( params.authErrorResponse));
+      alert(JSON.stringify( params.authSuccessResponse));
 
     }
-
-
-
   },
-
-
-
 
   onLoginBtnClick: function() {
     var basicConfig = {
@@ -41,8 +35,6 @@ define({
       var authPresentationController = authModule.presentationController;
 
       authPresentationController.authenticateUser(email, password);
-
-
 
 
     } else {

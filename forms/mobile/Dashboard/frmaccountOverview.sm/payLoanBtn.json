@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "38dp"
+        "value": "0dp"
     },
     "_margin_": [
         6,
@@ -24,8 +24,8 @@
     "_skin_": "s807b7dac6c34105b19ab3acfcf10fee",
     "_text_": "Pay Loan",
     "_top_": {
-        "type": "string",
-        "value": "20dp"
+        "type": "number",
+        "value": "0"
     },
     "_width_": {
         "type": "string",
@@ -34,7 +34,7 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50.00%"
+        "value": "50%"
     },
     "containerweight": 100,
     "contentalignment": 5,

@@ -68,8 +68,8 @@ define(['UserSessionManager'], function (UserSessionManager) {
             }
                                        );
           } else {
-            // User clicked "Cancel"
-            kony.print("User chose to stay.");
+            navObj= new kony.mvc.Navigation("Dashboard/frmMngSchedulePay");
+            navObj.navigate(null);
           }
         }
       };
