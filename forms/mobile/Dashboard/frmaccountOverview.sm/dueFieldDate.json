@@ -27,6 +27,10 @@
     },
     "_skin_": "sfc7edfff22e4b818932943d3a9bffe7",
     "_text_": "Date",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
     "_width_": {
         "type": "string",
         "value": "89.36%"

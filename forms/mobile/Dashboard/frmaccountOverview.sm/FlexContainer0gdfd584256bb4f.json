@@ -46,7 +46,7 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "c34fa39c9476467cadc2b3982a333025",
-    "layouttype": 2,
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
     "parent": "paymentdueContaine",
     "pf": "frmaccountOverview",
