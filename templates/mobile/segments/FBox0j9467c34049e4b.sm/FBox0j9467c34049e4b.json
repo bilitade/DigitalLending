@@ -2,11 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "8%"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0"
+        "value": "35dp"
     },
     "_margin_": [
         0,
@@ -23,38 +19,36 @@
     ],
     "_percent_": true,
     "_skin_": "s2d74824ef66412f96a0951ed0855af2",
-    "_top_": {
-        "type": "string",
-        "value": "4%"
-    },
     "_width_": {
         "type": "string",
-        "value": "95%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
-        "uploadTextLabel",
-        "uploadButton",
-        "filenamelabel"
+        "accountList"
     ],
     "clipbounds": false,
+    "containerId": true,
     "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "FBox0j9467c34049e4bController"
+        }
+    },
     "enablescrolling": true,
-    "id": "uploadGroupContainer",
+    "id": "FBox0j9467c34049e4b",
     "info": null,
+    "isGeneratedTemplate": true,
+    "isTemplate": true,
     "iscustomlayout": false,
-    "isvisible": false,
-    "kuid": "aaaee0f35e354d46b9b0fd2f111bd43e",
-    "layouttype": 3,
+    "isvisible": true,
+    "kuid": "g998dc9e84cc457b82231cd4bb7ea337",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "mainContainer",
-    "pf": "frmLoanForm",
+    "pf": "FBox0j9467c34049e4b",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

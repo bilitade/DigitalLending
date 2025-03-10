@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "8%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -25,35 +25,29 @@
     "_skin_": "s2d74824ef66412f96a0951ed0855af2",
     "_top_": {
         "type": "string",
-        "value": "4%"
+        "value": "0"
     },
     "_width_": {
         "type": "string",
-        "value": "95%"
+        "value": "60%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
-        "uploadTextLabel",
-        "uploadButton",
-        "filenamelabel"
+        "AccSegment"
     ],
     "clipbounds": false,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "uploadGroupContainer",
+    "id": "FlexContainer0i03b2cd6073148",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": false,
-    "kuid": "aaaee0f35e354d46b9b0fd2f111bd43e",
-    "layouttype": 3,
+    "isvisible": true,
+    "kuid": "e936aba35b804da5b59fa7b51f03eb51",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "mainContainer",
+    "parent": "accountGroupContainer",
     "pf": "frmLoanForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

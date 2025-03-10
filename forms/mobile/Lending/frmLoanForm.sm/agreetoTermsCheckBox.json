@@ -67,16 +67,9 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "selectedkey": null,
-    "selectedkeys": [
-        "cbg1"
-    ],
+    "selectedkeys": [],
     "selectedkeyvalue": null,
-    "selectedkeyvalues": [
-        [
-            "cbg1",
-            "       I agree to "
-        ]
-    ],
+    "selectedkeyvalues": null,
     "size": 18,
     "tickedimage": "checkboxchecked24.png",
     "untickedimage": "checkboxunchecked24.png",

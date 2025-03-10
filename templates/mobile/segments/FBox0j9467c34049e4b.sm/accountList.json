@@ -2,8 +2,8 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "32dp"
     },
     "_left_": {
         "type": "string",
@@ -21,15 +21,15 @@
         0,
         0
     ],
-    "_skin_": "s0cc284acf3d446db581307d7567d91d",
-    "_text_": "Street",
+    "_skin_": "sdfeabd95300454cb74f996cd7c55868",
+    "_text_": "Label",
     "_top_": {
         "type": "string",
-        "value": "0%"
+        "value": "0dp"
     },
     "_width_": {
-        "type": "string",
-        "value": "30%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
     "android": {
@@ -39,9 +39,10 @@
         }
     },
     "canUpdateUI": true,
+    "containerId": true,
     "containerweight": 100,
-    "contentalignment": 5,
-    "id": "woredaTextLabel",
+    "contentalignment": 4,
+    "id": "accountList",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,13 +56,14 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ea10a9c9b14c465db7ed409a4f8fcdb1",
+    "kuid": "f825558285844a0f85d818896f708d8c",
     "name": "kony.ui.Label",
-    "parent": "woreda",
-    "pf": "frmLoanForm",
+    "parent": "FBox0j9467c34049e4b",
+    "pf": "FBox0j9467c34049e4b",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},
     "tooltip": "",
-    "wType": "Label"
+    "wType": "Label",
+    "zindex": 1
 }

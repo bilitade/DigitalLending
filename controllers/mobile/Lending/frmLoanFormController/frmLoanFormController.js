@@ -71,21 +71,25 @@ define([], function() {
     populateMainContainer: function(userRecord) {
       var self =this;
       var primaryAddress = userRecord.Primary_Address || "{}";
+      var All_Addresses = userRecord.All_Addresses || "{}";
       var allPhones = userRecord.All_Phones || "[]";
       var bankAccounts = userRecord.Bank_Accounts || "[]";
+      console.log("userRecord",userRecord);
       self.view.nameFiledLabel.text = userRecord.Name || "N/A";
       self.view.phoneFieldLabel.text = userRecord.Primary_Phone || "N/A";
       self.view.emailFieldTextLabel.text = userRecord.Email || "N/A";
       self.view.cityFieldLabel.text = primaryAddress.city || "N/A";
-      self.view.subcityFieldLabel.text = primaryAddress.subcity || "N/A";
-      self.view.woredaFieldLabel.text = primaryAddress.woreda || "N/A";
-      self.view.accountListBox.masterData = bankAccounts.map(function(account) {
-        return [account.account_number, account.account_type + " - " + account.account_number];
-      });
-
-      if(bankAccounts.length > 0) {
-        self.view.accountListBox.selectedKey = bankAccounts[0][0];
-      }
+      self.view.subcityFieldLabel.text = All_Addresses.subcity || "N/A";
+      self.view.woredaFieldLabel.text = All_Addresses[0].street || "N/A";
+      
+    
+       var formattedData = bankAccounts.map(function(item) {
+        return {
+            "accountList": item.account_type + " - " + item.account_number || "N/A",   
+                              
+        };
+    });
+    self.view.AccSegment.setData(formattedData);
       kony.print("mainContainer updated successfully with user data.");
     }
 

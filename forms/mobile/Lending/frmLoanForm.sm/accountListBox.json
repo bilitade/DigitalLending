@@ -41,7 +41,7 @@
     "id": "accountListBox",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "f94cd5fb31e4409985f3c844d9678ed0",
     "masterdata": [
         [
