@@ -37,6 +37,7 @@ define({
     self.view.remainingBalanceField.text= LoadAccountDetails.remaining_balance;
     let payment_due = JSON.parse(LoadAccountDetails.payment_due);
     self.view.dueFieldLabel.text= payment_due.due_amount;
+   kony.store.setItem("payment_due", payment_due.due_amount);
     let last_payment = JSON.parse(LoadAccountDetails.last_payment);
     self.view.loanStatusFieldLabel.text= LoadAccountDetails.loan_status;
     self.view.creditScoreFieldLabel.text= LoadAccountDetails.credit_score;

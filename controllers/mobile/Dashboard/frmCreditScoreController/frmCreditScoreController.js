@@ -15,6 +15,31 @@ define({
           var CreditScore = response.records[0];
 
           self.view.creditScoreFieldlabel.text=CreditScore.CurrentCreditScore;
+          var payment_due= kony.store.getItem("payment_due");
+          self.view.payRecommend.text = "Pay at least ETB "+ payment_due +"/month";
+          
+           var lastupdate = CreditScore.LastUpdated;
+
+    // Parse the datetime string into a Date object
+    var paymentDate = new Date(lastupdate);
+
+    // Check if the Date object is valid
+    if (!isNaN(paymentDate.getTime())) {
+      // Extract the date components
+      var year = paymentDate.getFullYear();
+      var month = paymentDate.getMonth() + 1; // Months are zero-based
+      var day = paymentDate.getDate();
+
+      // Format the date as YYYY-MM-DD
+      var formattedDate = year + '-' +
+          (month < 10 ? '0' + month : month) + '-' +
+          (day < 10 ? '0' + day : day);
+
+      lastupdate = formattedDate;
+
+    } 
+   self.view.ScoreUpdateLabel.text= "Score updated: "+ lastupdate;
+          
           self.view.ScoreUpdateLabel.text= "Score updated: "+CreditScore.LastUpdated;
           
           console.log("CreditScore.CurrentCreditScore",CreditScore.CurrentCreditScore);
@@ -52,7 +77,7 @@ define({
         }
       },
       function(error) {
-        alert("Failed to fetch LoadAccountDetails details: " + JSON.stringify(error));
+        alert("Failed to fetch credit score details: " + JSON.stringify(error));
       }
     );
   },
