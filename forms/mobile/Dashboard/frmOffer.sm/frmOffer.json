@@ -41,12 +41,6 @@
     "children": [
         "headerContainer",
         "adsImage",
-        "offerRecommendLabel",
-        "dearLabel",
-        "OfferUserLabel",
-        "offerMessageLabel",
-        "offerAcceptNow",
-        "offerExpireDate",
         "footerContainer"
     ],
     "containerweight": 100,

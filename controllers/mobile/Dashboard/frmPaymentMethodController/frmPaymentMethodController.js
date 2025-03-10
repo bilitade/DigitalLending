@@ -17,6 +17,13 @@ define(['UserSessionManager'], function (UserSessionManager) {
 
       console.log("storedAccount",storedAccount);
     },
+    showToast: function(message) {
+    var toast = new kony.ui.Toast({
+      text: message,
+      duration: constants.TOAST_LENGTH_SHORT
+    });
+    toast.show();
+  },
     onAccountSelection: function (){
       var self = this;
       var selectedValue = self.view.AccountListRadioButton.selectedKey;
@@ -32,7 +39,11 @@ define(['UserSessionManager'], function (UserSessionManager) {
                                          function(response) {
 
         if (response && response.records && response.records.length > 0) {
-          alert(response.records[0].message);
+         
+          var session = UserSessionManager.getInstance();
+          var authUser = session.getUser();  
+          self.view.AccountListRadioButton.selectedKey = authUser.profile.Selected_Account_Number;
+          self.showToast(response.records[0].message);
           navObj= new kony.mvc.Navigation("Dashboard/frmPaymentMethod");       
           navObj.navigate();
         } else {
@@ -44,6 +55,7 @@ define(['UserSessionManager'], function (UserSessionManager) {
         alert("Failed to makeSchedule: " + JSON.stringify(error));
       }
                                         );
+      
     }};
 
 });

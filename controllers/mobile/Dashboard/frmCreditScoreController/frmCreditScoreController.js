@@ -23,11 +23,10 @@ define({
     // Parse the datetime string into a Date object
     var paymentDate = new Date(lastupdate);
 
-    // Check if the Date object is valid
-    if (!isNaN(paymentDate.getTime())) {
+   
       // Extract the date components
       var year = paymentDate.getFullYear();
-      var month = paymentDate.getMonth() + 1; // Months are zero-based
+      var month = paymentDate.getMonth() + 1; 
       var day = paymentDate.getDate();
 
       // Format the date as YYYY-MM-DD
@@ -37,10 +36,10 @@ define({
 
       lastupdate = formattedDate;
 
-    } 
+    
    self.view.ScoreUpdateLabel.text= "Score updated: "+ lastupdate;
           
-          self.view.ScoreUpdateLabel.text= "Score updated: "+CreditScore.LastUpdated;
+         
           
           console.log("CreditScore.CurrentCreditScore",CreditScore.CurrentCreditScore);
           
