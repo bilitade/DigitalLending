@@ -29,9 +29,16 @@ define({
         alert("Failed to fetch Loan details: " + JSON.stringify(error));
       }
                                     );
+      self.view.LoadingScreen.flexloading.setVisibility(true);
+      kony.timer.schedule("loadingTimer", function() {
+        self.view.LoadingScreen.flexloading.setVisibility(false);
+        navObj= new kony.mvc.Navigation("Lending/frmLoanApproved");
+        navObj.navigate(null);
 
-      navObj= new kony.mvc.Navigation("Lending/frmLoanApproved");
-      navObj.navigate(null);
+        kony.timer.cancel("loadingTimer"); 
+      }, 3, false); 
+
+
     }
 
 

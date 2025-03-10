@@ -9,8 +9,15 @@ define({
 
   onReapplyClick: function(){
     var self = this;
-    navObj= new kony.mvc.Navigation("Lending/frmLoanHome");       
-    navObj.navigate();
 
+
+    self.view.LoadingScreen.flexloading.setVisibility(true);
+    kony.timer.schedule("loadingTimer", function() {
+      self.view.LoadingScreen.flexloading.setVisibility(false);
+      navObj= new kony.mvc.Navigation("Lending/frmLoanHome");       
+      navObj.navigate();
+
+      kony.timer.cancel("loadingTimer"); 
+    }, 3, false); 
   }
 });
