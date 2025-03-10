@@ -18,6 +18,7 @@ define({
   },
   onsaveclicked:function(){
    this.showToast("Saving Image to Gallery");
+    this.view.flexreceipt.setVisibility(false);
 
 
   },

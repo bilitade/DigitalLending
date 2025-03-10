@@ -50,7 +50,7 @@ define(['UserSessionManager'], function(UserSessionManager) {
         getform.LoadingScreen.flexloading.setVisibility(false);
         navtoAccountReview.navigate();
         kony.timer.cancel("loadingTimer"); 
-      }, 3, false); 
+      }, 1, false); 
 
 
     } else {
@@ -59,7 +59,7 @@ define(['UserSessionManager'], function(UserSessionManager) {
         getform.LoadingScreen.flexloading.setVisibility(false);
         navtoGetLoan.navigate();
         kony.timer.cancel("loadingTimer"); 
-      }, 3, false); 
+      }, 1, false); 
 
     }
 

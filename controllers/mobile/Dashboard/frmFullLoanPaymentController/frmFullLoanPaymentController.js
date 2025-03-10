@@ -18,6 +18,6 @@ define({
       navObj.navigate();
 
       kony.timer.cancel("loadingTimer"); 
-    }, 3, false); 
+    }, 1, false); 
   }
 });

@@ -33,7 +33,7 @@ define({
                   navObj.navigate(combinedData);
 
                   kony.timer.cancel("loadingTimer"); 
-                }, 3, false); 
+                }, 1, false); 
 
               }
               else{
@@ -44,7 +44,7 @@ define({
                   navObj.navigate(combinedData);
 
                   kony.timer.cancel("loadingTimer"); 
-                }, 3, false); 
+                }, 1, false); 
 
               }
 
@@ -110,7 +110,7 @@ define({
                 navObj.navigate(combinedData);
 
                 kony.timer.cancel("loadingTimer"); 
-              }, 3, false); 
+              }, 1, false); 
 
             } else {
               kony.print("No records found in response.");
