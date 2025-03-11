@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "sddb4137ca854d64ba2f2eb3a93da57b",
-    "_src_": "banner2x.png",
+    "_src_": "loanbanner.png",
     "_top_": {
         "type": "string",
         "value": "-12dp"
@@ -41,6 +41,7 @@
     "id": "bannerImg",
     "imagescalemode": 1,
     "info": null,
+    "invokedProperty": "src",
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "c0c3bc6bfb3342ba84e9b6ab686b29f4",

@@ -112,6 +112,12 @@ define(['UserSessionManager'], function (UserSessionManager) {
         service.invokeOperation(operationName, {}, data,
             function(response) {  
                 kony.print("Service call successful: " + JSON.stringify(response));
+            if (data.p_control_flag === "on"){
+                authUser.profile.Active_Scheduled_Payment="Yes";
+            }
+          else{
+             authUser.profile.Active_Scheduled_Payment="No";
+          }
                 if (successCallback) successCallback(response);
             },
             function(error) {  

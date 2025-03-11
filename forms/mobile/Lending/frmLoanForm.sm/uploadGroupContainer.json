@@ -49,7 +49,7 @@
     "id": "uploadGroupContainer",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "aaaee0f35e354d46b9b0fd2f111bd43e",
     "layouttype": 3,
     "name": "kony.ui.FlexContainer",

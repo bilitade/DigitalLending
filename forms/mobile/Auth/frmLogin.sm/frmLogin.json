@@ -18,7 +18,7 @@
     "_pxMenuIndex": [
         0,
         1,
-        1,
+        0,
         0
     ],
     "_skin_": "seff021ac78648b1aca4369b8b35c3ce",
@@ -41,7 +41,8 @@
     "children": [
         "headerContainer",
         "mainContainer",
-        "footerContainer"
+        "footerContainer",
+        "LoadingScreen"
     ],
     "containerweight": 100,
     "controllerInfo": {

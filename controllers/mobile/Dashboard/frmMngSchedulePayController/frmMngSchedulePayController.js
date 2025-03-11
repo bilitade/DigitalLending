@@ -5,6 +5,7 @@ define(['UserSessionManager'], function (UserSessionManager) {
       var session = UserSessionManager.getInstance();
       var authUser = session.getUser();
       var toggle= 1;
+      console.log("authUser.profile.Active_Scheduled_Payment",authUser.profile.Active_Scheduled_Payment);
       if(authUser.profile.Active_Scheduled_Payment === "Yes")
       {
         toggle= 0;

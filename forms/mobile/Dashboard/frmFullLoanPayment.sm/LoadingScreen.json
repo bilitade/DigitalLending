@@ -1,0 +1,88 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s2d74824ef66412f96a0951ed0855af2",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "Image0c04c97bef1254f": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dabcf8c0dfba4443a0a5f4b1ff6640c9",
+                "srcKUID": "b20dd4d06e53479094988a45ea25628b",
+                "wType": "Image"
+            }
+        },
+        "LoadingScreen": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "de402cda79be48bfa8145e33f5a0cdb1",
+                "srcKUID": "b07efd5ed09349ef920808e7f53ff1db",
+                "wType": "FlexContainer"
+            }
+        },
+        "flexloading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h8bcb9663881468883c8d18f338a7f41",
+                "srcKUID": "h9e9ab5eda5b48d496b522770533ba5c",
+                "wType": "FlexContainer"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "LoadingScreen",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "de402cda79be48bfa8145e33f5a0cdb1",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmFullLoanPayment",
+    "pf": "frmFullLoanPayment",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "b07efd5ed09349ef920808e7f53ff1db",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}
