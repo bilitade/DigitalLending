@@ -8,14 +8,22 @@ define({
     }
     else{
       var amountText = self.view.amountLabel.text;  
+      var customAmount = self.view.amount.text; 
+      console.log("customAmount",customAmount);
+      
       var amountNumber = amountText.replace(/[^\d.]/g, ''); 
       var amount = parseFloat(amountNumber);  
-      amount= (amount * 0.07) + amount;
+     if (customAmount > amount || customAmount < 500) {
+    alert("Manual amount should be less than you are eligible for and greater than 500");
+    return;
+}
+      var realamount=(parseFloat(customAmount) * 0.07) + parseFloat(customAmount);
       var presController = kony.mvc.MDAApplication.getSharedInstance()
       .getModuleManager()
       .getModule("Lending")
       .presentationController;
-      presController.saveLoadDetails(amount,
+      console.log("realamount",realamount);
+      presController.saveLoadDetails(realamount,
                                      function(response) {
 
         // Assume response.records[0] contains the user info
@@ -67,8 +75,8 @@ define({
       if (response && response.records && response.records.length > 0) {
         console.log("loan respnse",response);
         var loanRecord = response.records1[0].Result;
-
         self.view.amountLabel.text=  "ETB" + " " + loanRecord;
+        self.view.amount.text=loanRecord;
       } else {
         kony.print("No records found in response.");
       }

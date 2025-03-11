@@ -5,10 +5,6 @@
         "type": "ref",
         "value": "preferred"
     },
-    "_left_": {
-        "type": "string",
-        "value": "33dp"
-    },
     "_margin_": [
         1,
         1,
@@ -21,15 +17,15 @@
         0,
         0
     ],
-    "_skin_": "sb4f39ce909b45fbba1772c3e2822228",
-    "_text_": "Remaining Balance: ETB",
+    "_skin_": "sea0daff30fa42a6809e2434992982fe",
+    "_text_": "You can take less than you are eligible for",
     "_top_": {
         "type": "string",
-        "value": "182dp"
+        "value": "1%"
     },
     "_width_": {
         "type": "string",
-        "value": "60%"
+        "value": "100%"
     },
     "_wrapping_": 2,
     "android": {
@@ -39,9 +35,13 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
-    "contentalignment": 4,
-    "id": "Label0dbddb8e1409f41",
+    "contentalignment": 5,
+    "id": "CopyeligibleLabel0c8ee0d7cdff34a",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "cafadca4bfc44146ab44fc425367a9a2",
+    "kuid": "i609bd14ebeb4fb5aad70530de914e3e",
     "name": "kony.ui.Label",
-    "parent": "FlexContainer0g1f2bf4af29d45",
-    "pf": "frmMakePayment",
+    "parent": "mainContainer",
+    "pf": "frmLoanCheck",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

@@ -54,7 +54,7 @@ define({
             }
           },
                                      function(error) {
-            alert("Failed to make payment: " + JSON.stringify(error));
+            alert("Failed to make payment: " + JSON.stringify(error.errmsg));
           }
                                     );
 
@@ -118,7 +118,7 @@ define({
             }
           },
                                      function(error) {
-            alert("Failed to make payment: " + JSON.stringify(error));
+            alert("Failed to make payment: " + JSON.stringify(error.errmsg));
           }
                                     );
 
@@ -157,7 +157,7 @@ define({
         }
       },
       function(error) {
-        alert("Failed to fetch LoadAccountDetails details: " + JSON.stringify(error));
+        alert("Failed to fetch Loan AccountDetails details: " + JSON.stringify(error.errmsg));
       }
     );
   },
