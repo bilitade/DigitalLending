@@ -45,7 +45,7 @@
     "id": "flexreceipt",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "a31bf577600141818b4c1224644545cb",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

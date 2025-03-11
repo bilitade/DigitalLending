@@ -4,7 +4,7 @@ define({
     var basicConf = {
       message: "you are about to  make payment, Do you want to continue?",
       alertType: constants.ALERT_TYPE_CONFIRMATION,
-      alertTitle: "Exit Confirmation",
+      alertTitle: "Payment Confirmation",
       yesLabel: "Yes",
       noLabel: "Cancel",
       alertHandler: function(response) {
@@ -81,7 +81,7 @@ define({
     var basicConf = {
       message: "You are about fully pay your loan, do you want to continue?",
       alertType: constants.ALERT_TYPE_CONFIRMATION,
-      alertTitle: "Exit Confirmation",
+      alertTitle: "Payment Confirmation",
       yesLabel: "Yes",
       noLabel: "Cancel",
       alertHandler: function(response) {

@@ -53,19 +53,20 @@ define({
           
            
           self.view.CreditChangeField.text= CreditChange + "%" ;
-          if (CreditScore.CurrentCreditScore > 400) {
+          if (CreditScore.CurrentCreditScore >= 500) {
             self.view.ScoreGradeLabel.text = "Score Grade : A";
             self.view.scoreRatignLabel.text = "Score Rating : Gold";
             
-          } else if (CreditScore.CurrentCreditScore > 300) {
+          } else if (CreditScore.CurrentCreditScore >= 400) {
             self.view.ScoreGradeLabel.text = "Score Grade : B";
             self.view.scoreRatignLabel.text = "Score Rating : Platinium";
-          } else if (CreditScore.CurrentCreditScore > 200) {
+          } else if (CreditScore.CurrentCreditScore >= 300) {
             self.view.ScoreGradeLabel.text = "Score Grade : C";
             self.view.scoreRatignLabel.text = "Score Rating : Silver";
-          } else if (CreditScore.CurrentCreditScore > 100) {
+          } else if (CreditScore.CurrentCreditScore >= 200) {
+             self.view.ScoreGradeLabel.text = "Score Grade : D";
             self.view.scoreRatignLabel.text = "Score Rating : Bronze";
-          } else if (CreditScore.CurrentCreditScore >= 0) {
+          } else if (CreditScore.CurrentCreditScore >= 100) {
             self.view.ScoreGradeLabel.text = "Score Grade : E";
             self.view.scoreRatignLabel.text = "Score Rating : Keep Up";
 
