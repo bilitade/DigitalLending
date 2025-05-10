@@ -42,6 +42,8 @@
         "congraLabel",
         "eligibleLabel",
         "amountLabel",
+        "CopyeligibleLabel0c8ee0d7cdff34a",
+        "amount",
         "CopyamountLabel0ic489131cf564b",
         "loanType",
         "agreementContainer",
@@ -63,7 +65,7 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
+    "snapgridsize": "10",
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1

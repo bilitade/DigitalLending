@@ -15,7 +15,7 @@ define(['UserSessionManager'], function (UserSessionManager) {
 
       self.view.AccountListRadioButton.selectedKey = storedAccount;
 
-      console.log("storedAccount",storedAccount);
+      console.log("storedAccount1",storedAccount);
     },
     showToast: function(message) {
     var toast = new kony.ui.Toast({

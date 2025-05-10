@@ -111,10 +111,3 @@ testresources/Jasmine/\*.js
 
 # IQ Cop reports
 reports/
-projectProperties.json.rej
-nativebindings/Android/4.0/Kony_FileStorage-Android-4.0/tern.json
-nativebindings/Android/4.0/Kony_SDKCommons-Android-4.0/tern.json
-nativebindings/Android/4.0/Kony_SyncV2-Android-4.0/tern.json
-nativebindings/iOS/16.0/Kony_FileStorage-iOS-16.0/tern.json
-nativebindings/iOS/16.0/Kony_SDKCommons-iOS-16.0/tern.json
-nativebindings/iOS/16.0/Kony_SyncV2-iOS-16.0/tern.json

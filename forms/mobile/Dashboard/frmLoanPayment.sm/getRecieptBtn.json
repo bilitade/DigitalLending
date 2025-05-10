@@ -41,6 +41,7 @@
     "displaytext": true,
     "focusskin": "sff9348e0d6f4672b3899b1a9280733f",
     "id": "getRecieptBtn",
+    "ide_onClick": "AS_Button_eda99adc62e04247abe4408d79c54c70",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

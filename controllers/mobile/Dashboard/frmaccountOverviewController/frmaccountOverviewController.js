@@ -33,7 +33,10 @@ define({
     this.view.forceLayout();
     console.log("LoadAccountDetails",LoadAccountDetails);
     var self = this;
-    self.view.amountLabel.text ="Loan Amount "+ LoadAccountDetails.loan_amount;
+    var loanAmount =  LoadAccountDetails.loan_amount /1.07;
+    var roundedLoanAmount = parseFloat(loanAmount.toFixed(0));
+
+    self.view.amountLabel.text ="Loan Amount "+ roundedLoanAmount ;
     self.view.remainingBalanceField.text= LoadAccountDetails.remaining_balance;
     let payment_due = JSON.parse(LoadAccountDetails.payment_due);
     self.view.dueFieldLabel.text= payment_due.due_amount;
@@ -68,11 +71,11 @@ define({
 
     } 
     self.view.lastPaymentDate.text = "On "+ last_payment.payment_date;
-    var loanAmount = parseFloat(LoadAccountDetails.loan_amount);
     var remainingBalance = parseFloat(LoadAccountDetails.remaining_balance);
-    var paidAmount = loanAmount - remainingBalance;
+    var loanAmountt =  LoadAccountDetails.loan_amount 
+    var paidAmount = loanAmountt - remainingBalance;
 
-    var paidPercentage = ((paidAmount / loanAmount) * 100).toFixed(1);
+    var paidPercentage = ((paidAmount / loanAmountt) * 100).toFixed(1);
     var duePercentage = (100 - paidPercentage).toFixed(1);
     console.log("paidPercentage",paidPercentage);
     console.log("duePercentage",duePercentage);

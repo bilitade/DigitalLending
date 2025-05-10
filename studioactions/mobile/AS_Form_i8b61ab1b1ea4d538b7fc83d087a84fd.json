@@ -1,0 +1,28 @@
+{
+    "AS_Form_i8b61ab1b1ea4d538b7fc83d087a84fd": {
+        "id": "AS_Form_i8b61ab1b1ea4d538b7fc83d087a84fd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPaymentMethod",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e0733932529e4cfe87facea4be6c157e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__e46fc09184e34b4da103b58aad118f28",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "displayAccounts",
+            "display": "displayAccounts",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

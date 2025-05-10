@@ -4,12 +4,12 @@ define({
     var basicConf = {
       message: "you are about to  make payment, Do you want to continue?",
       alertType: constants.ALERT_TYPE_CONFIRMATION,
-      alertTitle: "Exit Confirmation",
+      alertTitle: "Payment Confirmation",
       yesLabel: "Yes",
       noLabel: "Cancel",
       alertHandler: function(response) {
         if (response === true) {
-         
+
           var combinedData = {
             s_account: self.view.accountListBox.selectedKey,
             due_amount: parseFloat(self.view.dueAmountLabel.text),
@@ -26,12 +26,26 @@ define({
               var transaction_id = response.records[0];
               combinedData.transaction_id = transaction_id.TransactionReference;
               if(transaction_id.FullyPaid === "Yes"){
-                navObj= new kony.mvc.Navigation("Dashboard/frmFullLoanPayment");   
-                navObj.navigate(combinedData);
+                self.view.LoadingScreen.flexloading.setVisibility(true);
+                kony.timer.schedule("loadingTimer", function() {
+                  self.view.LoadingScreen.flexloading.setVisibility(false);
+                  navObj= new kony.mvc.Navigation("Dashboard/frmFullLoanPayment");   
+                  navObj.navigate(combinedData);
+
+                  kony.timer.cancel("loadingTimer"); 
+                }, 1, false); 
+
               }
               else{
-                navObj= new kony.mvc.Navigation("Dashboard/frmLoanPayment");   
-                navObj.navigate(combinedData);
+                self.view.LoadingScreen.flexloading.setVisibility(true);
+                kony.timer.schedule("loadingTimer", function() {
+                  self.view.LoadingScreen.flexloading.setVisibility(false);
+                  navObj= new kony.mvc.Navigation("Dashboard/frmLoanPayment");   
+                  navObj.navigate(combinedData);
+
+                  kony.timer.cancel("loadingTimer"); 
+                }, 1, false); 
+
               }
 
             } else {
@@ -40,7 +54,7 @@ define({
             }
           },
                                      function(error) {
-            alert("Failed to make payment: " + JSON.stringify(error));
+            alert("Failed to make payment: " + JSON.stringify(error.errmsg));
           }
                                     );
 
@@ -67,12 +81,12 @@ define({
     var basicConf = {
       message: "You are about fully pay your loan, do you want to continue?",
       alertType: constants.ALERT_TYPE_CONFIRMATION,
-      alertTitle: "Exit Confirmation",
+      alertTitle: "Payment Confirmation",
       yesLabel: "Yes",
       noLabel: "Cancel",
       alertHandler: function(response) {
         if (response === true) {
-         
+
           var combinedData = {
             s_account: self.view.accountListBox.selectedKey,
             due_amount: parseFloat(self.view.remainingBalance.text),
@@ -89,15 +103,22 @@ define({
               var transaction_id = response.records[0];
               combinedData.transaction_id = transaction_id.TransactionReference;
               console.log("combinedData",combinedData);
-              navObj= new kony.mvc.Navigation("Dashboard/frmFullLoanPayment");       
-              navObj.navigate(combinedData);
+              self.view.LoadingScreen.flexloading.setVisibility(true);
+              kony.timer.schedule("loadingTimer", function() {
+                self.view.LoadingScreen.flexloading.setVisibility(false);
+                navObj= new kony.mvc.Navigation("Dashboard/frmFullLoanPayment");       
+                navObj.navigate(combinedData);
+
+                kony.timer.cancel("loadingTimer"); 
+              }, 1, false); 
+
             } else {
               kony.print("No records found in response.");
 
             }
           },
                                      function(error) {
-            alert("Failed to make payment: " + JSON.stringify(error));
+            alert("Failed to make payment: " + JSON.stringify(error.errmsg));
           }
                                     );
 
@@ -136,14 +157,14 @@ define({
         }
       },
       function(error) {
-        alert("Failed to fetch LoadAccountDetails details: " + JSON.stringify(error));
+        alert("Failed to fetch Loan AccountDetails details: " + JSON.stringify(error.errmsg));
       }
     );
   },
 
   populateMainContainer: function(response) {
     var self = this;
-    
+
     var LoadAccountDetails = response.records[0];
     var bankAccounts = response.authUser.profile.Bank_Accounts || "[]";
     var masterData = bankAccounts.map(function(account) {
@@ -152,13 +173,13 @@ define({
 
     self.view.accountListBox.masterData = masterData;
     if (response.authUser.profile.Active_Scheduled_Payment === "Yes"){
-          self.view.scheduleLabel.text = "ON";
+      self.view.scheduleLabel.text = "ON";
 
     } else {
-          self.view.scheduleLabel.text = "OFF";
+      self.view.scheduleLabel.text = "OFF";
 
     }
-    
+
     // If there is at least one item, select the first one.
     if(masterData.length > 0) {
       self.view.accountListBox.selectedKey = masterData[0][0];

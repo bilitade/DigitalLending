@@ -10,10 +10,10 @@ define(['UserSessionManager'], function(UserSessionManager) {
   PresentationController.prototype.initializePresentationController = function() {};
 
   var authBusinessController = kony.mvc.MDAApplication
-    .getSharedInstance()
-    .getModuleManager()
-    .getModule("AuthManager")
-    .businessController;
+  .getSharedInstance()
+  .getModuleManager()
+  .getModule("AuthManager")
+  .businessController;
 
   PresentationController.prototype.authenticateUser = function(username, password) {
     kony.print("Entering PresentationController.authenticateUser");
@@ -43,12 +43,24 @@ define(['UserSessionManager'], function(UserSessionManager) {
       navBacktoLogin.navigate({ authErrorResponse: "User profile not found" });
       return;
     }
-
+    var getform= kony.application.getCurrentForm();
     if (user.profile.Active_Loan) {
-            navtoAccountReview.navigate();
+      getform.LoadingScreen.flexloading.setVisibility(true);
+      kony.timer.schedule("loadingTimer", function() {
+        getform.LoadingScreen.flexloading.setVisibility(false);
+        navtoAccountReview.navigate();
+        kony.timer.cancel("loadingTimer"); 
+      }, 1, false); 
+
 
     } else {
-      navtoGetLoan.navigate();
+      getform.LoadingScreen.flexloading.setVisibility(true);
+      kony.timer.schedule("loadingTimer", function() {
+        getform.LoadingScreen.flexloading.setVisibility(false);
+        navtoGetLoan.navigate();
+        kony.timer.cancel("loadingTimer"); 
+      }, 1, false); 
+
     }
 
     kony.print("User ID retrieved: " + user.id);
